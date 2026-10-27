@@ -1,0 +1,12 @@
+diff --git a/src/kvcompression/kv_cache/compressible_attention.py b/src/kvcompression/kv_cache/compressible_attention.py
+index e024079..d2c1082 100644
+--- a/src/kvcompression/kv_cache/compressible_attention.py
++++ b/src/kvcompression/kv_cache/compressible_attention.py
+@@ -260,6 +260,7 @@ def monkey_patched_mha_forward(
+         key=k_for_attention,  # [B, num_heads, s_cache_active_len, head_dim]
+         value=v_for_attention,  # [B, num_heads, s_cache_active_len, head_dim]
+         block_mask=block_mask,
++        kernel_options={"BLOCK_M": 64, "BLOCK_N": 64, "num_stages": 1},
+     )
+ 
+     # Apply dropout if training (flex_attention doesn't have dropout_p)

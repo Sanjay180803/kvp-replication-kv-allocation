@@ -1,0 +1,6 @@
+*.log
+*.pth
+*.safetensors
+__pycache__/
+.env
+results_smoke/

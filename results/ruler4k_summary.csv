@@ -1,0 +1,14 @@
+method,keep_ratio,n_examples,avg_score
+full,1.0,260,92.8
+random,0.1,260,3.8
+kvp_b16,0.1,260,10.6
+streaming,0.1,260,27.7
+snapkv,0.1,260,48.2
+random,0.25,260,17.7
+kvp_b16,0.25,260,23.2
+streaming,0.25,260,45.8
+snapkv,0.25,260,64.4
+random,0.5,260,37.1
+kvp_b16,0.5,260,48.5
+streaming,0.5,260,60.7
+snapkv,0.5,260,77.9
