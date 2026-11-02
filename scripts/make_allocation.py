@@ -27,9 +27,11 @@ N_LAYERS, N_KV = 28, 4
 def head_costs(df, scorer, stat):
     """Per-head cost at each profiled keep ratio. stat: mean KL | median KL | per-prompt share."""
     d = df[df.scorer == scorer].copy()
-    if stat == "share":  # each prompt's KL normalized by that prompt's total at the same ratio
-        tot = d.groupby(["prompt_id", "keep_ratio"]).kl_mean.transform("sum")
-        d["v"] = d.kl_mean / tot.where(tot > 0, 1.0)
+    if stat == "share":  # each prompt's KL normalized by that prompt's total over all heads at the
+        # LOWEST profiled ratio, so one prompt can't dominate and costs stay comparable across ratios
+        lo = d.keep_ratio.min()
+        tot = d[d.keep_ratio == lo].groupby("prompt_id").kl_mean.sum()
+        d["v"] = d.kl_mean / d.prompt_id.map(tot).where(lambda x: x > 0, 1.0)
     else:
         d["v"] = d.kl_mean
     agg = "median" if stat == "median" else "mean"
@@ -50,22 +52,22 @@ def greedy(costs, target):
     if spent > budget + 1e-9:
         raise ValueError(f"target {target} is below the lowest profiled keep ratio {levels[0]}")
     while True:
-        best, best_gain = None, 0.0
+        # look at jumps to ANY higher level, not just the next one: some heads (e.g. (4,1), (22,0))
+        # only stop hurting at full cache, so a one-level-at-a-time greedy would never upgrade them
+        best, best_j, best_gain = None, None, 0.0
         for h in heads:
             i = cur[h]
-            if i + 1 >= len(levels):
-                continue
-            step = levels[i + 1] - levels[i]
-            if spent + step > budget + 1e-9:
-                continue
-            gain = (costs.loc[h, levels[i]] - costs.loc[h, levels[i + 1]]) / step
-            if gain > best_gain:
-                best, best_gain = h, gain
+            for j in range(i + 1, len(levels)):
+                step = levels[j] - levels[i]
+                if spent + step > budget + 1e-9:
+                    break
+                gain = (costs.loc[h, levels[i]] - costs.loc[h, levels[j]]) / step
+                if gain > best_gain:
+                    best, best_j, best_gain = h, j, gain
         if best is None:
             break
-        i = cur[best]
-        spent += levels[i + 1] - levels[i]
-        cur[best] = i + 1
+        spent += levels[best_j] - levels[cur[best]]
+        cur[best] = best_j
     alloc = {h: levels[cur[h]] for h in heads}
     grid_cost = sum(costs.loc[h, alloc[h]] for h in heads)
     # spread any leftover budget evenly below 1.0 so total memory matches the uniform allocation
