@@ -1,0 +1,18 @@
+{
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "runtime_s": 416.6,
+  "n_prompts": 65,
+  "scorers": [
+    "snapkv",
+    "streaming"
+  ],
+  "ratios": [
+    0.1,
+    0.25,
+    0.5
+  ],
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "torch": "2.15.0+cu132",
+  "transformers": "4.57.1",
+  "note": "runtime covers only prompts processed in this invocation"
+}
