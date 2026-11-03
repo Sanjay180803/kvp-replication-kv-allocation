@@ -176,3 +176,28 @@ Raw outputs are on CARC (not in git; too large or regenerable):
 - Per-example eval outputs: `~/ml-learning-to-evict/results/ruler_<method>.jsonl`, with the prediction, answer and score for each example.
 - Trained agents: `/scratch2/sanjayba/kvp/agents/grouped/ruler845_v1/` (112, batch 16) and `.../ruler845_b128/` (2, batch 128).
 - Traces: `/scratch2/sanjayba/kvp/data/gqa_safetensors/...` (~760 GB).
+
+## 9. Per-head budget allocation (same total memory)
+
+How the fixed KV budget is split across the 112 KV heads matters far more than the eviction method alone.
+- `scripts/make_allocation.py` builds a greedy split from head-profiling KL curves (`results/profiling/`, `results/profiling_lowr/`).
+- `scripts/eval_ruler_alloc.py` evaluates it on the same 260 held-out RULER-4K examples, with SnapKV ranking tokens inside each head.
+- Total memory is identical across columns.
+- *mean* = average KL per head; *share* = each prompt's KL normalized per prompt (robust to outlier prompts).
+
+| Memory kept | Uniform | Profile (mean) | Profile (share) | Full cache |
+|---|---|---|---|---|
+| 5% | 21.5 | 12.3 | **52.3** | 92.8 |
+| 10% | 49.6 | 59.4 | **85.8** | 92.8 |
+| 25% | 64.2 | **92.4** | 91.9 | 92.8 |
+| 50% | 77.9 | 92.7 | **93.1** | 92.8 |
+
+Uniform reproduces the earlier SnapKV numbers (64.2 vs 64.4, 77.9 vs 77.9, 49.6 vs 48.2).
+
+**Findings**
+- **25-50% memory:** a static allocation (keep ~12 critical heads such as (4,1) and (22,0) uncompressed, squeeze the rest) matches the full cache. This is consistent with "retrieval head" results (DuoAttention, RazorAttention).
+- **Tight budgets:** static allocation breaks down: -7 points vs full cache at 10%, -40 at 5%. Which tasks fail varies (at 5%: niah_single_1/2 ~90-95, niah_single_3 and multikey_3 ~0-5).
+- **The importance statistic matters:** mean-KL allocation is worse than uniform at 5% (it drops head (22,0) because mean KL is dominated by a few outlier prompts); per-prompt-normalized share works.
+- **Next:** an RL policy that picks the per-head budget per input, targeting the 5-10% regime where static allocation leaves 7-40 points on the table.
+
+Files: `allocations/*.json` (the exact splits), `results/alloc/` (25/50%), `results/alloc_lowr/` (5/10%), `slurm/eval_alloc.sh` (set `ALLOC_DIR` to choose the allocation folder), `slurm/profile_lowr.sh` (profiling at 2-50%).

@@ -1,0 +1,570 @@
+{
+ "name": "profile-mean_snapkv_t0.1",
+ "kind": "profile-mean",
+ "scorer": "snapkv",
+ "stat": "mean",
+ "target_avg_keep_ratio": 0.1,
+ "actual_avg_keep_ratio": 0.10000017857142864,
+ "heads": [
+  {
+   "layer": 0,
+   "kv_head": 0,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 0,
+   "kv_head": 1,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 0,
+   "kv_head": 2,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 0,
+   "kv_head": 3,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 1,
+   "kv_head": 0,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 1,
+   "kv_head": 1,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 1,
+   "kv_head": 2,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 1,
+   "kv_head": 3,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 2,
+   "kv_head": 0,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 2,
+   "kv_head": 1,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 2,
+   "kv_head": 2,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 2,
+   "kv_head": 3,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 3,
+   "kv_head": 0,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 3,
+   "kv_head": 1,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 3,
+   "kv_head": 2,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 3,
+   "kv_head": 3,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 4,
+   "kv_head": 0,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 4,
+   "kv_head": 1,
+   "keep_ratio": 1.0
+  },
+  {
+   "layer": 4,
+   "kv_head": 2,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 4,
+   "kv_head": 3,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 5,
+   "kv_head": 0,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 5,
+   "kv_head": 1,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 5,
+   "kv_head": 2,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 5,
+   "kv_head": 3,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 6,
+   "kv_head": 0,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 6,
+   "kv_head": 1,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 6,
+   "kv_head": 2,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 6,
+   "kv_head": 3,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 7,
+   "kv_head": 0,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 7,
+   "kv_head": 1,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 7,
+   "kv_head": 2,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 7,
+   "kv_head": 3,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 8,
+   "kv_head": 0,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 8,
+   "kv_head": 1,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 8,
+   "kv_head": 2,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 8,
+   "kv_head": 3,
+   "keep_ratio": 0.500182
+  },
+  {
+   "layer": 9,
+   "kv_head": 0,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 9,
+   "kv_head": 1,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 9,
+   "kv_head": 2,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 9,
+   "kv_head": 3,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 10,
+   "kv_head": 0,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 10,
+   "kv_head": 1,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 10,
+   "kv_head": 2,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 10,
+   "kv_head": 3,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 11,
+   "kv_head": 0,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 11,
+   "kv_head": 1,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 11,
+   "kv_head": 2,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 11,
+   "kv_head": 3,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 12,
+   "kv_head": 0,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 12,
+   "kv_head": 1,
+   "keep_ratio": 0.100182
+  },
+  {
+   "layer": 12,
+   "kv_head": 2,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 12,
+   "kv_head": 3,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 13,
+   "kv_head": 0,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 13,
+   "kv_head": 1,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 13,
+   "kv_head": 2,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 13,
+   "kv_head": 3,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 14,
+   "kv_head": 0,
+   "keep_ratio": 0.250182
+  },
+  {
+   "layer": 14,
+   "kv_head": 1,
+   "keep_ratio": 0.100182
+  },
+  {
+   "layer": 14,
+   "kv_head": 2,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 14,
+   "kv_head": 3,
+   "keep_ratio": 0.100182
+  },
+  {
+   "layer": 15,
+   "kv_head": 0,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 15,
+   "kv_head": 1,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 15,
+   "kv_head": 2,
+   "keep_ratio": 0.500182
+  },
+  {
+   "layer": 15,
+   "kv_head": 3,
+   "keep_ratio": 0.250182
+  },
+  {
+   "layer": 16,
+   "kv_head": 0,
+   "keep_ratio": 0.250182
+  },
+  {
+   "layer": 16,
+   "kv_head": 1,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 16,
+   "kv_head": 2,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 16,
+   "kv_head": 3,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 17,
+   "kv_head": 0,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 17,
+   "kv_head": 1,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 17,
+   "kv_head": 2,
+   "keep_ratio": 0.500182
+  },
+  {
+   "layer": 17,
+   "kv_head": 3,
+   "keep_ratio": 0.500182
+  },
+  {
+   "layer": 18,
+   "kv_head": 0,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 18,
+   "kv_head": 1,
+   "keep_ratio": 0.250182
+  },
+  {
+   "layer": 18,
+   "kv_head": 2,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 18,
+   "kv_head": 3,
+   "keep_ratio": 0.100182
+  },
+  {
+   "layer": 19,
+   "kv_head": 0,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 19,
+   "kv_head": 1,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 19,
+   "kv_head": 2,
+   "keep_ratio": 1.0
+  },
+  {
+   "layer": 19,
+   "kv_head": 3,
+   "keep_ratio": 0.100182
+  },
+  {
+   "layer": 20,
+   "kv_head": 0,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 20,
+   "kv_head": 1,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 20,
+   "kv_head": 2,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 20,
+   "kv_head": 3,
+   "keep_ratio": 0.500182
+  },
+  {
+   "layer": 21,
+   "kv_head": 0,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 21,
+   "kv_head": 1,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 21,
+   "kv_head": 2,
+   "keep_ratio": 0.100182
+  },
+  {
+   "layer": 21,
+   "kv_head": 3,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 22,
+   "kv_head": 0,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 22,
+   "kv_head": 1,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 22,
+   "kv_head": 2,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 22,
+   "kv_head": 3,
+   "keep_ratio": 0.500182
+  },
+  {
+   "layer": 23,
+   "kv_head": 0,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 23,
+   "kv_head": 1,
+   "keep_ratio": 0.250182
+  },
+  {
+   "layer": 23,
+   "kv_head": 2,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 23,
+   "kv_head": 3,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 24,
+   "kv_head": 0,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 24,
+   "kv_head": 1,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 24,
+   "kv_head": 2,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 24,
+   "kv_head": 3,
+   "keep_ratio": 0.500182
+  },
+  {
+   "layer": 25,
+   "kv_head": 0,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 25,
+   "kv_head": 1,
+   "keep_ratio": 0.100182
+  },
+  {
+   "layer": 25,
+   "kv_head": 2,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 25,
+   "kv_head": 3,
+   "keep_ratio": 0.250182
+  },
+  {
+   "layer": 26,
+   "kv_head": 0,
+   "keep_ratio": 0.100182
+  },
+  {
+   "layer": 26,
+   "kv_head": 1,
+   "keep_ratio": 0.100182
+  },
+  {
+   "layer": 26,
+   "kv_head": 2,
+   "keep_ratio": 0.100182
+  },
+  {
+   "layer": 26,
+   "kv_head": 3,
+   "keep_ratio": 0.050182
+  },
+  {
+   "layer": 27,
+   "kv_head": 0,
+   "keep_ratio": 0.250182
+  },
+  {
+   "layer": 27,
+   "kv_head": 1,
+   "keep_ratio": 0.020182
+  },
+  {
+   "layer": 27,
+   "kv_head": 2,
+   "keep_ratio": 0.250182
+  },
+  {
+   "layer": 27,
+   "kv_head": 3,
+   "keep_ratio": 0.250182
+  }
+ ]
+}

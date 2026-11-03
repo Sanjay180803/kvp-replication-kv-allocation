@@ -10,7 +10,7 @@
 #SBATCH --time=04:00:00
 #SBATCH --output=eval_alloc_%A_%a.log
 source $HOME/ml-learning-to-evict/slurm/env.sh
-FILES=($(ls allocations/*.json | sort))
+FILES=($(ls ${ALLOC_DIR:-allocations}/*.json | sort))
 F=${FILES[$SLURM_ARRAY_TASK_ID]}
 echo "=== allocation: $F ==="
 uv run python scripts/eval_ruler_alloc.py --alloc $F --per_task ${PER_TASK:-20} ${EXTRA_ARGS}
