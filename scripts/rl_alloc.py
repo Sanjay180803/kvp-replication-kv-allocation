@@ -332,6 +332,8 @@ def main():
     hist = open(out / "train_steps.jsonl", "a")
     ev = evaluate(model, tok, policy, val, args, budget, prior, static_lv, log)
     json.dump({"step": 0, **ev}, open(out / "eval_step0.json", "w"), indent=1)
+    best = ev["policy"]["mean_logkl"]                     # the starting policy counts as a candidate
+    torch.save(policy.state_dict(), out / "best.pt")
     for epoch in range(args.epochs):
         random.shuffle(train)
         for row in train:
