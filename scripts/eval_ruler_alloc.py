@@ -65,6 +65,14 @@ def build_configs(alloc, scorer):
     return cfgs
 
 
+def alloc_for(alloc, prompt_id):
+    """Static allocations: as is. Per-prompt allocations (rl_alloc.py --mode dump): this prompt's split."""
+    if "per_prompt" not in alloc:
+        return alloc
+    ratios = alloc["per_prompt"][str(prompt_id)]
+    return dict(alloc, heads=[dict(h, keep_ratio=float(r)) for h, r in zip(alloc["heads"], ratios)])
+
+
 def kept_tokens(alloc, plen):
     return sum(plen if h["keep_ratio"] >= 1.0 else max(1, int(h["keep_ratio"] * plen)) for h in alloc["heads"])
 
@@ -93,7 +101,9 @@ def main():
         count[t] = count.get(t, 0) + 1
         picked.append(i)
     print(f"{alloc['name']}: {len(picked)} rows, scorer={scorer}, target avg keep={target}, "
-          f"actual avg keep={alloc['actual_avg_keep_ratio']:.4f}, heads uncompressed={sum(h['keep_ratio'] >= 1 for h in alloc['heads'])}")
+          f"actual avg keep={alloc['actual_avg_keep_ratio']:.4f}, "
+          + ("per-prompt allocation" if "per_prompt" in alloc else
+             f"heads uncompressed={sum(h['keep_ratio'] >= 1 for h in alloc['heads'])}"))
 
     tok = qwen2_5_tokenizer(path=str(MODEL_DIR / "vocab.json"), merges_file=str(MODEL_DIR / "merges.txt"))
     ckpt = config.instantiate(OmegaConf.create({
@@ -107,7 +117,7 @@ def main():
     model.eval()
     del ckpt
 
-    cfgs = build_configs(alloc, scorer)
+    cfgs = None if "per_prompt" in alloc else build_configs(alloc, scorer)
 
     out = Path(args.out_dir); out.mkdir(exist_ok=True)
     out_file = out / f"ruler_{alloc['name']}.jsonl"
@@ -127,14 +137,17 @@ def main():
             plen = prompt.shape[1]
             max_new = int(row.get("max_new_tokens") or 128)
             t0 = time.time()
-            with KVCompressor(model=model, compression_strategies=cfgs) as comp:
+            a_i = alloc_for(alloc, i)
+            if "per_prompt" in alloc and str(i) not in alloc["per_prompt"]:
+                raise KeyError(f"prompt {i} missing from per-prompt allocation")
+            with KVCompressor(model=model, compression_strategies=cfgs or build_configs(a_i, scorer)) as comp:
                 with DEVICE:
                     model.setup_caches(batch_size=1, dtype=DTYPE, decoder_max_seq_len=plen + max_new)
                 # the global target is ignored by FixedRatioStrategy; plen just has to be a valid size
                 gen = generate_with_compression(model, prompt, comp, plen, max_new, stop_tokens=tok.stop_tokens)
             pred = tok.decode(gen[0, plen:].tolist(), skip_special_tokens=True)
             s = score(pred, row["answer"], row["task"])
-            kept = kept_tokens(alloc, plen)
+            kept = kept_tokens(a_i, plen)
             rec = {"id": i, "task": row["task"], "method": method, "alloc": alloc["name"], "ratio": target,
                    "prompt_len": plen, "kept_tokens_all_heads": kept, "kept_frac": kept / (112 * plen),
                    "kv_bytes": kept * BYTES_PER_TOKEN_PER_HEAD, "kv_bytes_full": 112 * plen * BYTES_PER_TOKEN_PER_HEAD,
