@@ -201,3 +201,36 @@ Uniform reproduces the earlier SnapKV numbers (64.2 vs 64.4, 77.9 vs 77.9, 49.6 
 - **Next:** an RL policy that picks the per-head budget per input, targeting the 5-10% regime where static allocation leaves 7-40 points on the table.
 
 Files: `allocations/*.json` (the exact splits), `results/alloc/` (25/50%), `results/alloc_lowr/` (5/10%), `slurm/eval_alloc.sh` (set `ALLOC_DIR` to choose the allocation folder), `slurm/profile_lowr.sh` (profiling at 2-50%).
+
+## 10. Learned per-input allocation (model-based RL + planning) beats static allocation
+
+**Method** (`scripts/kv_plan.py`, `slurm/kv_blend.sh`). For each prompt, a small learned **cost model** predicts how much each of the 112 KV heads hurts the output (KL) at each keep level, using the prompt's SnapKV attention statistics. A **greedy knapsack planner** then spends the fixed memory budget on the heads that matter most *for this input*.
+- The model's predictions are **shrunk toward a static prior**: log-cost = α·model + (1−α)·average cost table.
+- α is chosen per budget on held-out validation KL: α = 0.3 at 5%, α = 0.2 at 10%.
+- Course concepts: model-based RL with planning, plus pessimism / shrinkage under limited data coverage (offline RL).
+
+**Why not plain policy gradient?** RLOO and the offline methods (BC, AWR, DPO, pessimistic model-based PG; `scripts/kv_offline_rl.py`) never beat static. Each head's level was picked on its own and then squeezed into the budget, which breaks the coupling between heads. The critic also showed reward hacking, and off-policy evaluation broke down for policies far from the logged data. Planning on a learned cost model keeps that coupling.
+
+**RULER-4K, Qwen2.5-7B-Instruct, 260 held-out examples, SnapKV ranking inside each head, same total KV memory:**
+
+| Memory kept | Uniform | Static: profile-share | Static: shareplan (α=0, same data) | **Ours: blendplan** | Full cache |
+|---|---|---|---|---|---|
+| 5%  | 21.5 | 52.3 | 63.8 | **66.5** | 92.8 |
+| 10% | 49.6 | **85.8** | 83.4 | 85.4 | 92.8 |
+
+**Paired bootstrap tests** (same 260 examples, 5,000 resamples):
+
+| Comparison | Diff | 95% CI |
+|---|---|---|
+| 5%: ours vs profile-share | +14.3 | [+10.2, +18.6] |
+| 5%: ours vs shareplan | +2.8 | [+0.5, +5.2] (p = 0.009) |
+| 10%: ours vs shareplan | +2.0 | [−0.5, +4.5] (p = 0.06) |
+| 10%: ours vs profile-share | −0.4 | [−3.0, +2.0] (tie) |
+
+**Ablations** (validation, 63 prompts, mean −log KL, higher is better):
+- **Raw model (α=1) is worse than static** at both budgets: 3.91 vs 4.47 at 5%, and 6.53 vs 7.07 at 10%. On RULER at 10% it scored 81.8. Shrinkage is what makes the learned model useful.
+- **Planning on the true per-head costs (the "oracle") loses to the blend**: 2.80 at 5% and 6.72 at 10%. Head damage is not additive when many heads are shrunk together.
+
+**Takeaway:** when memory is tight (5%), choosing the per-head budget per input is significantly better than any fixed allocation. At 10%, static is already near full cache and the learned method matches it.
+
+Raw outputs: `results/allocation_blend/` (per-example RULER scores and the tuned α). Allocations: `allocations/{blendplan,shareplan}_snapkv_t{0.05,0.1}.json`.
