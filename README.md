@@ -234,3 +234,15 @@ Files: `allocations/*.json` (the exact splits), `results/alloc/` (25/50%), `resu
 **Takeaway:** when memory is tight (5%), choosing the per-head budget per input is significantly better than any fixed allocation. At 10%, static is already near full cache and the learned method matches it.
 
 Raw outputs: `results/allocation_blend/` (per-example RULER scores and the tuned α). Allocations: `allocations/{blendplan,shareplan}_snapkv_t{0.05,0.1}.json`.
+**Policy overhead** (`scripts/time_overhead.py`, one A40, 25 RULER prompts, average 3,957 tokens):
+
+| Per prompt | Time |
+|---|---|
+| Prefill (reference) | 616 ms |
+| Decode | 30.4 ms / token |
+| Features (from SnapKV scores, which SnapKV computes anyway) | 0.29 ms |
+| Cost model | 0.28 ms |
+| Planner (numpy greedy knapsack) | 0.9 ms at 5%, 2.6 ms at 10% |
+| **Total** | **1.5 ms (0.2% of prefill) at 5%, 3.1 ms (0.5%) at 10%** |
+
+The plan itself is 112 keep counts (448 bytes), 0.004% of the kept KV cache at 5%. An earlier pandas planner took 5–18 s per prompt; the numpy rewrite gives identical allocations (`scripts/check_plan.py`).

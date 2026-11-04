@@ -58,8 +58,8 @@ def head_costs(model, ep, batch_size):
     return c
 
 
-def plan(costs, target):
-    """Greedy knapsack on a cost table [H, NL] (cummin'd) -> keep ratio per head (same as oracle)."""
+def plan_slow(costs, target):
+    """Reference implementation: pandas greedy from make_allocation.py (slow: seconds per prompt)."""
     costs = np.asarray(costs, dtype=float)
     if costs.shape[1] == NL - 1:                                  # model output: no column for level 1.0
         costs = np.concatenate([costs, np.zeros((H, 1))], 1)
@@ -68,6 +68,52 @@ def plan(costs, target):
     df = df.cummin(axis=1)
     alloc, _ = ma.greedy(df, target)
     return np.array([alloc[(h // 4, h % 4)] for h in range(H)])
+
+
+def plan(costs, target):
+    """Greedy knapsack on a cost table [H, NL] -> keep ratio per head. Same algorithm and tie-breaking
+    as make_allocation.greedy (best cost drop per unit of memory, jumps to ANY higher level, first
+    head/level wins ties, leftover budget spread evenly), vectorized over heads and levels with numpy."""
+    c = np.asarray(costs, dtype=float)
+    if c.shape[1] == NL - 1:
+        c = np.concatenate([c, np.zeros((H, 1))], 1)
+    c = c.copy(); c[:, -1] = 0.0
+    c = np.minimum.accumulate(c, axis=1)                          # cummin over levels
+    lv = LV.astype(float)
+    budget = target * H
+    cur = np.zeros(H, dtype=int)
+    spent = lv[0] * H
+    if spent > budget + 1e-9:
+        raise ValueError(f"target {target} is below the lowest level {lv[0]}")
+    j = np.arange(NL)
+    rows = np.arange(H)
+    while True:
+        li = lv[cur][:, None]                                     # [H,1] current level
+        step = lv[None, :] - li                                   # [H,NL]
+        ok = (j[None, :] > cur[:, None]) & (spent + step <= budget + 1e-9)
+        with np.errstate(divide="ignore", invalid="ignore"):
+            gain = (c[rows, cur][:, None] - c) / step
+        gain = np.where(ok, gain, -np.inf)
+        k = int(np.argmax(gain))                                  # row-major: first head, then first level
+        h, jj = divmod(k, NL)
+        if not gain[h, jj] > 0.0:
+            break
+        spent += lv[jj] - lv[cur[h]]
+        cur[h] = jj
+    alloc = lv[cur].copy()
+    left = budget - alloc.sum()
+    room = [h for h in range(H) if alloc[h] < 1.0]
+    while left > 1e-9 and room:
+        add = left / len(room)
+        nxt = []
+        for h in room:
+            inc = min(add, 1.0 - alloc[h])
+            alloc[h] += inc
+            left -= inc
+            if alloc[h] < 1.0 - 1e-9:
+                nxt.append(h)
+        room = nxt
+    return alloc
 
 
 class CostModel(nn.Module):
