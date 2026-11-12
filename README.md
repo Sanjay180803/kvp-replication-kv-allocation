@@ -246,3 +246,37 @@ Raw outputs: `results/allocation_blend/` (per-example RULER scores and the tuned
 | **Total** | **1.5 ms (0.2% of prefill) at 5%, 3.1 ms (0.5%) at 10%** |
 
 The plan itself is 112 keep counts (448 bytes), 0.004% of the kept KV cache at 5%. An earlier pandas planner took 5–18 s per prompt; the numpy rewrite gives identical allocations (`scripts/check_plan.py`).
+
+## 11. KVP replication at batch 128 matches SnapKV
+
+Retraining all 112 KVP agents at batch 128 (the batch size in Apple's released config; we first trained at 16 because of host-memory limits) closes the replication gap. RULER-4K, 260 held-out examples:
+
+| Kept | KVP batch 16 | **KVP batch 128** | SnapKV | StreamingLLM |
+|---|---|---|---|---|
+| 10% | 10.6 | **43.9** | 48.2 | 27.7 |
+| 25% | 23.2 | **64.6** | 64.4 | 45.8 |
+| 50% | 48.5 | **78.2** | 77.9 | 60.7 |
+
+Paired bootstrap (KVP − SnapKV, same 260 examples): 10% −4.4 [−9.5, +1.1]; 25% +0.2 [−4.6, +5.2]; 50% +0.3 [−4.9, +5.4]. **Statistically tied at all three budgets.** The two methods often win on different examples (at 10%, KVP is better on 42 and worse on 70).
+
+We trained on 845 RULER-4K traces, about 8% of the paper's data (~6,000 RULER-4K + ~4,500 OASST2), with the same 4,000 steps per agent.
+
+Files: `results/kvp_b128/` (per-example scores), `configs/ruler845_b128.yaml` (composite agent config; paths point to CARC).
+
+## 12. Handoff: where things are (for the RL allocator work)
+
+| What | Where (CARC) |
+|---|---|
+| KVP batch-128 agents (112 heads, `best_ckpt.pth` each) | `~sanjayba/ml-learning-to-evict/agents/grouped/ruler845_b128/layer_*/kv_head_*/<run>/` |
+| Composite config for evaluation | `configs/ruler845_b128.yaml` (also in `~sanjayba/ml-learning-to-evict/config_composites/`) |
+| Training traces (845 samples) | `/scratch2/sanjayba/kvp/data/gqa_safetensors` |
+| Per-head cost tables (312 train + 65 val prompts, SnapKV ranking) | `~sanjayba/kvp-team/rl_runs/plan/costs_{train,val}_shard*.pt` |
+| Cost model, tuned alpha, blend/share allocations | `~sanjayba/kvp-team/rl_runs/plan/` |
+| Evaluate any allocation JSON on RULER | `scripts/eval_ruler_alloc.py` + `slurm/eval_alloc.sh` (`ALLOC_DIR=...`) |
+| Evaluate KVP | `scripts/eval_ruler.py --method kvp --composite configs/ruler845_b128.yaml` |
+
+Next for the RL part (milestone plan):
+1. Add KVP as an in-head scorer in `eval_ruler_alloc.py` (currently `snapkv` / `streaming` only).
+2. Build the direct KVP-based allocator: joint over heads, budget-feasible output, frozen KVP scorers.
+3. Compare: uniform, fixed learned split, cost-model + knapsack planner, direct allocator; same budget and data.
+4. Generalization: leave-one-task-out, 8K/16K RULER, LongBench.
