@@ -280,3 +280,41 @@ Next for the RL part (milestone plan):
 2. Build the direct KVP-based allocator: joint over heads, budget-feasible output, frozen KVP scorers.
 3. Compare: uniform, fixed learned split, cost-model + knapsack planner, direct allocator; same budget and data.
 4. Generalization: leave-one-task-out, 8K/16K RULER, LongBench.
+
+## 13. Does per-input allocation hold with KVP ranking, and on unseen tasks?
+
+### 13a. KVP picking the tokens inside each head
+Same allocations as section 10 (tuned on SnapKV costs), re-scored with the batch-128 KVP agents choosing *which* tokens each head keeps (`scripts/eval_ruler_alloc.py --scorer kvp --composite configs/ruler845_b128.yaml`). RULER-4K, 260 examples:
+
+| Memory | Uniform | Profile-share | Shareplan (fixed split) | Blendplan (per-input) |
+|---|---|---|---|---|
+| 5% | 29.1 | 65.7 | **68.3** | 67.8 |
+| 10% | 43.7 | 77.8 | 76.6 | **78.8** |
+
+Per-input − fixed split (paired bootstrap, 95% CI):
+
+| Token ranking | 5% | 10% |
+|---|---|---|
+| SnapKV (section 10) | **+2.8** [+0.5, +5.2] | +2.0 [−0.5, +4.5] |
+| KVP | −0.5 [−2.1, +1.2] | **+2.2** [+0.5, +4.3] |
+
+Per-input allocation is never significantly worse than the fixed split and is significantly better in 2 of 4 settings, without retuning for KVP. The uniform 10% KVP run (43.7) reproduces KVP's own score (43.9), which validates the KVP scorer path.
+
+### 13b. Leave-one-task-out: per-input allocation does NOT generalize to unseen task types
+`scripts/kv_loto.py`: for each of the 13 RULER tasks, the cost model and static prior are trained **without** that task and used only on it.
+
+| Memory | Fixed split (unseen task) | Per-input (unseen task) | Per-input − fixed | Per-input: unseen vs seen tasks |
+|---|---|---|---|---|
+| 5% | 65.2 | 62.1 | −3.0 [−6.5, +0.5] | **−4.4** [−7.7, −1.2] |
+| 10% | 81.5 | 81.6 | +0.1 [−1.7, +2.0] | **−3.7** [−6.2, −1.5] |
+
+Validation KL agrees: per-input − fixed = −0.49 ± 0.25 (5%), −0.19 ± 0.16 (10%) on unseen tasks. One task (niah_multikey_2) drives much of the 5% loss.
+
+**Interpretation.** Trained on 312 prompts from 12 task types, the cost model learns to recognize task types rather than general input features. The static part transfers fine; the per-input part does not. α (0.3 / 0.2) was tuned on seen tasks, so it over-trusts the model on unseen ones.
+
+**For the direct allocator (next phase):**
+1. Evaluate it leave-one-task-out from the start (`kv_loto.py` shows the protocol).
+2. Train on more varied inputs than RULER (e.g. OASST2, LongBench).
+3. Add a safeguard for unfamiliar inputs, e.g. an ensemble whose disagreement pushes the allocation back to the static split (uncertainty-gated α; planned next).
+
+Files: `results/allocation_kvp/`, `results/loto/` (per-example scores, `loto.log`, validation JSONs).

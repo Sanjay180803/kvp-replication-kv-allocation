@@ -9,7 +9,13 @@ Usage (from the ml-learning-to-evict repo root, with eval_ruler.py also in scrip
   uv run python scripts/eval_ruler_alloc.py --alloc allocations/profile-mean_snapkv_t0.25.json --per_task 20
 Sanity check: the uniform allocation must reproduce eval_ruler.py (snapkv @ 0.25 = 64.4, @ 0.5 = 77.9).
 
-Output: <out_dir>/ruler_<alloc name>.jsonl, one line per example, resumable.
+KVP inside the heads: --scorer kvp --composite config_composites/ruler845_b128.yaml
+  (one trained KVP agent per KV head picks WHICH tokens to keep; the allocation still says HOW MANY).
+  Sanity check: the uniform allocation with --scorer kvp must reproduce eval_ruler.py --method kvp
+  (batch-128 agents: 43.9 @ 0.1).
+
+Output: <out_dir>/ruler_<alloc name>.jsonl (+ "__<scorer>" when the scorer differs from the
+  allocation's own), one line per example, resumable.
   method = "<scorer>:<kind>", ratio = target average keep ratio, so summarize_ruler.py works as is.
   Also logs kept tokens and KV-cache bytes actually used (bf16 K+V, 128-dim heads).
 """
@@ -25,6 +31,8 @@ from torchtune.models.qwen2_5 import qwen2_5_tokenizer
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from eval_ruler import DEVICE, DTYPE, MODEL_DIR, SnapKVPress, StreamingLLMPress, score  # noqa: E402
+
+KVP_SHARED = {"n_sinks": 4, "n_running_window": 16}  # same as eval_ruler.py / Apple's demo notebook
 
 from kvcompression.hooks.compressor import KVCompressor, LayerHeadCompressionConfig
 from kvcompression.kv_cache.compression_strategy_protocol import (
@@ -53,11 +61,27 @@ class FixedRatioStrategy(CompressionStrategy):
                                    target_compressed_size=keep, q_assoc_cache_active=q_assoc_cache_active, **kwargs)
 
 
-def build_configs(alloc, scorer):
-    press = SnapKVPress() if scorer == "snapkv" else StreamingLLMPress()
-    inner = PressCompressionStrategy(press)
+def load_kvp_presses(composite):
+    """One trained KVP agent per (layer, kv_head), loaded once and reused for every prompt."""
+    data = OmegaConf.load(composite)
+    presses = {}
+    for a in data.assignments:
+        with training.set_default_dtype(DTYPE), DEVICE:
+            p = config.instantiate(OmegaConf.merge(a.press, KVP_SHARED))
+        presses[(int(a.layer), int(a.head))] = PressCompressionStrategy(p.to(DEVICE).eval())
+    assert len(presses) == 112, f"composite must cover all 112 KV heads, got {len(presses)}"
+    print(f"loaded {len(presses)} KVP agents from {composite}")
+    return presses
+
+
+def build_configs(alloc, scorer, kvp=None):
+    if scorer == "kvp":
+        assert kvp is not None, "--scorer kvp needs --composite"
+    else:
+        shared_inner = PressCompressionStrategy(SnapKVPress() if scorer == "snapkv" else StreamingLLMPress())
     cfgs = []
     for h in alloc["heads"]:
+        inner = kvp[(int(h["layer"]), int(h["kv_head"]))] if scorer == "kvp" else shared_inner
         strat = FixedRatioStrategy(inner, float(h["keep_ratio"]))
         cfgs.append(LayerHeadCompressionConfig(int(h["layer"]), int(h["kv_head"]), strat,
                                                f"{scorer}_L{h['layer']}_H{h['kv_head']}_r{h['keep_ratio']:.3f}"))
@@ -80,7 +104,8 @@ def kept_tokens(alloc, plen):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--alloc", required=True, help="JSON from make_allocation.py")
-    ap.add_argument("--scorer", default=None, choices=["snapkv", "streaming"], help="default: the allocation's scorer")
+    ap.add_argument("--scorer", default=None, choices=["snapkv", "streaming", "kvp"], help="default: the allocation's scorer")
+    ap.add_argument("--composite", default=None, help="KVP agents config (needed for --scorer kvp)")
     ap.add_argument("--per_task", type=int, default=20)
     ap.add_argument("--out_dir", default="results_alloc")
     args = ap.parse_args()
@@ -117,10 +142,12 @@ def main():
     model.eval()
     del ckpt
 
-    cfgs = None if "per_prompt" in alloc else build_configs(alloc, scorer)
+    kvp = load_kvp_presses(args.composite) if scorer == "kvp" else None
+    cfgs = None if "per_prompt" in alloc else build_configs(alloc, scorer, kvp)
 
     out = Path(args.out_dir); out.mkdir(exist_ok=True)
-    out_file = out / f"ruler_{alloc['name']}.jsonl"
+    suffix = "" if scorer == alloc.get("scorer", "snapkv") else f"__{scorer}"
+    out_file = out / f"ruler_{alloc['name']}{suffix}.jsonl"
     done = set()
     if out_file.exists():
         done = {json.loads(l)["id"] for l in open(out_file)}
@@ -140,7 +167,7 @@ def main():
             a_i = alloc_for(alloc, i)
             if "per_prompt" in alloc and str(i) not in alloc["per_prompt"]:
                 raise KeyError(f"prompt {i} missing from per-prompt allocation")
-            with KVCompressor(model=model, compression_strategies=cfgs or build_configs(a_i, scorer)) as comp:
+            with KVCompressor(model=model, compression_strategies=cfgs or build_configs(a_i, scorer, kvp)) as comp:
                 with DEVICE:
                     model.setup_caches(batch_size=1, dtype=DTYPE, decoder_max_seq_len=plen + max_new)
                 # the global target is ignored by FixedRatioStrategy; plen just has to be a valid size
