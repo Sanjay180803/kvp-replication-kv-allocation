@@ -1,0 +1,38 @@
+{
+  "evidence": "User-provided CARC sacct plus original profile outputs and log attached under results/",
+  "cluster": "USC CARC Discovery",
+  "account": "ctorng_1735",
+  "gpu": "NVIDIA A40",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "model_path": "/scratch1/chenpaul/kvp/models/Qwen2.5-7B-Instruct",
+  "checkpoint_root": "/scratch1/chenpaul/kvp/agents/ruler845_b128",
+  "kvp_agents": "112 frozen batch-128 KVP agents",
+  "torch": "2.10.0+cu128",
+  "transformers": "4.57.1",
+  "configured_batch_size": 8,
+  "selected_prompts": 65,
+  "heads": 112,
+  "keep_ratios": [0.02, 0.05, 0.1, 0.25, 0.5],
+  "max_continuation_positions": 32,
+  "min_continuation_positions": 3,
+  "smoke": {"job_id": "14364197", "state": "COMPLETED", "exit_code": "0:0", "elapsed": "00:02:39"},
+  "profile": {
+    "job_id": "14364217",
+    "dependency": "afterok:14364197",
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed": "00:14:06",
+    "profiler_runtime_seconds": 762.4,
+    "output_directory": "/scratch1/chenpaul/kvp_kl/runs/profile_14364217",
+    "coverage_complete": true,
+    "completed_prompts": 61,
+    "rows": 34160,
+    "pending": [],
+    "skipped": [
+      {"prompt_id": 1900, "reason": "only 2 measured positions; min_k=3"},
+      {"prompt_id": 1901, "reason": "only 2 measured positions; min_k=3"},
+      {"prompt_id": 1904, "reason": "only 2 measured positions; min_k=3"},
+      {"prompt_id": 4402, "reason": "only 2 measured positions; min_k=3"}
+    ]
+  }
+}

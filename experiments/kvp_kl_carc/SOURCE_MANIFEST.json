@@ -1,0 +1,106 @@
+{
+  "source_archive": "artifacts/kvp-kl-delta.tar.gz",
+  "source_archive_sha256": "2db4e62b4227c99e8cd80fc2abf5a52a063fb96d9567e1464175ef8a69617dc1",
+  "note": "Core profiling Python and checkpoint map match the local uploaded archive. CARC entry points were adapted afterward. Server experiment.json remains authoritative for the historical run.",
+  "files": {
+    ".gitignore": {
+      "sha256": "a0f779f3256dded1f095f1c1583d5a32aee9bf4e59046f1fe07f6c9a057234ae",
+      "archive_source": "experiments/kvp_kl_delta/.gitignore",
+      "archive_sha256": "eefb625b22852d5178d9a471faad30b95704480625372b5c93dd1b6578b97c91",
+      "byte_identical_to_archive": false
+    },
+    "README.md": {
+      "sha256": "d3a065aafe9958b5cc106979fe4f8a642c6dfcffa261d2f033336c0e80b345fc",
+      "archive_source": "experiments/kvp_kl_delta/README.md",
+      "archive_sha256": "e285e48b6786497184c1b95211acfcc239caadde899b062dd1f093118a4c1acc",
+      "byte_identical_to_archive": false
+    },
+    "config.example.sh": {
+      "sha256": "48cfd11c76882e2e6fb6599edf8e329c461cdd8a98e574fc8380a0627cab3ede",
+      "archive_source": "experiments/kvp_kl_delta/config.example.sh",
+      "archive_sha256": "0df69d91f870ea0632594ffa37105f278d31c3d5b92b064eaecf2de5cfb74806",
+      "byte_identical_to_archive": false
+    },
+    "configs/ruler845_b128.yaml": {
+      "sha256": "cb565f0c9c169373d813da1dfc8c5e6812c14df8bc2b3026c551a528a3943fe2",
+      "archive_source": "configs/ruler845_b128.yaml",
+      "archive_sha256": "cb565f0c9c169373d813da1dfc8c5e6812c14df8bc2b3026c551a528a3943fe2",
+      "byte_identical_to_archive": true
+    },
+    "preflight.py": {
+      "sha256": "bc44ae5be76cada714be48919c0d1c0ad28fbe03b9843a090f4f260e2506759d",
+      "archive_source": "experiments/kvp_kl_delta/preflight.py",
+      "archive_sha256": "a5d4de115b5360a997d4b27ad28fbc491494de76540acd168fa4b133c4d31462",
+      "byte_identical_to_archive": false
+    },
+    "prepare_env.sh": {
+      "sha256": "b93b0f787be1c5af0da83df13a3ce09c21db35afce68af29e6aa5fa7b16dd40b",
+      "archive_source": "experiments/kvp_kl_delta/prepare_env.sh",
+      "archive_sha256": "3ff09f5a88d6e6a41e5b961646c0a713a3b40f6438cd3be7be055f16283b1f01",
+      "byte_identical_to_archive": false
+    },
+    "profile.sbatch": {
+      "sha256": "e7fe2c5a22a8059e24e0fd3b2c87d0710e8e617d307de81017c9d7d500277941",
+      "archive_source": "experiments/kvp_kl_delta/profile.sbatch",
+      "archive_sha256": "759cfdfc6aaac0002f9125c6727404823e80f90318b54b9b07e0ee815040a851",
+      "byte_identical_to_archive": false
+    },
+    "requirements.txt": {
+      "sha256": "2fc1f9b667afe3ce75dcb0309556b6afd5fb8e14168a1799ae6e648cfd404e86",
+      "archive_source": "experiments/kvp_kl_delta/requirements.txt",
+      "archive_sha256": "2fc1f9b667afe3ce75dcb0309556b6afd5fb8e14168a1799ae6e648cfd404e86",
+      "byte_identical_to_archive": true
+    },
+    "results/.gitignore": {
+      "sha256": "f2d6ecb6edea697c4b48941eb3f857a7dc10429e7a42005b279bb9c82a1a280b"
+    },
+    "results/README.md": {
+      "sha256": "a872cfeeee7457fdf6396e3ba607f0ae556aab17631f8ff4de5fe373ebd5e9ff"
+    },
+    "run.sh": {
+      "sha256": "95c7ecf578e76d3fe87f6fc08f31671bf79f33959d07f10023a549fdcdaa2ce1",
+      "archive_source": "experiments/kvp_kl_delta/run.sh",
+      "archive_sha256": "5539d2211f42463e8e050212afc20bb34cd774329e9240d3684a584537f3748a",
+      "byte_identical_to_archive": false
+    },
+    "run_record.json": {
+      "sha256": "110a6dfde527db66d91bee62ceab169d6be9fd097a914b6871112ce06eca7ca6"
+    },
+    "scripts/analyze_profiling.py": {
+      "sha256": "662425b0af1b7d88c25f69ee181d8b3042a4aaf7da30fbbbfabb39e9f8e65e25",
+      "archive_source": "scripts/analyze_profiling.py",
+      "archive_sha256": "662425b0af1b7d88c25f69ee181d8b3042a4aaf7da30fbbbfabb39e9f8e65e25",
+      "byte_identical_to_archive": true
+    },
+    "scripts/kvp_ranker.py": {
+      "sha256": "388b1aac6feaffd84e056c7e8be174a4c301729d13328e0edb9968f6d1731c7a",
+      "archive_source": "scripts/kvp_ranker.py",
+      "archive_sha256": "388b1aac6feaffd84e056c7e8be174a4c301729d13328e0edb9968f6d1731c7a",
+      "byte_identical_to_archive": true
+    },
+    "scripts/profile_heads.py": {
+      "sha256": "25a8317d7006f4dbfba5d3d7888f8a786f9fac006af8f9838cb09450c795dfd9",
+      "archive_source": "scripts/profile_heads.py",
+      "archive_sha256": "25a8317d7006f4dbfba5d3d7888f8a786f9fac006af8f9838cb09450c795dfd9",
+      "byte_identical_to_archive": true
+    },
+    "scripts/profiling_io.py": {
+      "sha256": "757618ffa82a4fe0479c74fa63c2b3b6cae8c04bdda9b70b08b1a0a69786978c",
+      "archive_source": "scripts/profiling_io.py",
+      "archive_sha256": "757618ffa82a4fe0479c74fa63c2b3b6cae8c04bdda9b70b08b1a0a69786978c",
+      "byte_identical_to_archive": true
+    },
+    "scripts/validate_profile.py": {
+      "sha256": "c1a8f118b683e7219f99e53479afb154961dc7b9384484347d704f2dea0e51df",
+      "archive_source": "scripts/validate_profile.py",
+      "archive_sha256": "c1a8f118b683e7219f99e53479afb154961dc7b9384484347d704f2dea0e51df",
+      "byte_identical_to_archive": true
+    },
+    "submit.sh": {
+      "sha256": "80ccb87d994fa1662ba8b3ba289f73761953b9bea01dfce28840a6a5c6dd77aa",
+      "archive_source": "experiments/kvp_kl_delta/submit.sh",
+      "archive_sha256": "db1b38b5081aba4c1266334ba7186fa1faa06aebaa0ece5a83d0679689a97187",
+      "byte_identical_to_archive": false
+    }
+  }
+}

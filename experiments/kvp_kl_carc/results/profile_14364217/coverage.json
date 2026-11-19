@@ -1,0 +1,24 @@
+{
+  "complete": true,
+  "completed_prompts": 61,
+  "pending": [],
+  "rows": 34160,
+  "skipped": [
+    {
+      "prompt_id": 1900,
+      "reason": "only 2 measured positions; min_k=3"
+    },
+    {
+      "prompt_id": 1901,
+      "reason": "only 2 measured positions; min_k=3"
+    },
+    {
+      "prompt_id": 1904,
+      "reason": "only 2 measured positions; min_k=3"
+    },
+    {
+      "prompt_id": 4402,
+      "reason": "only 2 measured positions; min_k=3"
+    }
+  ]
+}
