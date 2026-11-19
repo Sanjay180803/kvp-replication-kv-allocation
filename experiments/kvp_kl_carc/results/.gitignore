@@ -1,0 +1,4 @@
+# Preserve job logs attached as experimental evidence despite the root *.log rule.
+!*.log
+.run.lock
+.DS_Store

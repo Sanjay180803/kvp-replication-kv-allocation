@@ -1,0 +1,38 @@
+{
+  "completed_prompts": 61,
+  "gpu": "NVIDIA A40",
+  "model": "/scratch1/chenpaul/kvp/models/Qwen2.5-7B-Instruct",
+  "n_prompts": 65,
+  "note": "runtime covers only prompts processed in this invocation",
+  "ratios": [
+    0.02,
+    0.05,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "runtime_s": 762.4,
+  "scorers": [
+    "kvp"
+  ],
+  "skipped": [
+    {
+      "prompt_id": 1900,
+      "reason": "only 2 measured positions; min_k=3"
+    },
+    {
+      "prompt_id": 1901,
+      "reason": "only 2 measured positions; min_k=3"
+    },
+    {
+      "prompt_id": 1904,
+      "reason": "only 2 measured positions; min_k=3"
+    },
+    {
+      "prompt_id": 4402,
+      "reason": "only 2 measured positions; min_k=3"
+    }
+  ],
+  "torch": "2.10.0+cu128",
+  "transformers": "4.57.1"
+}

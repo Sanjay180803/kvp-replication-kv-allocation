@@ -1,0 +1,26 @@
+# Dedicated Python 3.11/3.12 environment. Apple's source is used via PYTHONPATH
+# so its transformers==4.55.4 project lock cannot revert the profiling API pin.
+torch==2.10.0
+torchao==0.15.0
+torchtune==0.6.1
+transformers==4.57.1
+datasets==4.5.0
+accelerate>=1.0,<2
+omegaconf>=2.3,<3
+numpy
+pandas
+scipy
+matplotlib
+tabulate
+PyYAML
+python-dotenv
+rich
+GitPython
+typer
+wandb
+boto3
+s3fs
+aiohttp
+kagglesdk>=0.1.37
+kagglehub>=1.0.2
+pytest
