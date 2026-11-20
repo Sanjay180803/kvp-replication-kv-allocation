@@ -1,0 +1,21 @@
+{
+  "completed_prompts": 65,
+  "gpu": "NVIDIA A40",
+  "model": "/scratch1/chenpaul/kvp/models/Qwen2.5-7B-Instruct",
+  "n_prompts": 65,
+  "note": "runtime covers only prompts processed in this invocation",
+  "ratios": [
+    0.02,
+    0.05,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "runtime_s": 810.4,
+  "scorers": [
+    "kvp"
+  ],
+  "skipped": [],
+  "torch": "2.10.0+cu128",
+  "transformers": "4.57.1"
+}

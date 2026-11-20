@@ -14,10 +14,11 @@
   "heads": 112,
   "keep_ratios": [0.02, 0.05, 0.1, 0.25, 0.5],
   "max_continuation_positions": 32,
-  "min_continuation_positions": 3,
+  "primary_profile_job_id": "14372014",
   "smoke": {"job_id": "14364197", "state": "COMPLETED", "exit_code": "0:0", "elapsed": "00:02:39"},
   "profile": {
     "job_id": "14364217",
+    "min_continuation_positions": 3,
     "dependency": "afterok:14364197",
     "state": "COMPLETED",
     "exit_code": "0:0",
@@ -34,5 +35,24 @@
       {"prompt_id": 1904, "reason": "only 2 measured positions; min_k=3"},
       {"prompt_id": 4402, "reason": "only 2 measured positions; min_k=3"}
     ]
+  },
+  "profile_min_k1": {
+    "job_id": "14372014",
+    "min_continuation_positions": 1,
+    "evidence": "Attached original output files and log with final SUCCESS; no separate sacct record supplied",
+    "profiler_runtime_seconds": 810.4,
+    "output_directory": "/scratch1/chenpaul/kvp_kl/runs/profile_14372014",
+    "coverage_complete": true,
+    "completed_prompts": 65,
+    "rows": 36400,
+    "pending": [],
+    "skipped": [],
+    "prompts_per_task": 5,
+    "recovered_prompts": [1900, 1901, 1904, 4402],
+    "recovered_prompt_continuation_positions": 2,
+    "shared_rows_identical_to_original": 34160,
+    "changed_experiment_fields": ["min_k"],
+    "source_hashes_match_packaged_scripts": true,
+    "csv_matches_prompt_shards": true
   }
 }

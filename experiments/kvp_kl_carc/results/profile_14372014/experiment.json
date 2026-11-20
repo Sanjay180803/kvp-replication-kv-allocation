@@ -1,0 +1,2042 @@
+{
+  "batch_size": 8,
+  "continuation_policy": "greedy-stop-at-eos-matched-prefix",
+  "dataset": "simonjegou/ruler:4096:test",
+  "dataset_revision": null,
+  "dtype": "bfloat16",
+  "heads": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      10,
+      0
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      10,
+      2
+    ],
+    [
+      10,
+      3
+    ],
+    [
+      11,
+      0
+    ],
+    [
+      11,
+      1
+    ],
+    [
+      11,
+      2
+    ],
+    [
+      11,
+      3
+    ],
+    [
+      12,
+      0
+    ],
+    [
+      12,
+      1
+    ],
+    [
+      12,
+      2
+    ],
+    [
+      12,
+      3
+    ],
+    [
+      13,
+      0
+    ],
+    [
+      13,
+      1
+    ],
+    [
+      13,
+      2
+    ],
+    [
+      13,
+      3
+    ],
+    [
+      14,
+      0
+    ],
+    [
+      14,
+      1
+    ],
+    [
+      14,
+      2
+    ],
+    [
+      14,
+      3
+    ],
+    [
+      15,
+      0
+    ],
+    [
+      15,
+      1
+    ],
+    [
+      15,
+      2
+    ],
+    [
+      15,
+      3
+    ],
+    [
+      16,
+      0
+    ],
+    [
+      16,
+      1
+    ],
+    [
+      16,
+      2
+    ],
+    [
+      16,
+      3
+    ],
+    [
+      17,
+      0
+    ],
+    [
+      17,
+      1
+    ],
+    [
+      17,
+      2
+    ],
+    [
+      17,
+      3
+    ],
+    [
+      18,
+      0
+    ],
+    [
+      18,
+      1
+    ],
+    [
+      18,
+      2
+    ],
+    [
+      18,
+      3
+    ],
+    [
+      19,
+      0
+    ],
+    [
+      19,
+      1
+    ],
+    [
+      19,
+      2
+    ],
+    [
+      19,
+      3
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      20,
+      1
+    ],
+    [
+      20,
+      2
+    ],
+    [
+      20,
+      3
+    ],
+    [
+      21,
+      0
+    ],
+    [
+      21,
+      1
+    ],
+    [
+      21,
+      2
+    ],
+    [
+      21,
+      3
+    ],
+    [
+      22,
+      0
+    ],
+    [
+      22,
+      1
+    ],
+    [
+      22,
+      2
+    ],
+    [
+      22,
+      3
+    ],
+    [
+      23,
+      0
+    ],
+    [
+      23,
+      1
+    ],
+    [
+      23,
+      2
+    ],
+    [
+      23,
+      3
+    ],
+    [
+      24,
+      0
+    ],
+    [
+      24,
+      1
+    ],
+    [
+      24,
+      2
+    ],
+    [
+      24,
+      3
+    ],
+    [
+      25,
+      0
+    ],
+    [
+      25,
+      1
+    ],
+    [
+      25,
+      2
+    ],
+    [
+      25,
+      3
+    ],
+    [
+      26,
+      0
+    ],
+    [
+      26,
+      1
+    ],
+    [
+      26,
+      2
+    ],
+    [
+      26,
+      3
+    ],
+    [
+      27,
+      0
+    ],
+    [
+      27,
+      1
+    ],
+    [
+      27,
+      2
+    ],
+    [
+      27,
+      3
+    ]
+  ],
+  "input_sha256": "21977b7531e0ce03ea849ec39b54577d4be974574dddc6a23e49e28a1f98fc28",
+  "kvp": {
+    "checkpoints": [
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000000/kv_head_000/2026-11-05_08-50-45/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 0,
+        "mtime_ns": 1795069099000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000000/kv_head_001/2026-11-05_15-33-25/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 0,
+        "mtime_ns": 1795069094000000000
+      },
+      {
+        "bytes": 4588619,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000000/kv_head_002/2026-11-05_08-50-46/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 0,
+        "mtime_ns": 1795069085000000000
+      },
+      {
+        "bytes": 4588619,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000000/kv_head_003/2026-11-05_15-28-58/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 0,
+        "mtime_ns": 1795069090000000000
+      },
+      {
+        "bytes": 4545995,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000001/kv_head_000/2026-10-31_15-23-52/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 1,
+        "mtime_ns": 1795069118000000000
+      },
+      {
+        "bytes": 4588619,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000001/kv_head_001/2026-10-31_22-12-16/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 1,
+        "mtime_ns": 1795069113000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000001/kv_head_002/2026-10-31_15-24-21/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 1,
+        "mtime_ns": 1795069104000000000
+      },
+      {
+        "bytes": 4588619,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000001/kv_head_003/2026-10-31_22-04-18/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 1,
+        "mtime_ns": 1795069109000000000
+      },
+      {
+        "bytes": 4588619,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000002/kv_head_000/2026-10-31_15-24-22/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 2,
+        "mtime_ns": 1795069385000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000002/kv_head_001/2026-10-31_22-11-36/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 2,
+        "mtime_ns": 1795069381000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000002/kv_head_002/2026-10-31_15-24-51/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 2,
+        "mtime_ns": 1795069371000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000002/kv_head_003/2026-10-31_22-05-01/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 2,
+        "mtime_ns": 1795069376000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000003/kv_head_000/2026-10-31_15-25-58/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 3,
+        "mtime_ns": 1795069328000000000
+      },
+      {
+        "bytes": 4588619,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000003/kv_head_001/2026-10-31_22-11-50/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 3,
+        "mtime_ns": 1795069323000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000003/kv_head_002/2026-10-31_15-31-29/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 3,
+        "mtime_ns": 1795069314000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000003/kv_head_003/2026-10-31_22-19-57/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 3,
+        "mtime_ns": 1795069319000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000004/kv_head_000/2026-10-31_15-31-58/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 4,
+        "mtime_ns": 1795069347000000000
+      },
+      {
+        "bytes": 4588619,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000004/kv_head_001/2026-10-31_22-12-47/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 4,
+        "mtime_ns": 1795069342000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000004/kv_head_002/2026-10-31_15-31-59/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 4,
+        "mtime_ns": 1795069333000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000004/kv_head_003/2026-10-31_22-19-33/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 4,
+        "mtime_ns": 1795069338000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000005/kv_head_000/2026-10-31_16-37-38/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 5,
+        "mtime_ns": 1795069366000000000
+      },
+      {
+        "bytes": 4588619,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000005/kv_head_001/2026-11-05_08-50-45/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 5,
+        "mtime_ns": 1795069362000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000005/kv_head_002/2026-11-05_23-34-10/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 5,
+        "mtime_ns": 1795069352000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000005/kv_head_003/2026-10-31_19-37-47/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 5,
+        "mtime_ns": 1795069357000000000
+      },
+      {
+        "bytes": 4545995,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000006/kv_head_000/2026-11-05_23-34-32/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 6,
+        "mtime_ns": 1795069137000000000
+      },
+      {
+        "bytes": 4588619,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000006/kv_head_001/2026-10-31_22-41-07/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 6,
+        "mtime_ns": 1795069132000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000006/kv_head_002/2026-10-31_22-29-30/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 6,
+        "mtime_ns": 1795069123000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000006/kv_head_003/2026-11-01_01-23-02/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 6,
+        "mtime_ns": 1795069128000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000007/kv_head_000/2026-11-05_23-38-10/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 7,
+        "mtime_ns": 1795069080000000000
+      },
+      {
+        "bytes": 4588619,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000007/kv_head_001/2026-11-06_06-17-04/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 7,
+        "mtime_ns": 1795069075000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000007/kv_head_002/2026-11-05_23-38-42/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 7,
+        "mtime_ns": 1795069066000000000
+      },
+      {
+        "bytes": 4588619,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000007/kv_head_003/2026-11-01_05-35-54/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 7,
+        "mtime_ns": 1795069071000000000
+      },
+      {
+        "bytes": 4588619,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000008/kv_head_000/2026-11-01_03-43-12/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 8,
+        "mtime_ns": 1795069156000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000008/kv_head_001/2026-11-01_10-19-28/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 8,
+        "mtime_ns": 1795069151000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000008/kv_head_002/2026-11-01_03-52-22/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 8,
+        "mtime_ns": 1795069142000000000
+      },
+      {
+        "bytes": 4588619,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000008/kv_head_003/2026-10-24_10-01-59/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 8,
+        "mtime_ns": 1795069147000000000
+      },
+      {
+        "bytes": 4588619,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000009/kv_head_000/2026-11-01_03-55-26/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 9,
+        "mtime_ns": 1795069061000000000
+      },
+      {
+        "bytes": 4588619,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000009/kv_head_001/2026-11-01_10-32-13/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 9,
+        "mtime_ns": 1795069056000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000009/kv_head_002/2026-11-01_03-57-28/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 9,
+        "mtime_ns": 1795069047000000000
+      },
+      {
+        "bytes": 4588619,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000009/kv_head_003/2026-11-01_10-37-58/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 9,
+        "mtime_ns": 1795069052000000000
+      },
+      {
+        "bytes": 4545995,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000010/kv_head_000/2026-11-01_03-58-00/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 10,
+        "mtime_ns": 1795069577000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000010/kv_head_001/2026-11-01_10-39-27/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 10,
+        "mtime_ns": 1795069572000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000010/kv_head_002/2026-11-01_03-58-30/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 10,
+        "mtime_ns": 1795069563000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000010/kv_head_003/2026-11-01_10-41-56/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 10,
+        "mtime_ns": 1795069568000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000011/kv_head_000/2026-11-01_04-00-36/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 11,
+        "mtime_ns": 1795069404000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000011/kv_head_001/2026-11-01_10-39-41/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 11,
+        "mtime_ns": 1795069400000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000011/kv_head_002/2026-11-01_04-05-38/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 11,
+        "mtime_ns": 1795069390000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000011/kv_head_003/2026-11-01_10-47-40/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 11,
+        "mtime_ns": 1795069395000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000012/kv_head_000/2026-11-01_04-05-38/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 12,
+        "mtime_ns": 1795069194000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000012/kv_head_001/2026-11-01_10-48-27/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 12,
+        "mtime_ns": 1795069190000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000012/kv_head_002/2026-11-01_08-30-49/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 12,
+        "mtime_ns": 1795069180000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000012/kv_head_003/2026-11-01_15-12-12/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 12,
+        "mtime_ns": 1795069185000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000013/kv_head_000/2026-11-01_10-31-09/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 13,
+        "mtime_ns": 1795069289000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000013/kv_head_001/2026-11-01_17-08-56/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 13,
+        "mtime_ns": 1795069285000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000013/kv_head_002/2026-11-01_16-58-46/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 13,
+        "mtime_ns": 1795069275000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000013/kv_head_003/2026-11-01_23-38-00/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 13,
+        "mtime_ns": 1795069280000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000014/kv_head_000/2026-11-01_17-10-56/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 14,
+        "mtime_ns": 1795069309000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000014/kv_head_001/2026-11-01_23-48-04/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 14,
+        "mtime_ns": 1795069304000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000014/kv_head_002/2026-11-05_23-39-42/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 14,
+        "mtime_ns": 1795069294000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000014/kv_head_003/2026-11-01_22-20-34/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 14,
+        "mtime_ns": 1795069299000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000015/kv_head_000/2026-11-06_00-29-13/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 15,
+        "mtime_ns": 1795069175000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000015/kv_head_001/2026-11-06_07-16-47/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 15,
+        "mtime_ns": 1795069170000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000015/kv_head_002/2026-11-01_17-23-06/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 15,
+        "mtime_ns": 1795069161000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000015/kv_head_003/2026-11-02_00-07-59/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 15,
+        "mtime_ns": 1795069166000000000
+      },
+      {
+        "bytes": 4545995,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000016/kv_head_000/2026-11-01_17-25-09/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 16,
+        "mtime_ns": 1795069423000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000016/kv_head_001/2026-10-24_09-55-55/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 16,
+        "mtime_ns": 1795069419000000000
+      },
+      {
+        "bytes": 4503371,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000016/kv_head_002/2026-11-01_17-31-15/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 16,
+        "mtime_ns": 1795069409000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000016/kv_head_003/2026-11-02_00-17-14/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 16,
+        "mtime_ns": 1795069414000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000017/kv_head_000/2026-11-01_17-31-45/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 17,
+        "mtime_ns": 1795069558000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000017/kv_head_001/2026-11-06_00-45-09/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 17,
+        "mtime_ns": 1795069553000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000017/kv_head_002/2026-11-01_21-51-36/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 17,
+        "mtime_ns": 1795069544000000000
+      },
+      {
+        "bytes": 4545995,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000017/kv_head_003/2026-11-06_01-16-44/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 17,
+        "mtime_ns": 1795069548000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000018/kv_head_000/2026-11-01_23-48-09/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 18,
+        "mtime_ns": 1795069481000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000018/kv_head_001/2026-11-02_06-27-06/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 18,
+        "mtime_ns": 1795069476000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000018/kv_head_002/2026-11-02_00-08-25/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 18,
+        "mtime_ns": 1795069466000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000018/kv_head_003/2026-11-02_06-52-35/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 18,
+        "mtime_ns": 1795069471000000000
+      },
+      {
+        "bytes": 4545995,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000019/kv_head_000/2026-11-02_03-06-06/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 19,
+        "mtime_ns": 1795069520000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000019/kv_head_001/2026-11-02_09-49-45/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 19,
+        "mtime_ns": 1795069515000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000019/kv_head_002/2026-11-02_04-57-10/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 19,
+        "mtime_ns": 1795069505000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000019/kv_head_003/2026-11-06_01-18-08/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 19,
+        "mtime_ns": 1795069510000000000
+      },
+      {
+        "bytes": 4503371,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000020/kv_head_000/2026-11-02_06-17-09/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 20,
+        "mtime_ns": 1795069443000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000020/kv_head_001/2026-11-02_13-02-33/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 20,
+        "mtime_ns": 1795069438000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000020/kv_head_002/2026-11-02_06-17-39/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 20,
+        "mtime_ns": 1795069428000000000
+      },
+      {
+        "bytes": 4545995,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000020/kv_head_003/2026-11-02_12-57-40/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 20,
+        "mtime_ns": 1795069433000000000
+      },
+      {
+        "bytes": 4545995,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000021/kv_head_000/2026-11-06_01-19-42/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 21,
+        "mtime_ns": 1795069539000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000021/kv_head_001/2026-11-02_10-44-45/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 21,
+        "mtime_ns": 1795069534000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000021/kv_head_002/2026-11-02_06-56-44/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 21,
+        "mtime_ns": 1795069524000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000021/kv_head_003/2026-11-02_13-40-59/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 21,
+        "mtime_ns": 1795069529000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000022/kv_head_000/2026-11-02_07-02-29/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 22,
+        "mtime_ns": 1795069251000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000022/kv_head_001/2026-11-02_13-46-55/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 22,
+        "mtime_ns": 1795069247000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000022/kv_head_002/2026-11-02_08-02-30/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 22,
+        "mtime_ns": 1795069237000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000022/kv_head_003/2026-11-06_01-22-24/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 22,
+        "mtime_ns": 1795069242000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000023/kv_head_000/2026-11-02_19-38-04/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 23,
+        "mtime_ns": 1795069232000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000023/kv_head_001/2026-11-03_00-32-26/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 23,
+        "mtime_ns": 1795069228000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000023/kv_head_002/2026-11-02_19-47-53/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 23,
+        "mtime_ns": 1795069218000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000023/kv_head_003/2026-11-03_02-33-18/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 23,
+        "mtime_ns": 1795069223000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000024/kv_head_000/2026-11-05_08-35-18/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 24,
+        "mtime_ns": 1795069213000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000024/kv_head_001/2026-11-05_15-21-51/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 24,
+        "mtime_ns": 1795069209000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000024/kv_head_002/2026-11-05_08-39-09/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 24,
+        "mtime_ns": 1795069199000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000024/kv_head_003/2026-11-05_15-19-28/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 24,
+        "mtime_ns": 1795069204000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000025/kv_head_000/2026-11-05_08-40-20/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 25,
+        "mtime_ns": 1795069270000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000025/kv_head_001/2026-11-05_15-26-56/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 25,
+        "mtime_ns": 1795069266000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000025/kv_head_002/2026-11-05_08-43-02/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 25,
+        "mtime_ns": 1795069256000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000025/kv_head_003/2026-11-05_15-30-37/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 25,
+        "mtime_ns": 1795069261000000000
+      },
+      {
+        "bytes": 4631243,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000026/kv_head_000/2026-11-07_23-10-21/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 26,
+        "mtime_ns": 1795069501000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000026/kv_head_001/2026-11-08_05-50-18/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 26,
+        "mtime_ns": 1795069496000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000026/kv_head_002/2026-11-07_23-10-33/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 26,
+        "mtime_ns": 1795069486000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000026/kv_head_003/2026-11-08_05-59-41/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 26,
+        "mtime_ns": 1795069491000000000
+      },
+      {
+        "bytes": 4545995,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000027/kv_head_000/2026-11-07_23-17-58/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 0,
+        "layer": 27,
+        "mtime_ns": 1795069462000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000027/kv_head_001/2026-11-08_06-05-53/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 1,
+        "layer": 27,
+        "mtime_ns": 1795069457000000000
+      },
+      {
+        "bytes": 4588683,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000027/kv_head_002/2026-11-07_23-22-08/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 2,
+        "layer": 27,
+        "mtime_ns": 1795069447000000000
+      },
+      {
+        "bytes": 4631307,
+        "config": {
+          "_component_": "kvcompression.presses.sampler_agent_press.SamplerAgentPress",
+          "ckpt_path": "/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000027/kv_head_003/2026-11-08_06-10-08/best_ckpt.pth",
+          "n_running_window": 16,
+          "n_sinks": 4,
+          "query_selection_mode": "no_agg"
+        },
+        "head": 3,
+        "layer": 27,
+        "mtime_ns": 1795069452000000000
+      }
+    ],
+    "fingerprint": "b594da0da92bb1fab84239887ec0b205c1cdfdde189226d451ec8f3fc4a66928",
+    "fingerprint_kind": "config+path+size+mtime (not a weight-content hash)"
+  },
+  "local_model": {
+    "configs": {
+      "config.json": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+      "generation_config.json": "3a8f9087e486054c8a4a08dae2e5a3ba62e23da212b5b8c08bc42cb983c3459f",
+      "model.safetensors.index.json": "624bf7c47cd12468fdc16e38a47cf4f19e0415b859a223ba3c027eed2f0e1028",
+      "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    "weights": [
+      {
+        "bytes": 3945441440,
+        "mtime_ns": 1795068355000000000,
+        "name": "model-00001-of-00004.safetensors"
+      },
+      {
+        "bytes": 3864726352,
+        "mtime_ns": 1795068404000000000,
+        "name": "model-00002-of-00004.safetensors"
+      },
+      {
+        "bytes": 3864726424,
+        "mtime_ns": 1795068443000000000,
+        "name": "model-00003-of-00004.safetensors"
+      },
+      {
+        "bytes": 3556377672,
+        "mtime_ns": 1795068475000000000,
+        "name": "model-00004-of-00004.safetensors"
+      }
+    ]
+  },
+  "max_continuation": 32,
+  "min_k": 1,
+  "model": "/scratch1/chenpaul/kvp/models/Qwen2.5-7B-Instruct",
+  "model_revision": null,
+  "prompt_ids": [
+    400,
+    401,
+    402,
+    403,
+    404,
+    900,
+    901,
+    902,
+    903,
+    904,
+    1400,
+    1401,
+    1402,
+    1403,
+    1404,
+    1900,
+    1901,
+    1902,
+    1903,
+    1904,
+    2400,
+    2401,
+    2402,
+    2403,
+    2404,
+    2900,
+    2901,
+    2902,
+    2903,
+    2904,
+    3400,
+    3401,
+    3402,
+    3403,
+    3404,
+    3900,
+    3901,
+    3902,
+    3903,
+    3904,
+    4400,
+    4401,
+    4402,
+    4403,
+    4404,
+    4900,
+    4901,
+    4902,
+    4903,
+    4904,
+    5400,
+    5401,
+    5402,
+    5403,
+    5404,
+    5900,
+    5901,
+    5902,
+    5903,
+    5904,
+    6400,
+    6401,
+    6402,
+    6403,
+    6404
+  ],
+  "prompt_style": "torchtune",
+  "ratios": [
+    0.02,
+    0.05,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "schema": 2,
+  "scorers": [
+    "kvp"
+  ],
+  "source": {
+    "kvp_ranker.py": "388b1aac6feaffd84e056c7e8be174a4c301729d13328e0edb9968f6d1731c7a",
+    "profile_heads.py": "25a8317d7006f4dbfba5d3d7888f8a786f9fac006af8f9838cb09450c795dfd9",
+    "profiling_io.py": "757618ffa82a4fe0479c74fa63c2b3b6cae8c04bdda9b70b08b1a0a69786978c"
+  },
+  "torch": "2.10.0+cu128",
+  "transformers": "4.57.1"
+}
