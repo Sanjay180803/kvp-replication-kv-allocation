@@ -237,7 +237,7 @@ def evaluate(args, model, tok, rows, policies, static_lv, budget, prior, dev, lo
         if ep is None:
             continue
         names, cand = ["uniform", "static"], [np.full(H, args.target), LV[ra.project(static_lv, budget, prior)]]
-        sampled = {}
+        sampled, samp_cand = {}, []
         for k, pol in policies.items():
             lg = pol(ep.feats.to(dev).float())
             names.append(k); cand.append(LV[ra.project(lg.argmax(-1).cpu().numpy(), budget, prior)])
@@ -245,7 +245,10 @@ def evaluate(args, model, tok, rows, policies, static_lv, budget, prior, dev, lo
                 a = torch.distributions.Categorical(logits=lg).sample((args.ope_samples,))
                 pa = np.stack([ra.project(x, budget, prior) for x in a.cpu().numpy()])
                 sampled[k] = (lg, pa)
-                cand += list(LV[pa])
+                samp_cand += list(LV[pa])
+        # FIX (2026-11-17): all deterministic candidates first, then OPE samples in policy order.
+        # Before, samples were interleaved, so r[:len(names)] mis-assigned rewards when >1 policy.
+        cand += samp_cand
         kl = ep.kl(model, np.stack(cand), args.batch_size)
         r = -np.log(kl + 1e-6)
         for n, v in zip(names, r[:len(names)]):

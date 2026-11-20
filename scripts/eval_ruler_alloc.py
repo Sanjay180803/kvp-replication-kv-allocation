@@ -108,6 +108,7 @@ def main():
     ap.add_argument("--composite", default=None, help="KVP agents config (needed for --scorer kvp)")
     ap.add_argument("--per_task", type=int, default=20)
     ap.add_argument("--out_dir", default="results_alloc")
+    ap.add_argument("--length", type=int, default=4096, help="RULER context length (4096, 8192, 16384)")
     args = ap.parse_args()
 
     alloc = json.load(open(args.alloc))
@@ -116,8 +117,10 @@ def main():
     target = float(alloc["target_avg_keep_ratio"])
 
     # identical row selection to eval_ruler.py
-    used = {int(p.name.split("_")[-1]) for p in Path("data/gqa_safetensors").glob("**/sample_*")}
-    ds = load_dataset("simonjegou/ruler", data_dir="4096", split="test")
+    # KVP training traces are RULER-4K only, so the training-row exclusion applies only at 4096
+    used = ({int(p.name.split("_")[-1]) for p in Path("data/gqa_safetensors").glob("**/sample_*")}
+            if args.length == 4096 else set())
+    ds = load_dataset("simonjegou/ruler", data_dir=str(args.length), split="test")
     picked, count = [], {}
     for i, row in enumerate(ds):
         t = row["task"]

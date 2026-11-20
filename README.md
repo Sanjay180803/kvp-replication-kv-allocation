@@ -318,3 +318,7 @@ Validation KL agrees: per-input − fixed = −0.49 ± 0.25 (5%), −0.19 ± 0.1
 3. Add a safeguard for unfamiliar inputs, e.g. an ensemble whose disagreement pushes the allocation back to the static split (uncertainty-gated α; planned next).
 
 Files: `results/allocation_kvp/`, `results/loto/` (per-example scores, `loto.log`, validation JSONs).
+
+## 10. Final results (Nov 2026)
+RL allocator vs static splits at 4K/8K/16K, feature-shuffle and leave-one-task-out controls, and the
+**corrected offline-RL table** (indexing bug fixed): see [`docs/final_results.md`](docs/final_results.md).
