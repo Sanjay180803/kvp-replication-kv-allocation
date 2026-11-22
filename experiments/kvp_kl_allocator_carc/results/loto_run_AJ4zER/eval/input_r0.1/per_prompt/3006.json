@@ -1,0 +1,11 @@
+{
+  "id": 3006,
+  "task": "niah_single_2",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 3791,
+  "kept_frac": 0.09997362173568979,
+  "score": 100.0,
+  "pred": " 7067228.",
+  "sec": 1.42
+}

@@ -1,0 +1,11 @@
+{
+  "id": 3578,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5178,
+  "kept_frac": 0.04982618771726535,
+  "score": 0.0,
+  "pred": "  \n1. * (used as a placeholder for the most frequent single-character word, likely \"a\")  \n2. * (used as a placeholder for the most frequent single-character word, likely \"a\")  \n3. * (used as a placeholder for the most frequent single-character word, likely \"a\")  \n4. * (used as a placeholder for the most frequent single-character word, likely \"a\")  \n5. * (used as a placeholder for the most frequent single-character word, likely \"a\")  \n6. * (used as a placeholder for the most frequent single-character",
+  "sec": 8.23
+}

@@ -1,0 +1,11 @@
+{
+  "id": 3502,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5230,
+  "kept_frac": 0.1,
+  "score": 40.0,
+  "pred": "  \n1. **caper**  \n2. **locket**  \n3. **dollar**  \n4. **path**  \n5. **piece**  \n6. **piece** (note: appears twice)  \n7. **caper** (note: appears multiple times)  \n8. **locket** (note: appears multiple times)  \n9. **dollar** (note: appears multiple times)  \n10. **path** (note: appears multiple times)\n\nTo summarize uniquely:\n1. caper  \n2. locket  \n3. dollar  \n4",
+  "sec": 8.5
+}

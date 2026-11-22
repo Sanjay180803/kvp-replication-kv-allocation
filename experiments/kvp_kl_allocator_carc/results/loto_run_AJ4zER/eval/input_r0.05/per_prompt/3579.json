@@ -1,0 +1,11 @@
+{
+  "id": 3579,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5247,
+  "kept_frac": 0.04993329521631409,
+  "score": 10.0,
+  "pred": "  \n1. **gherkin**  \n2. **gherkin** (appears multiple times, so it's listed again)  \n3. **gherkin** (appears multiple times, so it's listed again)  \n4. **gherkin**  \n5. **gherkin**  \n6. **gherkin**  \n7. **gherkin**  \n8. **gherkin**  \n9. **gherkin**  \n10. **gherkin**  \n\nIt appears that \"gherkin\" is the most frequently occurring word",
+  "sec": 8.17
+}

@@ -1,0 +1,11 @@
+{
+  "id": 3579,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5247,
+  "kept_frac": 0.04993329521631409,
+  "score": 10.0,
+  "pred": "  \n1. **gherkin**  \n2. **gherkin** (appears twice, so it's listed again)  \n3. **gherkin** (appears three times, so it's listed again)  \n4. **pomodoro**  \n5. **pomodoro**  \n6. **pomodoro**  \n7. **pomodoro**  \n8. **pomodoro**  \n9. **pomodoro**  \n10. **pomodoro**  \n\nIt appears that \"gherkin\"",
+  "sec": 8.2
+}

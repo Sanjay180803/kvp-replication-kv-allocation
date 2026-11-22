@@ -1,0 +1,11 @@
+{
+  "id": 3503,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5135,
+  "kept_frac": 0.09990262901655307,
+  "score": 10.0,
+  "pred": "  \n1. **rationale**  \n2. **hood** (appears as \"hood\" and \"hoodie\")  \n3. **hoodie**  \n4. **hood**  \n5. **rationale**  \n6. **hood**  \n7. **rationale**  \n8. **hood**  \n9. **rationale**  \n10. **hood**  \n\nIn summary, the word \"rationale\" and \"hood\" (including its variations) appear most frequently.",
+  "sec": 7.22
+}

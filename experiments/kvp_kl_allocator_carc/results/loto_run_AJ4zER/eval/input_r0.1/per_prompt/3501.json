@@ -1,0 +1,11 @@
+{
+  "id": 3501,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5258,
+  "kept_frac": 0.099847850893876,
+  "score": 30.0,
+  "pred": "  \n1. reminiscent  \n2. oatmeal  \n3. diner  \n4. reminiscent  \n5. diner  \n6. reminiscent  \n7. diner  \n8. reminiscent  \n9. diner  \n10. reminiscent  \n\nNote: The word \"reminiscent\" appears the most frequently, followed closely by \"diner\".",
+  "sec": 5.2
+}

@@ -1,0 +1,11 @@
+{
+  "id": 3579,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5247,
+  "kept_frac": 0.09986659043262817,
+  "score": 30.0,
+  "pred": "  \n1. **gherkin**  \n2. **dromedary**  \n3. **puzzle**  \n4. **pol**e  \n5. **d****o**c  \n6. **m****a****r****l****o****b****a****x**  \n7. **s****t****r****o****p****c**  \n8. **d****i****g****i****t****y**  \n9. **s****p****",
+  "sec": 8.44
+}

@@ -1,0 +1,11 @@
+{
+  "id": 3503,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5135,
+  "kept_frac": 0.0498539435248296,
+  "score": 10.0,
+  "pred": "  \n1. **rationale**  \n2. **rationale** (appears twice, so it's listed twice)  \n3. **rationale**  \n4. **rationale**  \n5. **rationale**  \n6. **rationale**  \n7. **rationale**  \n8. **rationale**  \n9. **rationale**  \n10. **rationale**  \n\nIt appears that \"rationale\" is the most frequently occurring word, appearing multiple times in the list.",
+  "sec": 7.38
+}

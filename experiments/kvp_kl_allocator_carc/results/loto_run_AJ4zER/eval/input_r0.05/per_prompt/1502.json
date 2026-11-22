@@ -1,0 +1,11 @@
+{
+  "id": 1502,
+  "task": "qa_1",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 2795,
+  "kept_frac": 0.049731663685152055,
+  "score": 0.0,
+  "pred": " Denmark, Norway, Iceland",
+  "sec": 0.95
+}

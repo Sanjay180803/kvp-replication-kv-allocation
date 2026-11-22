@@ -1,0 +1,11 @@
+{
+  "id": 5500,
+  "task": "niah_multikey_3",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 4030,
+  "kept_frac": 0.049875930521091814,
+  "score": 0.0,
+  "pred": " 1ee34dc4-3b04-a8bf-805b-1def827edc43. However, upon double-checking the exact phrase from the text you provided, the correct UUID for this specific entry is 1ee34dc4-3b04-a8bf-805b-1def827edc43. It seems there was a typo in the repetition of the UUID; the correct one is 1ee34dc4-3b04-a8bf-805b-1def827",
+  "sec": 8.09
+}

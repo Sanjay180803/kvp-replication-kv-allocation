@@ -1,0 +1,11 @@
+{
+  "id": 3575,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5191,
+  "kept_frac": 0.09998073588903872,
+  "score": 0.0,
+  "pred": "  \n1. **ch** (ch appears as a prefix in many words like \"ch**e**ck\", \"ch**u**ck\", etc.)\n2. **ch** (same as above)\n3. **ch** (same as above)\n4. **ch** (same as above)\n5. **ch** (same as above)\n6. **ch** (same as above)\n7. **ch** (same as above)\n8. **ch** (same as above)\n9. **ch** (same as above)\n10. **ch** (same",
+  "sec": 8.24
+}

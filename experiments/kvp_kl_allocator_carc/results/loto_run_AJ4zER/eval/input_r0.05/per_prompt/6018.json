@@ -1,0 +1,11 @@
+{
+  "id": 6018,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3878,
+  "kept_frac": 0.049767921609076844,
+  "score": 100.0,
+  "pred": ":\n\n- 6507321 (marked-mitten)\n- 4240180 (touched-tinderbox)\n- 1397023 (fertile-mob)\n- 4818418 (homely-disappointment)",
+  "sec": 4.43
+}

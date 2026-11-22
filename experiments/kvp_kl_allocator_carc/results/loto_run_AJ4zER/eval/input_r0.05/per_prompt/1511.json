@@ -1,0 +1,11 @@
+{
+  "id": 1511,
+  "task": "qa_1",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3016,
+  "kept_frac": 0.04973474801061008,
+  "score": 100.0,
+  "pred": " King Charles III",
+  "sec": 0.88
+}

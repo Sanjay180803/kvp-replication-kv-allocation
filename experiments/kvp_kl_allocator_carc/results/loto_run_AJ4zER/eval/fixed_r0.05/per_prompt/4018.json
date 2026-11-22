@@ -1,0 +1,11 @@
+{
+  "id": 4018,
+  "task": "qa_2",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 2807,
+  "kept_frac": 0.04987531172069826,
+  "score": 0.0,
+  "pred": " 1969-1974",
+  "sec": 1.23
+}

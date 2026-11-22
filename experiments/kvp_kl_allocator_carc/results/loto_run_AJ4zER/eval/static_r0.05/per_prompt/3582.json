@@ -1,0 +1,11 @@
+{
+  "id": 3582,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5246,
+  "kept_frac": 0.04994281357224552,
+  "score": 10.0,
+  "pred": "  \n1. toast  \n2. toast  \n3. toast  \n4. toast  \n5. toast  \n6. toast  \n7. toast  \n8. toast  \n9. toast  \n10. toast  \n\nIt appears that \"toast\" is the most frequently occurring word in the list, appearing 63 times.",
+  "sec": 5.1
+}

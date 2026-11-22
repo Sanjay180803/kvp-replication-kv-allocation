@@ -1,0 +1,11 @@
+{
+  "id": 3578,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5178,
+  "kept_frac": 0.04982618771726535,
+  "score": 10.0,
+  "pred": "  \n1. **homely** (appears 12 times)  \n2. **homely** (appears 12 times) - Note: There seems to be a repetition in the word \"homely,\" which likely indicates a typo or data issue. Assuming it should be a single word, it would be \"homely.\"  \n3. **homely** (appears 12 times)  \n4. **homely** (appears 12 times)  \n5. **homely** (appears 12 times)  \n6. **hom",
+  "sec": 8.2
+}

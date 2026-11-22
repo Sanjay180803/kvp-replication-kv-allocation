@@ -1,0 +1,11 @@
+{
+  "id": 3584,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5090,
+  "kept_frac": 0.1,
+  "score": 0.0,
+  "pred": "  \n1. **coordinate**  \n2. **coordinate** (appears twice, but listed once)  \n2. **coordinate** (appears again, but listed once)  \n4. **coordinate** (appears again, but listed once)  \n5. **coordinate**  \n6. **coordinate**  \n7. **coordinate**  \n8. **coordinate**  \n9. **coordinate**  \n10. **coordinate**  \n\nIn summary, **\"coordinate\"** is the most frequently appearing word in the list, appearing multiple times. The other words do not appear as frequently as",
+  "sec": 8.26
+}

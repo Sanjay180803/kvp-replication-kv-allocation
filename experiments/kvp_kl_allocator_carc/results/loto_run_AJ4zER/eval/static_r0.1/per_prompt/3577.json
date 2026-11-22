@@ -1,0 +1,11 @@
+{
+  "id": 3577,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5181,
+  "kept_frac": 0.09998069870681335,
+  "score": 20.0,
+  "pred": "  \n1. **digestion**  \n2. **hook**  \n3. **digest**  \n4. **hook** (appears multiple times)  \n5. **hook**  \n6. **hook**  \n7. **hook**  \n8. **hook**  \n9. **hook**  \n10. **hook**  \n\nNote: The word \"hook\" appears frequently in the list, so it is listed multiple times in the top 10.",
+  "sec": 7.0
+}

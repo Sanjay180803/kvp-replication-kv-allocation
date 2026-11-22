@@ -1,0 +1,11 @@
+{
+  "id": 3578,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5178,
+  "kept_frac": 0.09984550019312476,
+  "score": 20.0,
+  "pred": "  \n1. **roasted**  \n2. **rectangle**  \n3. **roasted** (appears multiple times, so it's listed again)  \n4. **roasted** (appears multiple times, so it's listed again)  \n5. **roasted**  \n6. **rectangle**  \n7. **roasted**  \n8. **rectangle**  \n9. **roasted**  \n10. **rectangle**\n\nTo clarify, \"roasted\" and \"rectangle\" are the most frequent words, each appearing multiple times.",
+  "sec": 7.94
+}

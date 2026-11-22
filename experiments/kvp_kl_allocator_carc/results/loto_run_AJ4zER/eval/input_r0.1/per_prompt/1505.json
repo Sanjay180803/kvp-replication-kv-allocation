@@ -1,0 +1,11 @@
+{
+  "id": 1505,
+  "task": "qa_1",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 3176,
+  "kept_frac": 0.0998110831234257,
+  "score": 0.0,
+  "pred": " William",
+  "sec": 0.82
+}

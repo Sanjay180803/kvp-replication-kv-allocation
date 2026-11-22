@@ -1,0 +1,11 @@
+{
+  "id": 3508,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5192,
+  "kept_frac": 0.049884437596302005,
+  "score": 0.0,
+  "pred": "  \n1. **fashioning** (appears 10 times)  \n2. **fashioned** (appears 9 times)  \n3. **fashion** (appears 8 times)  \n4. **fashioning** (appears 8 times)  \n5. **fashioned** (appears 8 times)  \n6. **fashion** (appears 7 times)  \n7. **fashioning** (appears 7 times)  \n8. **fashioned** (appears 7 times)  \n",
+  "sec": 8.18
+}

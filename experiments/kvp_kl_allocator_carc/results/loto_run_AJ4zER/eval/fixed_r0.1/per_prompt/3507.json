@@ -1,0 +1,11 @@
+{
+  "id": 3507,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5182,
+  "kept_frac": 0.09996140486298727,
+  "score": 0.0,
+  "pred": "  \n1. **j** (appears in \"j\" and \"j\" from \"j\" and \"j\" in \"j\" and \"j\" in \"j\" and \"j\" in \"j\" and \"j\" in \"j\" and \"j\" in \"j\" and \"j\" in \"j\" and \"j\" in \"j\" and \"j\" in \"j\" and \"j\" in \"j\" and \"j\" in \"j\" and \"j\" in \"j\" and \"j\" in \"j\" and \"j",
+  "sec": 8.41
+}

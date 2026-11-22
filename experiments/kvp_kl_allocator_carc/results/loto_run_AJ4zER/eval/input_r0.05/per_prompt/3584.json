@@ -1,0 +1,11 @@
+{
+  "id": 3584,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5090,
+  "kept_frac": 0.049901768172888016,
+  "score": 0.0,
+  "pred": "  \n1. **coordinate**  \n2. **coordinate** (appears twice)  \n3. **coordinate** (appears three times)  \n4. **coordinate** (appears four times)  \n5. **coordinate** (appears five times)  \n6. **coordinate** (appears six times)  \n7. **coordinate** (appears seven times)  \n8. **coordinate** (appears eight times)  \n9. **coordinate** (appears nine times)  \n10. **coordinate** (appears ten times)  \n\nSince \"coordinate\" is",
+  "sec": 8.01
+}

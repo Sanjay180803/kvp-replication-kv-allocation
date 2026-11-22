@@ -1,0 +1,11 @@
+{
+  "id": 4003,
+  "task": "qa_2",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 3736,
+  "kept_frac": 0.09983940042826553,
+  "score": 100.0,
+  "pred": " No",
+  "sec": 0.96
+}

@@ -1,0 +1,11 @@
+{
+  "id": 5516,
+  "task": "niah_multikey_3",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 4014,
+  "kept_frac": 0.04982561036372696,
+  "score": 0.0,
+  "pred": " 7463835e-1e4f-283c-157c-91eb5c7f283d. However, upon careful review of the text, it appears there might have been a typo in the uuid format. The correct uuid format should be 32 characters long without any hyphens in the middle of the string. Given the context, the correct uuid should be: 7463835e9d383c157c91eb5c7f283d.",
+  "sec": 7.87
+}

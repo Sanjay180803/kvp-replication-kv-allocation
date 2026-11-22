@@ -1,0 +1,11 @@
+{
+  "id": 1501,
+  "task": "qa_1",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3102,
+  "kept_frac": 0.04996776273372018,
+  "score": 0.0,
+  "pred": " The Normans in Normandy emerged in the late 9th and early 10th centuries.",
+  "sec": 1.93
+}

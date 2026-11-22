@@ -1,0 +1,11 @@
+{
+  "id": 6008,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3884,
+  "kept_frac": 0.049948506694129764,
+  "score": 100.0,
+  "pred": ":\n\n- For **scattered-eaglet**: 2642635\n- For **capricious-dugout**: 4965789\n- For **boiling-compensation**: 8434500\n- For **aromatic-male**: 1247595",
+  "sec": 4.84
+}

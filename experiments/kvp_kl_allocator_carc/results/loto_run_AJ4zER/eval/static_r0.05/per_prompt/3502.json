@@ -1,0 +1,11 @@
+{
+  "id": 3502,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5230,
+  "kept_frac": 0.04990439770554493,
+  "score": 10.0,
+  "pred": "  \n1. **copper**  \n2. **dollar**  \n3. **copper** (appears again, likely a typo or intentional repetition)  \n4. **copper** (appears a third time)  \n5. **copper** (appears a fourth time)  \n6. **copper** (appears a fifth time)  \n7. **copper** (appears a sixth time)  \n8. **copper** (appears a seventh time)  \n9. **copper** (appears an eighth time)  \n10",
+  "sec": 8.26
+}

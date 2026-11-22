@@ -1,0 +1,11 @@
+{
+  "id": 1501,
+  "task": "qa_1",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3102,
+  "kept_frac": 0.04996776273372018,
+  "score": 0.0,
+  "pred": " The Normans were in Normandy starting from the late 10th century, specifically from around 911 when Duke Rollo of Normandy received",
+  "sec": 2.46
+}

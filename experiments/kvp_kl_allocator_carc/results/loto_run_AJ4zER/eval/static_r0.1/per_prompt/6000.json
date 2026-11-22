@@ -1,0 +1,11 @@
+{
+  "id": 6000,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 3875,
+  "kept_frac": 0.09987096774193549,
+  "score": 100.0,
+  "pred": ":\n\n- Used-commotion: 8082668\n- Squealing-dibble: 2065818\n- Annoying-decimal: 2839607\n- Depressed-tweet: 3684052",
+  "sec": 4.36
+}

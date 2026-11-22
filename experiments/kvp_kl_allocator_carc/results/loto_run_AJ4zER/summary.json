@@ -1,0 +1,165 @@
+{
+  "context": 4096,
+  "seed": 0,
+  "protocol": "13-task allocator LOTO; KVP frozen across all tasks",
+  "results": {
+    "static_r0.05": {
+      "mean": 69.92948717948718,
+      "n": 260,
+      "tasks": {
+        "niah_single_1": 100.0,
+        "niah_multikey_2": 90.0,
+        "fwe": 58.333333333333336,
+        "qa_1": 60.0,
+        "niah_single_3": 95.0,
+        "niah_multikey_1": 100.0,
+        "niah_single_2": 100.0,
+        "cwe": 4.5,
+        "qa_2": 40.0,
+        "vt": 70.0,
+        "niah_multivalue": 90.0,
+        "niah_multikey_3": 5.0,
+        "niah_multiquery": 96.25
+      }
+    },
+    "static_r0.1": {
+      "mean": 82.0448717948718,
+      "n": 260,
+      "tasks": {
+        "niah_single_1": 100.0,
+        "niah_multikey_2": 100.0,
+        "fwe": 78.33333333333334,
+        "qa_1": 65.0,
+        "niah_single_3": 100.0,
+        "niah_multikey_1": 100.0,
+        "niah_single_2": 100.0,
+        "cwe": 14.0,
+        "qa_2": 50.0,
+        "vt": 93.0,
+        "niah_multivalue": 96.25,
+        "niah_multikey_3": 70.0,
+        "niah_multiquery": 100.0
+      }
+    },
+    "fixed_r0.05": {
+      "mean": 69.86538461538461,
+      "n": 260,
+      "tasks": {
+        "niah_single_1": 100.0,
+        "niah_multikey_2": 85.0,
+        "fwe": 60.00000000000001,
+        "qa_1": 50.0,
+        "niah_single_3": 95.0,
+        "niah_multikey_1": 100.0,
+        "niah_single_2": 100.0,
+        "cwe": 4.5,
+        "qa_2": 40.0,
+        "vt": 75.0,
+        "niah_multivalue": 91.25,
+        "niah_multikey_3": 10.0,
+        "niah_multiquery": 97.5
+      }
+    },
+    "fixed_r0.1": {
+      "mean": 82.6474358974359,
+      "n": 260,
+      "tasks": {
+        "niah_single_1": 100.0,
+        "niah_multikey_2": 100.0,
+        "fwe": 71.66666666666667,
+        "qa_1": 65.0,
+        "niah_single_3": 100.0,
+        "niah_multikey_1": 100.0,
+        "niah_single_2": 100.0,
+        "cwe": 14.5,
+        "qa_2": 50.0,
+        "vt": 97.0,
+        "niah_multivalue": 96.25,
+        "niah_multikey_3": 80.0,
+        "niah_multiquery": 100.0
+      }
+    },
+    "input_r0.05": {
+      "mean": 71.03205128205128,
+      "n": 260,
+      "tasks": {
+        "niah_single_1": 100.0,
+        "niah_multikey_2": 95.0,
+        "fwe": 46.66666666666667,
+        "qa_1": 55.0,
+        "niah_single_3": 100.0,
+        "niah_multikey_1": 100.0,
+        "niah_single_2": 100.0,
+        "cwe": 3.5,
+        "qa_2": 45.0,
+        "vt": 87.0,
+        "niah_multivalue": 92.5,
+        "niah_multikey_3": 5.0,
+        "niah_multiquery": 93.75
+      }
+    },
+    "input_r0.1": {
+      "mean": 81.6923076923077,
+      "n": 260,
+      "tasks": {
+        "niah_single_1": 100.0,
+        "niah_multikey_2": 100.0,
+        "fwe": 65.0,
+        "qa_1": 65.0,
+        "niah_single_3": 100.0,
+        "niah_multikey_1": 100.0,
+        "niah_single_2": 100.0,
+        "cwe": 11.5,
+        "qa_2": 50.0,
+        "vt": 98.0,
+        "niah_multivalue": 97.5,
+        "niah_multikey_3": 75.0,
+        "niah_multiquery": 100.0
+      }
+    }
+  },
+  "input_minus_fixed": {
+    "0.05": {
+      "mean": 1.1666666666666665,
+      "ci95": [
+        -1.1410256410256412,
+        3.5064102564102564
+      ],
+      "resamples": 5000,
+      "unit": "paired prompt, not training seed",
+      "seed": 0
+    },
+    "0.1": {
+      "mean": -0.9551282051282051,
+      "ci95": [
+        -3.0064102564102564,
+        1.044871794871795
+      ],
+      "resamples": 5000,
+      "unit": "paired prompt, not training seed",
+      "seed": 0
+    }
+  },
+  "input_minus_static": {
+    "0.05": {
+      "mean": 1.1025641025641024,
+      "ci95": [
+        -1.5769230769230769,
+        3.7756410256410255
+      ],
+      "resamples": 5000,
+      "unit": "paired prompt, not training seed",
+      "seed": 0
+    },
+    "0.1": {
+      "mean": -0.3525641025641024,
+      "ci95": [
+        -2.3397435897435894,
+        1.717948717948718
+      ],
+      "resamples": 5000,
+      "unit": "paired prompt, not training seed",
+      "seed": 0
+    }
+  }
+}

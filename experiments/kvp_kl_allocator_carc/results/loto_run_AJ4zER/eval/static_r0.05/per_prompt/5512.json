@@ -1,0 +1,11 @@
+{
+  "id": 5512,
+  "task": "niah_multikey_3",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3990,
+  "kept_frac": 0.04987468671679198,
+  "score": 0.0,
+  "pred": ": 2acb4fbd-fbff-4a7d-b2f5-38ef41cbaf73. However, there seems to be a minor typo in the provided answer, as the correct uuid should be: 2acb4fbd-fbff-4a7d-b2f5-38ef41cbaf73.",
+  "sec": 5.33
+}

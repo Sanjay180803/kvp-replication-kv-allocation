@@ -1,0 +1,11 @@
+{
+  "id": 3578,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5178,
+  "kept_frac": 0.09984550019312476,
+  "score": 10.0,
+  "pred": "  \n1. **roasted**  \n2. **roasted** (appears twice)  \n3. **roasted**  \n4. **roasted**  \n5. **roasted**  \n6. **roasted**  \n7. **roasted**  \n8. **roasted**  \n9. **roasted**  \n10. **roasted**  \n\nIn summary, \"roasted\" is the most frequently appearing word, appearing 10 times in the list.",
+  "sec": 7.34
+}

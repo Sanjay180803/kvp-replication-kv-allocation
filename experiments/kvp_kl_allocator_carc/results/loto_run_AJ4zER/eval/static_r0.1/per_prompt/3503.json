@@ -1,0 +1,11 @@
+{
+  "id": 3503,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5135,
+  "kept_frac": 0.09990262901655307,
+  "score": 10.0,
+  "pred": "  \n1. **rationale**  \n2. **hood** (appears as \"hood\" and \"buddy\" which might be a typo, but \"hood\" is more frequent)  \n3. **hood** (if \"buddy\" is not intended)  \n4. **hood** (if \"buddy\" is not intended)  \n5. **hood** (if \"buddy\" is not intended)  \n6. **hood** (if \"buddy\" is not intended)  \n7. **hood** (if \"buddy\" is not intended)  \n",
+  "sec": 8.48
+}

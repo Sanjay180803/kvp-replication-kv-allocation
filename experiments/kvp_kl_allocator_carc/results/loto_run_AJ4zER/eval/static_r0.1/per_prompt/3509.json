@@ -1,0 +1,11 @@
+{
+  "id": 3509,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5313,
+  "kept_frac": 0.09994353472614342,
+  "score": 20.0,
+  "pred": "  \n1. **mustard**  \n2. **quilt**  \n3. **tumbl**  \n4. **must**  \n5. **qu**  \n6. **tum**  \n7. **m**  \n8. **st**  \n9. **qu**  \n10. **qu**  \n\nNote: There are some repeated or very short words in the list, which might be due to typos or formatting issues. The most frequent unique words are \"mustard\" and \"quilt\".",
+  "sec": 7.85
+}

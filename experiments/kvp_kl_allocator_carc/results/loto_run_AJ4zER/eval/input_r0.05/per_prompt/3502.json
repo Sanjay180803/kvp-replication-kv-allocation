@@ -1,0 +1,11 @@
+{
+  "id": 3502,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5230,
+  "kept_frac": 0.04990439770554493,
+  "score": 20.0,
+  "pred": "  \n1. **locket**  \n2. **copper**  \n3. **dollar**  \n4. **copper** (appears multiple times, but listed once here)  \n5. **copper**  \n6. **copper**  \n7. **copper**  \n8. **copper**  \n9. **copper**  \n10. **copper**  \n\nNote: The word \"copper\" appears very frequently in the list, more than any other word.",
+  "sec": 7.3
+}

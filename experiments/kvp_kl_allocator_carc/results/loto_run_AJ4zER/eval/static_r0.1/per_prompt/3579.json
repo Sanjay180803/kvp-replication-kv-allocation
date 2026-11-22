@@ -1,0 +1,11 @@
+{
+  "id": 3579,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5247,
+  "kept_frac": 0.09986659043262817,
+  "score": 20.0,
+  "pred": "  \n1. **gherkin**  \n2. **puzzle**  \n3. **gherkin** (appears again)  \n4. **puzzle** (appears again)  \n5. **puzzle** (appears again)  \n6. **puzzle** (appears again)  \n7. **puzzle** (appears again)  \n8. **puzzle** (appears again)  \n9. **puzzle** (appears again)  \n10. **puzzle** (appears again)  \n\nNote: The word \"p",
+  "sec": 8.53
+}

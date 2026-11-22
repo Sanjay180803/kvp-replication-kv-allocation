@@ -1,0 +1,11 @@
+{
+  "id": 6003,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3869,
+  "kept_frac": 0.0498836908761954,
+  "score": 100.0,
+  "pred": ":\n\n- 9153566 (for bright-system)\n- 9937326 (for billowy-method)\n- 2321324 (for fragile-roof)\n- 1971823 (for fortunate-abundance)",
+  "sec": 4.23
+}

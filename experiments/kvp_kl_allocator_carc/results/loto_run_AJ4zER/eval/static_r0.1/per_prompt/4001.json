@@ -1,0 +1,11 @@
+{
+  "id": 4001,
+  "task": "qa_2",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 4091,
+  "kept_frac": 0.09997555609875336,
+  "score": 0.0,
+  "pred": " The question does not provide a direct answer from the given documents. However, based on the information given in Document 6, the film \"Kiss and Tell",
+  "sec": 2.78
+}

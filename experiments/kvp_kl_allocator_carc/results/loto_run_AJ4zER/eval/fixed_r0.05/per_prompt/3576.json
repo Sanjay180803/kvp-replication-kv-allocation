@@ -1,0 +1,11 @@
+{
+  "id": 3576,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5358,
+  "kept_frac": 0.04983202687569989,
+  "score": 10.0,
+  "pred": "  \n1. **tummy**  \n2. **tummy** (appears again)  \n3. **tummy** (appears a third time)  \n4. **tummy** (appears a fourth time)  \n5. **tummy** (appears a fifth time)  \n6. **tummy** (appears a sixth time)  \n7. **tummy** (appears a seventh time)  \n8. **tummy** (appears an eighth time)  \n9. **tummy** (appears a ninth time)  \n10",
+  "sec": 8.17
+}

@@ -1,0 +1,11 @@
+{
+  "id": 6019,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3881,
+  "kept_frac": 0.0499871167224942,
+  "score": 100.0,
+  "pred": ":\n\n- 5382463 (for condemned-mouton)\n- 5453786 (for eager-replication)\n- 8290770 (for squealing-influx)\n- 2818692 (for alleged-eagle)",
+  "sec": 4.53
+}

@@ -1,0 +1,11 @@
+{
+  "id": 4506,
+  "task": "vt",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3865,
+  "kept_frac": 0.0499353169469599,
+  "score": 100.0,
+  "pred": " HGSSL RYUQR YLOQX VBEHT OHDRS",
+  "sec": 1.85
+}

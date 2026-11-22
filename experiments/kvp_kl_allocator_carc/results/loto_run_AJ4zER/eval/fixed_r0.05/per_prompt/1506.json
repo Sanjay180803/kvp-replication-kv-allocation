@@ -1,0 +1,11 @@
+{
+  "id": 1506,
+  "task": "qa_1",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 2808,
+  "kept_frac": 0.04985754985754986,
+  "score": 0.0,
+  "pred": " Rollo",
+  "sec": 0.78
+}

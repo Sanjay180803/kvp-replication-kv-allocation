@@ -1,0 +1,11 @@
+{
+  "id": 3580,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5146,
+  "kept_frac": 0.04994170229304314,
+  "score": 10.0,
+  "pred": "  \n1. **cord**  \n2. **cord** (appears to be a typo or repetition of \"cord\")  \n3. **frequent**  \n4. **cord**  \n5. **cord**  \n6. **cord**  \n7. **cord**  \n8. **cord**  \n9. **cord**  \n10. **cord**  \n\nIt seems there is a repetition or typo with the word \"cord\" appearing multiple times. If we exclude the repeated entries, the most unique frequent words are:\n\n1. **cord**  \n2. **frequent**",
+  "sec": 8.17
+}

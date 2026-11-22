@@ -1,0 +1,11 @@
+{
+  "id": 5516,
+  "task": "niah_multikey_3",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 4014,
+  "kept_frac": 0.04982561036372696,
+  "score": 0.0,
+  "pred": " 7463835e-eafc-4f20-b83c-91ebf83daca5. However, it appears there might have been a typo in the provided uuid, as the correct format should be a combination of hexadecimal digits without hyphens in the middle. The correct format would be something like 7463835eafc4f20b83c91ebf83daca5.",
+  "sec": 6.59
+}

@@ -1,0 +1,11 @@
+{
+  "id": 3584,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5090,
+  "kept_frac": 0.1,
+  "score": 0.0,
+  "pred": "  \n1. **co**  \n2. **re**  \n3. **be**  \n4. **su**  \n5. **pr**  \n6. **am**  \n7. **ge**  \n8. **ma**  \n9. **in**  \n10. **pa**  \n\nThese abbreviations are derived from the most frequent full words in the list, such as \"co\" from \"co\", \"re\" from \"re\", \"be\" from \"be\", and so on.",
+  "sec": 7.46
+}

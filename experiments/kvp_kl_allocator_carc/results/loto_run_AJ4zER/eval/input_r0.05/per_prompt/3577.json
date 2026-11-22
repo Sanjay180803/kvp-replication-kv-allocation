@@ -1,0 +1,11 @@
+{
+  "id": 3577,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5181,
+  "kept_frac": 0.049990349353406675,
+  "score": 0.0,
+  "pred": "  \n1. **`word`** (repeated 10 times, but not specified in the list)  \n2. **`word`** (repeated 10 times, but not specified in the list)  \n3. **`word`** (repeated 10 times, but not specified in the list)  \n4. **`word`** (repeated 10 times, but not specified in the list)  \n5. **`word`** (repeated 10 times, but not specified in the list)  \n6. **`",
+  "sec": 8.13
+}

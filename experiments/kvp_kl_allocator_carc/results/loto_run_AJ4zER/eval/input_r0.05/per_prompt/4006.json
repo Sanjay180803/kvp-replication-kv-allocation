@@ -1,0 +1,11 @@
+{
+  "id": 4006,
+  "task": "qa_2",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3584,
+  "kept_frac": 0.04994419642857143,
+  "score": 100.0,
+  "pred": " Eenasul Fateh (also known as Amenasul Fateh or simply Amenasul, using the alias Amenasul Fateh and referred to as",
+  "sec": 2.58
+}

@@ -1,0 +1,11 @@
+{
+  "id": 3509,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5313,
+  "kept_frac": 0.09994353472614342,
+  "score": 10.0,
+  "pred": "  \n1. **tun** (variants: **tuna**, **tunnel**, **tanks**, etc.)  \n2. **tun** (variants)  \n3. **tun** (variants)  \n4. **tun** (variants)  \n5. **tun** (variants)  \n6. **tun** (variants)  \n7. **tun** (variants)  \n8. **tun** (variants)  \n9. **tun** (variants)  \n10. **tun** (variants)  \n\nNote: The word",
+  "sec": 8.36
+}

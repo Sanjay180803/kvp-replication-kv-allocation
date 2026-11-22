@@ -1,0 +1,11 @@
+{
+  "id": 1516,
+  "task": "qa_1",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3084,
+  "kept_frac": 0.04993514915693904,
+  "score": 0.0,
+  "pred": " fighting men",
+  "sec": 0.86
+}

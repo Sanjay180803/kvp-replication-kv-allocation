@@ -1,0 +1,11 @@
+{
+  "id": 3507,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5182,
+  "kept_frac": 0.09996140486298727,
+  "score": 0.0,
+  "pred": "  \n1. **j** (appears as part of \"j\" in \"j\" and \"j\" in \"j\" multiple times)  \n2. **ve** (appears as part of \"ve\" in \"ve\" and \"ve\" multiple times)  \n3. **j** (appears as part of \"j\" in \"j\" and \"j\" in \"j\" multiple times)  \n4. **j** (appears as part of \"j\" in \"j\" and \"j\" in \"j\" multiple times)  \n5. **",
+  "sec": 8.51
+}

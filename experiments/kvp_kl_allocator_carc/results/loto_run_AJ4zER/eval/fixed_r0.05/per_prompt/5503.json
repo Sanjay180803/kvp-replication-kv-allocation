@@ -1,0 +1,11 @@
+{
+  "id": 5503,
+  "task": "niah_multikey_3",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 4033,
+  "kept_frac": 0.04983882965534342,
+  "score": 0.0,
+  "pred": ": 46510367-cbdc-4317-a1a2-74851a27485a. However, upon careful review of the text, it appears there might have been a slight misinterpretation as the exact UUID provided for this specific case is: 46510367-cbdc-4317-a1a2-74851a27485a, but the text states: \"One of the special magic uuids for 71348c2a-78",
+  "sec": 8.14
+}

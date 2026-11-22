@@ -1,0 +1,817 @@
+Job 14417065 | labeling smoke | output /scratch1/chenpaul/kvp_kl_allocator/label_smoke_14417065
+name, memory.total [MiB], driver_version
+NVIDIA A40, 46068 MiB, 580.159.04
+Applied A40 FlexAttention options {'BLOCK_M': 64, 'BLOCK_N': 64, 'num_stages': 1}. Backup: /home1/chenpaul/ml-learning-to-evict/src/kvcompression/kv_cache/compressible_attention.py.before_kvp_alloc_a40
+Skipping import of cpp extensions due to incompatible torch version 2.10.0+cu128 for torchao version 0.15.0             Please see https://github.com/pytorch/ao/issues/2919 for more info
+/home1/chenpaul/ml-learning-to-evict/src/kvcompression/__init__.py:67: UserWarning: register_new_resolver() is deprecated and will be removed in a future release.
+Use register_resolver() instead.
+See https://github.com/hydra-ecosystem/omegaconf/issues/426 for migration instructions.
+
+  OmegaConf.register_new_resolver("fmt", format_resolver, replace=True)
+/home1/chenpaul/ml-learning-to-evict/src/kvcompression/__init__.py:67: UserWarning: Resolver 'fmt' annotation for 'value' cannot be checked at runtime: <built-in function any>
+  OmegaConf.register_new_resolver("fmt", format_resolver, replace=True)
+Selected labels: {'train': 2, 'val': 2}
+GPU: NVIDIA A40 | validated 112 checkpoints
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000000/kv_head_000/2026-11-05_08-50-45/best_ckpt.pth'.
+[16:52:33] INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000000/kv_head_                           
+                    000/2026-11-05_08-50-45/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000000/kv_head_001/2026-11-05_15-33-25/best_ckpt.pth'.
+[16:52:34] INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000000/kv_head_                           
+                    001/2026-11-05_15-33-25/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000000/kv_head_002/2026-11-05_08-50-46/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000000/kv_head_                           
+                    002/2026-11-05_08-50-46/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000000/kv_head_003/2026-11-05_15-28-58/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000000/kv_head_                           
+                    003/2026-11-05_15-28-58/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000001/kv_head_000/2026-10-31_15-23-52/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000001/kv_head_                           
+                    000/2026-10-31_15-23-52/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000001/kv_head_001/2026-10-31_22-12-16/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000001/kv_head_                           
+                    001/2026-10-31_22-12-16/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000001/kv_head_002/2026-10-31_15-24-21/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000001/kv_head_                           
+                    002/2026-10-31_15-24-21/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000001/kv_head_003/2026-10-31_22-04-18/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000001/kv_head_                           
+                    003/2026-10-31_22-04-18/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000002/kv_head_000/2026-10-31_15-24-22/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000002/kv_head_                           
+                    000/2026-10-31_15-24-22/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000002/kv_head_001/2026-10-31_22-11-36/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000002/kv_head_                           
+                    001/2026-10-31_22-11-36/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000002/kv_head_002/2026-10-31_15-24-51/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000002/kv_head_                           
+                    002/2026-10-31_15-24-51/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000002/kv_head_003/2026-10-31_22-05-01/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000002/kv_head_                           
+                    003/2026-10-31_22-05-01/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000003/kv_head_000/2026-10-31_15-25-58/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000003/kv_head_                           
+                    000/2026-10-31_15-25-58/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000003/kv_head_001/2026-10-31_22-11-50/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000003/kv_head_                           
+                    001/2026-10-31_22-11-50/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000003/kv_head_002/2026-10-31_15-31-29/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000003/kv_head_                           
+                    002/2026-10-31_15-31-29/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000003/kv_head_003/2026-10-31_22-19-57/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000003/kv_head_                           
+                    003/2026-10-31_22-19-57/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000004/kv_head_000/2026-10-31_15-31-58/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000004/kv_head_                           
+                    000/2026-10-31_15-31-58/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000004/kv_head_001/2026-10-31_22-12-47/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000004/kv_head_                           
+                    001/2026-10-31_22-12-47/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000004/kv_head_002/2026-10-31_15-31-59/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000004/kv_head_                           
+                    002/2026-10-31_15-31-59/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000004/kv_head_003/2026-10-31_22-19-33/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000004/kv_head_                           
+                    003/2026-10-31_22-19-33/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000005/kv_head_000/2026-10-31_16-37-38/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000005/kv_head_                           
+                    000/2026-10-31_16-37-38/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000005/kv_head_001/2026-11-05_08-50-45/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000005/kv_head_                           
+                    001/2026-11-05_08-50-45/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000005/kv_head_002/2026-11-05_23-34-10/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000005/kv_head_                           
+                    002/2026-11-05_23-34-10/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000005/kv_head_003/2026-10-31_19-37-47/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000005/kv_head_                           
+                    003/2026-10-31_19-37-47/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000006/kv_head_000/2026-11-05_23-34-32/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000006/kv_head_                           
+                    000/2026-11-05_23-34-32/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000006/kv_head_001/2026-10-31_22-41-07/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000006/kv_head_                           
+                    001/2026-10-31_22-41-07/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000006/kv_head_002/2026-10-31_22-29-30/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000006/kv_head_                           
+                    002/2026-10-31_22-29-30/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000006/kv_head_003/2026-11-01_01-23-02/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000006/kv_head_                           
+                    003/2026-11-01_01-23-02/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000007/kv_head_000/2026-11-05_23-38-10/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000007/kv_head_                           
+                    000/2026-11-05_23-38-10/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000007/kv_head_001/2026-11-06_06-17-04/best_ckpt.pth'.
+[16:52:35] INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000007/kv_head_                           
+                    001/2026-11-06_06-17-04/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000007/kv_head_002/2026-11-05_23-38-42/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000007/kv_head_                           
+                    002/2026-11-05_23-38-42/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000007/kv_head_003/2026-11-01_05-35-54/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000007/kv_head_                           
+                    003/2026-11-01_05-35-54/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000008/kv_head_000/2026-11-01_03-43-12/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000008/kv_head_                           
+                    000/2026-11-01_03-43-12/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000008/kv_head_001/2026-11-01_10-19-28/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000008/kv_head_                           
+                    001/2026-11-01_10-19-28/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000008/kv_head_002/2026-11-01_03-52-22/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000008/kv_head_                           
+                    002/2026-11-01_03-52-22/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000008/kv_head_003/2026-10-24_10-01-59/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000008/kv_head_                           
+                    003/2026-10-24_10-01-59/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000009/kv_head_000/2026-11-01_03-55-26/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000009/kv_head_                           
+                    000/2026-11-01_03-55-26/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000009/kv_head_001/2026-11-01_10-32-13/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000009/kv_head_                           
+                    001/2026-11-01_10-32-13/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000009/kv_head_002/2026-11-01_03-57-28/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000009/kv_head_                           
+                    002/2026-11-01_03-57-28/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000009/kv_head_003/2026-11-01_10-37-58/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000009/kv_head_                           
+                    003/2026-11-01_10-37-58/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000010/kv_head_000/2026-11-01_03-58-00/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000010/kv_head_                           
+                    000/2026-11-01_03-58-00/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000010/kv_head_001/2026-11-01_10-39-27/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000010/kv_head_                           
+                    001/2026-11-01_10-39-27/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000010/kv_head_002/2026-11-01_03-58-30/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000010/kv_head_                           
+                    002/2026-11-01_03-58-30/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000010/kv_head_003/2026-11-01_10-41-56/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000010/kv_head_                           
+                    003/2026-11-01_10-41-56/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000011/kv_head_000/2026-11-01_04-00-36/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000011/kv_head_                           
+                    000/2026-11-01_04-00-36/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000011/kv_head_001/2026-11-01_10-39-41/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000011/kv_head_                           
+                    001/2026-11-01_10-39-41/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000011/kv_head_002/2026-11-01_04-05-38/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000011/kv_head_                           
+                    002/2026-11-01_04-05-38/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000011/kv_head_003/2026-11-01_10-47-40/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000011/kv_head_                           
+                    003/2026-11-01_10-47-40/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000012/kv_head_000/2026-11-01_04-05-38/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000012/kv_head_                           
+                    000/2026-11-01_04-05-38/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000012/kv_head_001/2026-11-01_10-48-27/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000012/kv_head_                           
+                    001/2026-11-01_10-48-27/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000012/kv_head_002/2026-11-01_08-30-49/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000012/kv_head_                           
+                    002/2026-11-01_08-30-49/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000012/kv_head_003/2026-11-01_15-12-12/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000012/kv_head_                           
+                    003/2026-11-01_15-12-12/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000013/kv_head_000/2026-11-01_10-31-09/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000013/kv_head_                           
+                    000/2026-11-01_10-31-09/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000013/kv_head_001/2026-11-01_17-08-56/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000013/kv_head_                           
+                    001/2026-11-01_17-08-56/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000013/kv_head_002/2026-11-01_16-58-46/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000013/kv_head_                           
+                    002/2026-11-01_16-58-46/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000013/kv_head_003/2026-11-01_23-38-00/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000013/kv_head_                           
+                    003/2026-11-01_23-38-00/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000014/kv_head_000/2026-11-01_17-10-56/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000014/kv_head_                           
+                    000/2026-11-01_17-10-56/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000014/kv_head_001/2026-11-01_23-48-04/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000014/kv_head_                           
+                    001/2026-11-01_23-48-04/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000014/kv_head_002/2026-11-05_23-39-42/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000014/kv_head_                           
+                    002/2026-11-05_23-39-42/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000014/kv_head_003/2026-11-01_22-20-34/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000014/kv_head_                           
+                    003/2026-11-01_22-20-34/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000015/kv_head_000/2026-11-06_00-29-13/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000015/kv_head_                           
+                    000/2026-11-06_00-29-13/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000015/kv_head_001/2026-11-06_07-16-47/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000015/kv_head_                           
+                    001/2026-11-06_07-16-47/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000015/kv_head_002/2026-11-01_17-23-06/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000015/kv_head_                           
+                    002/2026-11-01_17-23-06/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000015/kv_head_003/2026-11-02_00-07-59/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000015/kv_head_                           
+                    003/2026-11-02_00-07-59/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000016/kv_head_000/2026-11-01_17-25-09/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000016/kv_head_                           
+                    000/2026-11-01_17-25-09/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000016/kv_head_001/2026-10-24_09-55-55/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000016/kv_head_                           
+                    001/2026-10-24_09-55-55/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000016/kv_head_002/2026-11-01_17-31-15/best_ckpt.pth'.
+[16:52:36] INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000016/kv_head_                           
+                    002/2026-11-01_17-31-15/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000016/kv_head_003/2026-11-02_00-17-14/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000016/kv_head_                           
+                    003/2026-11-02_00-17-14/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000017/kv_head_000/2026-11-01_17-31-45/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000017/kv_head_                           
+                    000/2026-11-01_17-31-45/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000017/kv_head_001/2026-11-06_00-45-09/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000017/kv_head_                           
+                    001/2026-11-06_00-45-09/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000017/kv_head_002/2026-11-01_21-51-36/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000017/kv_head_                           
+                    002/2026-11-01_21-51-36/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000017/kv_head_003/2026-11-06_01-16-44/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000017/kv_head_                           
+                    003/2026-11-06_01-16-44/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000018/kv_head_000/2026-11-01_23-48-09/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000018/kv_head_                           
+                    000/2026-11-01_23-48-09/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000018/kv_head_001/2026-11-02_06-27-06/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000018/kv_head_                           
+                    001/2026-11-02_06-27-06/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000018/kv_head_002/2026-11-02_00-08-25/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000018/kv_head_                           
+                    002/2026-11-02_00-08-25/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000018/kv_head_003/2026-11-02_06-52-35/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000018/kv_head_                           
+                    003/2026-11-02_06-52-35/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000019/kv_head_000/2026-11-02_03-06-06/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000019/kv_head_                           
+                    000/2026-11-02_03-06-06/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000019/kv_head_001/2026-11-02_09-49-45/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000019/kv_head_                           
+                    001/2026-11-02_09-49-45/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000019/kv_head_002/2026-11-02_04-57-10/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000019/kv_head_                           
+                    002/2026-11-02_04-57-10/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000019/kv_head_003/2026-11-06_01-18-08/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000019/kv_head_                           
+                    003/2026-11-06_01-18-08/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000020/kv_head_000/2026-11-02_06-17-09/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000020/kv_head_                           
+                    000/2026-11-02_06-17-09/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000020/kv_head_001/2026-11-02_13-02-33/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000020/kv_head_                           
+                    001/2026-11-02_13-02-33/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000020/kv_head_002/2026-11-02_06-17-39/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000020/kv_head_                           
+                    002/2026-11-02_06-17-39/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000020/kv_head_003/2026-11-02_12-57-40/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000020/kv_head_                           
+                    003/2026-11-02_12-57-40/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000021/kv_head_000/2026-11-06_01-19-42/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000021/kv_head_                           
+                    000/2026-11-06_01-19-42/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000021/kv_head_001/2026-11-02_10-44-45/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000021/kv_head_                           
+                    001/2026-11-02_10-44-45/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000021/kv_head_002/2026-11-02_06-56-44/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000021/kv_head_                           
+                    002/2026-11-02_06-56-44/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000021/kv_head_003/2026-11-02_13-40-59/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000021/kv_head_                           
+                    003/2026-11-02_13-40-59/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000022/kv_head_000/2026-11-02_07-02-29/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000022/kv_head_                           
+                    000/2026-11-02_07-02-29/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000022/kv_head_001/2026-11-02_13-46-55/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000022/kv_head_                           
+                    001/2026-11-02_13-46-55/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000022/kv_head_002/2026-11-02_08-02-30/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000022/kv_head_                           
+                    002/2026-11-02_08-02-30/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000022/kv_head_003/2026-11-06_01-22-24/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000022/kv_head_                           
+                    003/2026-11-06_01-22-24/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000023/kv_head_000/2026-11-02_19-38-04/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000023/kv_head_                           
+                    000/2026-11-02_19-38-04/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000023/kv_head_001/2026-11-03_00-32-26/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000023/kv_head_                           
+                    001/2026-11-03_00-32-26/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000023/kv_head_002/2026-11-02_19-47-53/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000023/kv_head_                           
+                    002/2026-11-02_19-47-53/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000023/kv_head_003/2026-11-03_02-33-18/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000023/kv_head_                           
+                    003/2026-11-03_02-33-18/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000024/kv_head_000/2026-11-05_08-35-18/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000024/kv_head_                           
+                    000/2026-11-05_08-35-18/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000024/kv_head_001/2026-11-05_15-21-51/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000024/kv_head_                           
+                    001/2026-11-05_15-21-51/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000024/kv_head_002/2026-11-05_08-39-09/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000024/kv_head_                           
+                    002/2026-11-05_08-39-09/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000024/kv_head_003/2026-11-05_15-19-28/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000024/kv_head_                           
+                    003/2026-11-05_15-19-28/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000025/kv_head_000/2026-11-05_08-40-20/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000025/kv_head_                           
+                    000/2026-11-05_08-40-20/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000025/kv_head_001/2026-11-05_15-26-56/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000025/kv_head_                           
+                    001/2026-11-05_15-26-56/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000025/kv_head_002/2026-11-05_08-43-02/best_ckpt.pth'.
+[16:52:37] INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000025/kv_head_                           
+                    002/2026-11-05_08-43-02/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000025/kv_head_003/2026-11-05_15-30-37/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000025/kv_head_                           
+                    003/2026-11-05_15-30-37/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000026/kv_head_000/2026-11-07_23-10-21/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000026/kv_head_                           
+                    000/2026-11-07_23-10-21/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000026/kv_head_001/2026-11-08_05-50-18/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000026/kv_head_                           
+                    001/2026-11-08_05-50-18/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000026/kv_head_002/2026-11-07_23-10-33/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000026/kv_head_                           
+                    002/2026-11-07_23-10-33/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000026/kv_head_003/2026-11-08_05-59-41/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000026/kv_head_                           
+                    003/2026-11-08_05-59-41/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000027/kv_head_000/2026-11-07_23-17-58/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000027/kv_head_                           
+                    000/2026-11-07_23-17-58/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000027/kv_head_001/2026-11-08_06-05-53/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000027/kv_head_                           
+                    001/2026-11-08_06-05-53/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000027/kv_head_002/2026-11-07_23-22-08/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000027/kv_head_                           
+                    002/2026-11-07_23-22-08/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000027/kv_head_003/2026-11-08_06-10-08/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000027/kv_head_                           
+                    003/2026-11-08_06-10-08/best_ckpt                           
+                    .pth'.                                                      
+Loaded Qwen and 112 frozen KVP agents
+/scratch1/chenpaul/kvp_kl/venv/lib/python3.12/site-packages/torch/nn/functional.py:2954: UserWarning: Mismatch dtype between input and weight: input dtype = float, weight dtype = c10::BFloat16, Cannot dispatch to fused implementation. (Triggered internally at /pytorch/aten/src/ATen/native/layer_norm.cpp:344.)
+  return torch.rms_norm(input, normalized_shape, weight, eps)
+[train 1/2] id=410 P=3690 gen=10 full=100.0 37.93s
+[train 2/2] id=411 P=3693 gen=10 full=100.0 2.25s
+[val 1/2] id=405 P=3693 gen=10 full=100.0 2.24s
+[val 2/2] id=406 P=3690 gen=10 full=100.0 2.25s
+{
+  "complete": true,
+  "completed": {
+    "train": 2,
+    "val": 2
+  },
+  "missing": {
+    "train": [],
+    "val": []
+  }
+}
+SUCCESS: allocator labels generated and validated.

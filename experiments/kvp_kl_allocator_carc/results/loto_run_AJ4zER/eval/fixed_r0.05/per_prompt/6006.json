@@ -1,0 +1,11 @@
+{
+  "id": 6006,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3875,
+  "kept_frac": 0.04980645161290322,
+  "score": 100.0,
+  "pred": ":\n\n- 4194548 (for mindless-concert)\n- 8935169 (for freezing-gig)\n- 3219824 (for round-mover)\n- 8930103 (for worried-colt)",
+  "sec": 4.42
+}

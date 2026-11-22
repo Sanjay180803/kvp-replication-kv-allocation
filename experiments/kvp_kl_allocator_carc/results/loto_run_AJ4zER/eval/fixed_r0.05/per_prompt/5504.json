@@ -1,0 +1,11 @@
+{
+  "id": 5504,
+  "task": "niah_multikey_3",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 4011,
+  "kept_frac": 0.049862877088007976,
+  "score": 0.0,
+  "pred": " a1b970d0-7a81-44af-b205-16ad3957f75a. However, upon checking the text, the correct UUID associated with 76f186ab-af47-4b49-875a-16ad3957f75a is a1b970d0-7a81-44af-b205-16ad3957f75a.",
+  "sec": 7.46
+}

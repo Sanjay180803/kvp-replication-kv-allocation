@@ -1,0 +1,11 @@
+{
+  "id": 3503,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5135,
+  "kept_frac": 0.0498539435248296,
+  "score": 0.0,
+  "pred": "  \n1. **w** (appears 53 times)  \n2. **e** (appears 49 times)  \n3. **r** (appears 38 times)  \n4. **a** (appears 36 times)  \n5. **o** (appears 34 times)  \n6. **h** (appears 29 times)  \n7. **u** (appears 28 times)  \n8. **i** (appears 27 times)  \n9. **n** (appe",
+  "sec": 8.16
+}

@@ -1,0 +1,11 @@
+{
+  "id": 3505,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5184,
+  "kept_frac": 0.04996141975308642,
+  "score": 0.0,
+  "pred": "  \n1. **word** (appears 58 times)  \n2. **of** (appears 40 times)  \n3. **the** (appears 38 times)  \n4. **to** (appears 29 times)  \n5. **and** (appears 25 times)  \n6. **in** (appears 21 times)  \n7. **that** (appears 18 times)  \n8. **a** (appears 17 times)  \n9. **is** (appe",
+  "sec": 8.12
+}

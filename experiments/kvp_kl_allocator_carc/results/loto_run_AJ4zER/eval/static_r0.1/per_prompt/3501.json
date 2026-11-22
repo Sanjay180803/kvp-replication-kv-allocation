@@ -1,0 +1,11 @@
+{
+  "id": 3501,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5258,
+  "kept_frac": 0.099847850893876,
+  "score": 30.0,
+  "pred": "  \n1. reminiscent  \n2. diner  \n3. ovenamel (which appears to be a typo and should likely be \"oatmeal\")  \n4. reminiscent  \n5. reminiscent  \n6. ovenamel (oatmeal)  \n7. ovenamel (oatmeal)  \n8. ovenamel (oatmeal)  \n9. ovenamel (oatmeal)  \n10. ovenamel (oatmeal)  \n\nNote: \"ovenamel\" appears to be a typo and should be \"oatmeal\". If we correct the typo, \"oatmeal\" is",
+  "sec": 8.57
+}

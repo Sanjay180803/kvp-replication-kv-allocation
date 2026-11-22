@@ -1,0 +1,11 @@
+{
+  "id": 4001,
+  "task": "qa_2",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 4091,
+  "kept_frac": 0.049865558543143486,
+  "score": 0.0,
+  "pred": " The question contains a mix-up between the film \"Kiss and Tell\" and the TV series \"Meet Corliss Archer\". Based on the provided documents,",
+  "sec": 2.73
+}

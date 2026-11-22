@@ -1,0 +1,11 @@
+{
+  "id": 3504,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5174,
+  "kept_frac": 0.09992269037495168,
+  "score": 20.0,
+  "pred": "  \n1. **bunghole**  \n2. **momentous**  \n3. **bunghole** (appears again, showing it's the most frequent)  \n4. **bunghole** (appears a third time)  \n5. **bunghole** (appears a fourth time)  \n6. **bunghole** (appears a fifth time)  \n7. **bunghole** (appears a sixth time)  \n8. **bunghole** (appears a seventh time)  \n9.",
+  "sec": 8.48
+}

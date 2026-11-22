@@ -1,0 +1,11 @@
+{
+  "id": 4516,
+  "task": "vt",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3865,
+  "kept_frac": 0.0499353169469599,
+  "score": 80.0,
+  "pred": " KTEKC MKYAJ LYWCR DWLRQ",
+  "sec": 1.61
+}

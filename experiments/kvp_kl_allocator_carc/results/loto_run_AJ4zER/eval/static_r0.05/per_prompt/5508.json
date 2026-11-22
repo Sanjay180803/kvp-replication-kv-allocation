@@ -1,0 +1,11 @@
+{
+  "id": 5508,
+  "task": "niah_multikey_3",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3990,
+  "kept_frac": 0.04987468671679198,
+  "score": 0.0,
+  "pred": " f965d590-bcc0-49e5-9c08-b5c64d5f1b04. However, there seems to be a typo in the provided uuid as the correct format should be 32 hexadecimal digits (8-4-4-4-12 format). The correct uuid based on the text should be: 801e8690-bc04-49e5-9c08-b5c64d5f1b04.",
+  "sec": 7.45
+}

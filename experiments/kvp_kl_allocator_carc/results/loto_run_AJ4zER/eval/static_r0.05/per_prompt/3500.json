@@ -1,0 +1,11 @@
+{
+  "id": 3500,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5166,
+  "kept_frac": 0.04994192799070848,
+  "score": 0.0,
+  "pred": "  \n1. **Ontology**  \n2. **Ontologies**  \n3. **Ontological**  \n4. **Ontology** (repeated)  \n5. **Ontology** (repeated again)  \n6. **Ontology** (repeated once more)  \n7. **Ontology** (repeated yet again)  \n8. **Ontology** (repeated for the final time)  \n9. **Ontology** (repeated one last time)  \n10. **Ontology** (repeated for the 10th time)\n\nIt appears",
+  "sec": 8.22
+}

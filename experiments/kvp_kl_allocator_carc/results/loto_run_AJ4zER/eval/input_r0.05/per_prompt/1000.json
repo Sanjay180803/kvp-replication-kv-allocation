@@ -1,0 +1,11 @@
+{
+  "id": 1000,
+  "task": "fwe",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3886,
+  "kept_frac": 0.049922799794132784,
+  "score": 0.0,
+  "pred": " \"fkm\" (appears 21 times), \"qfy\" (appears 15 times), and \"fzk\" (appears 10 times).",
+  "sec": 3.02
+}

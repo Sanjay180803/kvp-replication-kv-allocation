@@ -1,0 +1,11 @@
+{
+  "id": 5514,
+  "task": "niah_multikey_3",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3987,
+  "kept_frac": 0.04991221469776774,
+  "score": 0.0,
+  "pred": " 0ce3c8c8-4735-b8af-bc0c-15c8a6748635. However, there seems to be a typo in the provided uuid as it should be 0ce3c8c8-4735-b8af-9c0c-15c8a6748635 based on the pattern of the other uuids given.",
+  "sec": 6.33
+}

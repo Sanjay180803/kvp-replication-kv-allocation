@@ -1,0 +1,11 @@
+{
+  "id": 3505,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5184,
+  "kept_frac": 0.09992283950617284,
+  "score": 10.0,
+  "pred": "  \n1. **monument**  \n2. **monument** (appears multiple times, so it's listed again)  \n3. **monument** (appears multiple times, so it's listed again)  \n4. **monument**  \n5. **monument**  \n6. **monument**  \n7. **monument**  \n8. **monument**  \n9. **monument**  \n10. **monument** (appears multiple times, so it's listed again)  \n\nGiven the repetition, the word \"monument\" clearly stands",
+  "sec": 8.4
+}

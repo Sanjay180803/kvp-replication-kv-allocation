@@ -1,0 +1,11 @@
+{
+  "id": 1007,
+  "task": "fwe",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 4090,
+  "kept_frac": 0.1,
+  "score": 66.66666666666667,
+  "pred": " dpvxuq, jsdfvs, and pbdm (pbundm).",
+  "sec": 1.99
+}

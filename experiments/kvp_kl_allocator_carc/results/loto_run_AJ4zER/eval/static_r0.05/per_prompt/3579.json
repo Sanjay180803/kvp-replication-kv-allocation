@@ -1,0 +1,11 @@
+{
+  "id": 3579,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5247,
+  "kept_frac": 0.04993329521631409,
+  "score": 20.0,
+  "pred": "  \n1. **gherkin**  \n2. **gherkin** (appears twice)  \n3. **gherkin** (appears three times)  \n4. **puzzle**  \n5. **puzzle**  \n6. **puzzle**  \n7. **puzzle**  \n8. **puzzle**  \n9. **puzzle**  \n10. **puzzle**  \n\nIn this list, \"gherkin\" is the most frequent word, appearing 3 times. The next most frequent words are \"puzzle,\" which appears 5",
+  "sec": 8.27
+}

@@ -1,0 +1,11 @@
+{
+  "id": 3577,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5181,
+  "kept_frac": 0.09998069870681335,
+  "score": 20.0,
+  "pred": "  \n1. **hook**  \n2. **digestion**  \n3. **digestive** (appears as \"digest\" multiple times)  \n4. **digest**  \n5. **nose** (appears as \"digest\" and \"digestive\")  \n6. **nose** (appears as \"digest\" and \"digestive\")  \n7. **nose** (appears as \"digest\" and \"digestive\")  \n8. **nose** (appears as \"digest\" and \"digestive\")  \n9. **nose** (",
+  "sec": 8.39
+}

@@ -1,0 +1,28 @@
+{
+  "complete": true,
+  "heldout": "niah_multikey_1",
+  "seed": 0,
+  "test_ids": [
+    2500,
+    2501,
+    2502,
+    2503,
+    2504,
+    2505,
+    2506,
+    2507,
+    2508,
+    2509,
+    2510,
+    2511,
+    2512,
+    2513,
+    2514,
+    2515,
+    2516,
+    2517,
+    2518,
+    2519
+  ],
+  "checkpoint_selection": "this fold VAL reward only"
+}

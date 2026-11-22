@@ -1,0 +1,11 @@
+{
+  "id": 5071,
+  "task": "niah_multivalue",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3864,
+  "kept_frac": 0.04994824016563147,
+  "score": 75.0,
+  "pred": ":\n\n1. 1044891\n2. 3626181\n3. 2259379\n\nThese numbers are mentioned in the context of being \"special magic numbers\" associated with \"scintillating-flick\" in the given text.",
+  "sec": 4.47
+}

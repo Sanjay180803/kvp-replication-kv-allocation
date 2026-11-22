@@ -1,0 +1,11 @@
+{
+  "id": 3577,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5181,
+  "kept_frac": 0.049990349353406675,
+  "score": 0.0,
+  "pred": "  \n1. **`nose`**  \n2. **`nose`** (appears twice, likely a typo or repeated entry)  \n3. **`nose`**  \n4. **`nose`**  \n5. **`nose`**  \n6. **`nose`**  \n7. **`nose`**  \n8. **`nose`**  \n9. **`nose`**  \n10. **`nose`**  \n\nIt appears that \"nose\" is the most frequent word, and it seems",
+  "sec": 8.16
+}

@@ -1,0 +1,16 @@
+{
+  "fixed": {
+    "best_val_reward": -1.167078971862793,
+    "best_step": 1700,
+    "start_val_reward": -2.221186637878418,
+    "checkpoint": "/scratch1/chenpaul/kvp_kl_allocator/loto_runs/run_AJ4zER/folds/11_niah_multikey_3/work/fixed_hw_s0/best.pt",
+    "sha256": "a78c4d82fb6e35c4b2b2862559c395015d90f746a52cf5e8f0e50cda3b81de85"
+  },
+  "input": {
+    "best_val_reward": -1.0946528911590576,
+    "best_step": 7000,
+    "start_val_reward": -1.167078971862793,
+    "checkpoint": "/scratch1/chenpaul/kvp_kl_allocator/loto_runs/run_AJ4zER/folds/11_niah_multikey_3/work/input_hw_s0/best.pt",
+    "sha256": "e838e34ae42d01a946f6828a86b59550f9cfa538decc8b8d39ccf4e753a4ee00"
+  }
+}

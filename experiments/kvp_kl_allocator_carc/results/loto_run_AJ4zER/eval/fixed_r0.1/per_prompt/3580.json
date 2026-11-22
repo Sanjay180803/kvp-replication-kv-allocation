@@ -1,0 +1,11 @@
+{
+  "id": 3580,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5146,
+  "kept_frac": 0.09988340458608629,
+  "score": 40.0,
+  "pred": "  \n1. **famous**  \n2. **erased** (misspelled as \"eraser\" in the list, but the correct spelling is used in the answer)  \n3. **cord**  \n4. **hoof**  \n5. **kit**  \n6. **snack** (misspelled as \"snap\" in the list, but the correct spelling is used in the answer)  \n7. **snack** (misspelled as \"snap\" in the list, but the correct spelling is used in the answer)  \n8. **snack",
+  "sec": 8.38
+}

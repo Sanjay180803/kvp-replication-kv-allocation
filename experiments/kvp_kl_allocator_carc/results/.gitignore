@@ -1,0 +1,5 @@
+# Job logs are experiment evidence, overriding the repository-wide *.log rule.
+!*.log
+**/.run.lock
+**/.labels.lock
+.DS_Store

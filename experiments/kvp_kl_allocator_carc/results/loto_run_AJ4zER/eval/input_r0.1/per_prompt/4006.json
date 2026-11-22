@@ -1,0 +1,11 @@
+{
+  "id": 4006,
+  "task": "qa_2",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 3584,
+  "kept_frac": 0.09988839285714286,
+  "score": 100.0,
+  "pred": " Eenasul Fateh, also known by his stage name Aladin, helped organizations improve their performance as a consultant.",
+  "sec": 2.19
+}

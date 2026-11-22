@@ -1,0 +1,11 @@
+{
+  "id": 5513,
+  "task": "niah_multikey_3",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3981,
+  "kept_frac": 0.04998744034162271,
+  "score": 0.0,
+  "pred": " 61b31f4a-80da-4a0a-a3b5-1f638e397978. However, upon careful review of the text, it appears there was a typo in the question, and the correct UUID should be 61b512ea-48c9-4e30-a3b5-1f638e397978, which is the one associated with the provided 801f4909-31cd-4a0a-b163-",
+  "sec": 8.08
+}

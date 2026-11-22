@@ -1,0 +1,80 @@
+{
+  "description": "CARC KVP-KL allocator setup. Label generation, three all-task training seeds and 13-task LOTO GPU pipeline completed; downloaded LOTO records independently verified. All-task inference evaluation pending.",
+  "vendor": {
+    "vendor/wenbo/alloc_lib.py": {
+      "source": "user-provided wenbo-allocator/alloc/alloc_lib.py",
+      "sha256": "18679b35d62e7b426a5dfd29c11f262fb241dc37a1328ab2832e957114234518",
+      "byte_identical": true
+    },
+    "vendor/wenbo/head_weights.py": {
+      "source": "user-provided wenbo-allocator/alloc/head_weights.py",
+      "sha256": "318e9f9aa5c13a39ef7cad6112967aa45b26fde7a1b92f3b3a6b0bd2d9c49f22",
+      "byte_identical": true
+    },
+    "vendor/wenbo/splits.py": {
+      "source": "user-provided wenbo-allocator/alloc/splits.py",
+      "sha256": "70b42e559897e45ae5ddd921478c076e691b01e4a5f940d112f70ac7c5c2b649",
+      "byte_identical": true
+    },
+    "vendor/wenbo/train_alloc.py": {
+      "source": "user-provided wenbo-allocator/alloc/train_alloc.py",
+      "sha256": "b45588c067493acaad2ea533a9bf688ba1043b23e9556b6cfb0bfb8c82b2b152",
+      "byte_identical": true
+    },
+    "vendor/wenbo/label.py": {
+      "source": "user-provided wenbo-allocator/alloc/label.py",
+      "sha256": "4d2a346e56adc3ca7894051ee3305263f30b31ec32110d07dacfda06b7cebbf3",
+      "byte_identical": true
+    },
+    "vendor/wenbo/eval_alloc.py": {
+      "source": "user-provided wenbo-allocator/alloc/eval_alloc.py",
+      "sha256": "3d43f3b52edfaf38ed7ce71b51731f1dcf9815e9a049d99b79c2a287f97659fa",
+      "byte_identical": true
+    }
+  },
+  "files": {
+    ".gitignore": "d72ebde403840a2e8b87c50621f973e676c392f1e351e91deb80fb4561602eeb",
+    "README.md": "1c376b87ed2db3e43815618c4780733111f848af0c27bcc41f7bfcccb7b9d6cd",
+    "build_bundle.py": "d10466384c1a40ad5b755e9f5600dd78413715121c6f4a0c68387a06dbc54512",
+    "config.example.sh": "294ee9e4fa5d3b2a4f563edc33cd8ae0c03857336bd0b814f3801e405293491e",
+    "finish.py": "e771f26882d09f9bc6d9d66d9f1a88d58d6337e2a3c048283fbca45dace52028",
+    "prepare.py": "c6a8f4cfcaad0942a43f05d1ab043c61d8c0b572ad78c43c871d61e3ec6e8a2f",
+    "run.sh": "9a4a17792f28d448bfdde38e580c0742730183f48a3d8b9ee70e6190559673ca",
+    "submit.sh": "3edb4d618a6f1d577c6bf5e37329dad8cdf8e6f04f3aac687fd59033e7d6fb97",
+    "tests/test_setup.py": "053cf82fe5265308cc5ca0fa014b80a19b5fc1ac29397cafc62c761a33686571",
+    "train.sbatch": "7a8e393fa76c41af8e2b2ad93db2f8462d875d6d1770d436b8935bfd57f229e1",
+    "vendor/wenbo/alloc_lib.py": "18679b35d62e7b426a5dfd29c11f262fb241dc37a1328ab2832e957114234518",
+    "vendor/wenbo/head_weights.py": "318e9f9aa5c13a39ef7cad6112967aa45b26fde7a1b92f3b3a6b0bd2d9c49f22",
+    "vendor/wenbo/splits.py": "70b42e559897e45ae5ddd921478c076e691b01e4a5f940d112f70ac7c5c2b649",
+    "vendor/wenbo/train_alloc.py": "b45588c067493acaad2ea533a9bf688ba1043b23e9556b6cfb0bfb8c82b2b152",
+    "inputs/ruler845_b128.yaml": "cb565f0c9c169373d813da1dfc8c5e6812c14df8bc2b3026c551a528a3943fe2",
+    "inputs/splits.json": "f748ec7dfa2e36b4e854313d2e1d3c89a947fb8fc72d70f16179c045178499ca",
+    "label.sbatch": "7fa540e899b7b6de4aa59d037bec1e8fcf1834f0b9e8268b987bb29393af0c1f",
+    "label_carc.py": "b49693420e3e437755b2232cceafface253a7c45e983bd5c4518c742f08f75f0",
+    "label_io.py": "6705e06c6a07a68dc53ffa144d1a969d0d0cbe9364898a4c9743d7f9c577908f",
+    "ruler_scoring.py": "63eaab5e316db8131f7640d636a95b71b43bfbd1ecf0f1ff205b2d6fe1947df2",
+    "run_labels.sh": "ede101a7585e3edbd8489f0b2565e9f61eb095670ec6ed22bf1c098487b30f5c",
+    "submit_labels.sh": "6d223be5edb3077944917bbdf6e3d857f2e4294c37349bd8fb52cdf41419a574",
+    "vendor/wenbo/label.py": "4d2a346e56adc3ca7894051ee3305263f30b31ec32110d07dacfda06b7cebbf3",
+    "patch_a40_attention.py": "462d3727f9515b2eabfae8cf996dd79e8107425be4e4b17db04bc1275b6f02c1",
+    "loto/worker.py": "1616667d83560e6b0172a009244347c06e4d9f203aeb518856bc303f342b4c95",
+    "loto/gpu.sbatch": "9159d1f68f84852e930abac0ca487519cb13f15e41d142a23820c7c0d8bfc4eb",
+    "loto/protocol.py": "1f1dd9c13811ff375d62eeb00df59b741a141e19ba77dddfc73ff89e1c64cf65",
+    "loto/gpu_inference.py": "d3a20dcc09d9564b5f9ce58a8c673f22673e63ab97ad1c57346e6005ae4e3da3",
+    "loto/summary.sbatch": "37506772ecb0110d0c7d48725ffedc6fc4d174b8775da185ea9c21f73f3aae0f",
+    "loto/run.sh": "2fcf0a37a429727f0cc5476c4f42d6df1d36226d632a8ac9a40585f46a3f9e43",
+    "loto/README.md": "ff33426bfc66d890277e1c162a21e57e5beb65c7fa3a73a71ed517aeffcc9565",
+    "loto/settings.example.sh": "bbb2cbd766d30d7e93a94f1b85a5112398cdcc225a813f81ebd0096c4448bf5e",
+    "loto/.gitignore": "aed8791680aa177a2aa90d1fb65863690e81f45c5b51eaca2ae7a5ec427b055b",
+    "loto/submit_pipeline.sh": "a44f77f9cb965815986525f7b831a8623b42e223e10cdc3bfebceecfa72c9928",
+    "tests/test_loto.py": "a2ca9fba6f8d60591a05fa5f0fad7c7cc94fc7c8760dade1f921da6a7a8d4bb2",
+    "vendor/wenbo/eval_alloc.py": "3d43f3b52edfaf38ed7ce71b51731f1dcf9815e9a049d99b79c2a287f97659fa"
+  },
+  "inputs": {
+    "inputs/splits.json": {
+      "source": "User-downloaded Wenbo data/splits.json",
+      "sha256": "f748ec7dfa2e36b4e854313d2e1d3c89a947fb8fc72d70f16179c045178499ca",
+      "split_sha1": "874e55c37a9a7aa7c87b2939e990c30f07b99355"
+    }
+  }
+}

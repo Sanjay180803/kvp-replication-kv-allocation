@@ -1,0 +1,11 @@
+{
+  "id": 6017,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3878,
+  "kept_frac": 0.049767921609076844,
+  "score": 100.0,
+  "pred": ":\n\n- For moaning-usher: 5163555\n- For early-rainstorm: 6573147\n- For gorgeous-slope: 3670896\n- For modern-pinworm: 1415846",
+  "sec": 4.42
+}

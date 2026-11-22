@@ -1,0 +1,11 @@
+{
+  "id": 4001,
+  "task": "qa_2",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 4091,
+  "kept_frac": 0.09997555609875336,
+  "score": 0.0,
+  "pred": " The question refers to Shirley Temple in the film \"Kiss and Tell\". However, Shirley Temple was in the film \"Meet Corliss Archer\", not \"",
+  "sec": 2.8
+}

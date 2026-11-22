@@ -1,0 +1,11 @@
+{
+  "id": 1505,
+  "task": "qa_1",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3176,
+  "kept_frac": 0.04974811083123426,
+  "score": 100.0,
+  "pred": " William the Conqueror",
+  "sec": 1.03
+}

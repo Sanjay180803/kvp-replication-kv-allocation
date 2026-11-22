@@ -1,0 +1,11 @@
+{
+  "id": 4518,
+  "task": "vt",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3863,
+  "kept_frac": 0.04996117007507119,
+  "score": 80.0,
+  "pred": " NCNYB UWNLZ XBCPB HQOIZ",
+  "sec": 1.6
+}

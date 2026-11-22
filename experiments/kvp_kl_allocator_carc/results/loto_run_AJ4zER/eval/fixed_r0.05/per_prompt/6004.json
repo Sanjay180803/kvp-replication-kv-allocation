@@ -1,0 +1,11 @@
+{
+  "id": 6004,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3887,
+  "kept_frac": 0.04990995626447131,
+  "score": 75.0,
+  "pred": ":\n\n- For massive-creation: 7264956\n- For wide-eyed-wren: 6229731\n- For noxious-mincemeat: 9683481\n- For wide-eyed-wren: 6229731 (repeated)\n\nSo, the unique numbers are:\n- 7264956 (massive-creation)\n- 6229731 (wide-eyed-wren)\n- 9683481 (noxious-mincemeat)",
+  "sec": 7.8
+}

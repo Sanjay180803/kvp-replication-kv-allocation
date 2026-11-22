@@ -1,0 +1,11 @@
+{
+  "id": 3580,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5146,
+  "kept_frac": 0.09988340458608629,
+  "score": 30.0,
+  "pred": "  \n1. **famous**  \n2. **cord**  \n3. **stand** (not explicitly listed, but inferred from context as \"standby\" or similar)  \n4. **erasure** (not explicitly listed, but inferred from context as \"eraser\")  \n5. **standby** (not explicitly listed, but inferred from context as \"eraser\")  \n6. **erased** (not explicitly listed, but inferred from context as \"eraser\")  \n7. **standby** (repeated, inferred from context as \"eraser\")  \n8",
+  "sec": 8.22
+}

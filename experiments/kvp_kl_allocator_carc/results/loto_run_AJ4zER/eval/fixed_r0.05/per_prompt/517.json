@@ -1,0 +1,11 @@
+{
+  "id": 517,
+  "task": "niah_multikey_2",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 4456,
+  "kept_frac": 0.049820466786355475,
+  "score": 100.0,
+  "pred": " 6730290. However, upon rechecking the exact number from the text, it is 6730290, but the correct number given in the text is 6730290. The correct number is actually 6730290, but the exact number provided in the text is 6730290. The correct and exact number from the text is 6730290. \n\nThe correct answer is 6730290.",
+  "sec": 7.6
+}

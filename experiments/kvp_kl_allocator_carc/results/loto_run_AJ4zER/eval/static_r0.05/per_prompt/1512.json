@@ -1,0 +1,11 @@
+{
+  "id": 1512,
+  "task": "qa_1",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3112,
+  "kept_frac": 0.04980719794344473,
+  "score": 100.0,
+  "pred": " The river originally bounding the Duchy was the river Epte (also spelled as Epte or Oise, but specifically the Epte in this context as per",
+  "sec": 2.46
+}

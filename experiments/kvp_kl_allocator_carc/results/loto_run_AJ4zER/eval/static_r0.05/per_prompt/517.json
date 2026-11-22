@@ -1,0 +1,11 @@
+{
+  "id": 517,
+  "task": "niah_multikey_2",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 4456,
+  "kept_frac": 0.049820466786355475,
+  "score": 100.0,
+  "pred": " 6730290. However, upon double-checking the exact phrase \"big-metric\" in the given text, the closest matching number is 6730290, but the exact number associated with \"big-metric\" is 6730290. It seems there might be a slight typo in the question since the correct number should be 6730290 based on the provided information.",
+  "sec": 6.51
+}

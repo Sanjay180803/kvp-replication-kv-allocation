@@ -1,0 +1,11 @@
+{
+  "id": 4001,
+  "task": "qa_2",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 4091,
+  "kept_frac": 0.049865558543143486,
+  "score": 0.0,
+  "pred": " The film Kiss and Tell does not involve the character Corliss Archer from the Meet Corliss Archer series. The character Corliss Archer is from a",
+  "sec": 2.75
+}

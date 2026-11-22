@@ -1,0 +1,11 @@
+{
+  "id": 4512,
+  "task": "vt",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 3865,
+  "kept_frac": 0.0998706338939198,
+  "score": 100.0,
+  "pred": " BUHJD NOUEC WQGXD LGGAU XRELI",
+  "sec": 1.86
+}

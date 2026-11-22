@@ -1,0 +1,11 @@
+{
+  "id": 6005,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3875,
+  "kept_frac": 0.04980645161290322,
+  "score": 75.0,
+  "pred": ":\n\n- Abject-tavern: 2191066\n- Wet-action: 1987737\n- Fk-adjustment: Not present in the text\n- Spectacular-hail: 4694634",
+  "sec": 4.03
+}

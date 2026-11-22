@@ -1,0 +1,11 @@
+{
+  "id": 3584,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5090,
+  "kept_frac": 0.049901768172888016,
+  "score": 0.0,
+  "pred": "  \n1. **coordinate**  \n2. **hes**  \n3. **hes**  \n4. **hes**  \n5. **hes**  \n6. **hes**  \n7. **hes**  \n8. **hes**  \n9. **hes**  \n10. **hes**  \n\nIt appears that \"hes\" is repeated multiple times, which might be a typo or an intentional part of the data. If \"hes\" is not meant to be repeated, please provide the correct data for accurate analysis.",
+  "sec": 7.34
+}

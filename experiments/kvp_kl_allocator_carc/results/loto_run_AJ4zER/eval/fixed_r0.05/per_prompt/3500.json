@@ -1,0 +1,11 @@
+{
+  "id": 3500,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5166,
+  "kept_frac": 0.04994192799070848,
+  "score": 0.0,
+  "pred": "  \n1. **on**  \n2. **the**  \n3. **a**  \n4. **and**  \n5. **to**  \n6. **of**  \n7. **in**  \n8. **that**  \n9. **is**  \n10. **it**\n\nHowever, since the provided list does not include these common English words, the most frequent words from the given list are:\n\n1. **on**  \n2. **the**  \n3. **a**  \n4. **that**  \n5. **and**  \n6. **of**",
+  "sec": 8.16
+}

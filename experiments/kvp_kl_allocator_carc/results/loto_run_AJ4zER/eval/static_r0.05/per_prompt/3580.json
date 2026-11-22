@@ -1,0 +1,11 @@
+{
+  "id": 3580,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5146,
+  "kept_frac": 0.04994170229304314,
+  "score": 0.0,
+  "pred": "  \n1. **erased** (appears 11 times)  \n2. **festival** (appears 10 times)  \n3. **puzzle** (appears 9 times)  \n4. **game** (appears 8 times)  \n5. **kit** (appears 7 times)  \n6. **kit** (appears 7 times, note the repetition)  \n7. **kit** (appears 7 times, note the repetition)  \n8. **kit** (appears 7 times, note the repetition",
+  "sec": 8.21
+}

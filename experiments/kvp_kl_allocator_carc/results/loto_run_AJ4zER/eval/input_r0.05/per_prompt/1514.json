@@ -1,0 +1,11 @@
+{
+  "id": 1514,
+  "task": "qa_1",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3333,
+  "kept_frac": 0.04980498049804981,
+  "score": 0.0,
+  "pred": " Catholic Christianity",
+  "sec": 0.92
+}

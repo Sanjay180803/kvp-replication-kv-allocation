@@ -1,0 +1,11 @@
+{
+  "id": 4511,
+  "task": "vt",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3864,
+  "kept_frac": 0.04994824016563147,
+  "score": 80.0,
+  "pred": " SKREM ZISQW WWJIS XZTLC",
+  "sec": 1.65
+}

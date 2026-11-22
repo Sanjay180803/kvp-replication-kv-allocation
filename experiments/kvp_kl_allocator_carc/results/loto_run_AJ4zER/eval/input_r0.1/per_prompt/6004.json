@@ -1,0 +1,11 @@
+{
+  "id": 6004,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 3887,
+  "kept_frac": 0.09981991252894262,
+  "score": 100.0,
+  "pred": ":\n\n- Round-picturesque: 4374754\n- Wide-eyed-wren: 6229731\n- Noxious-mincemeat: 9683481\n- Massive-creation: 7264956",
+  "sec": 4.47
+}

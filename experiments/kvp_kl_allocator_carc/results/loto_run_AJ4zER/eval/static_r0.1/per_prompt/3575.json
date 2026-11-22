@@ -1,0 +1,11 @@
+{
+  "id": 3575,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5191,
+  "kept_frac": 0.09998073588903872,
+  "score": 10.0,
+  "pred": "  \n1. **ch** (ch appears as a separate word in the list)  \n2. **referendum**  \n3. **referendum** (appears twice)  \n4. **referendum** (appears three times)  \n5. **referendum** (appears four times)  \n6. **referendum** (appears five times)  \n7. **referendum** (appears six times)  \n8. **referendum** (appears seven times)  \n9. **referendum** (appears eight times)  \n10. **refer",
+  "sec": 8.45
+}

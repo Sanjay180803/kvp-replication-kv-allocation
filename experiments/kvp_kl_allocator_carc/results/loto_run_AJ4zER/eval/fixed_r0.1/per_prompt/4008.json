@@ -1,0 +1,11 @@
+{
+  "id": 4008,
+  "task": "qa_2",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 4209,
+  "kept_frac": 0.09978617248752673,
+  "score": 100.0,
+  "pred": " Annie Morton is older than Terry Richardson.",
+  "sec": 1.5
+}

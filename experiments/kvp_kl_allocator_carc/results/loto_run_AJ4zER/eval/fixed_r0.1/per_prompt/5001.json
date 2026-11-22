@@ -1,0 +1,11 @@
+{
+  "id": 5001,
+  "task": "niah_multivalue",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 3864,
+  "kept_frac": 0.09989648033126294,
+  "score": 100.0,
+  "pred": ":\n\n1. 7730428\n2. 6292423\n3. 5491946\n4. 1538552",
+  "sec": 3.45
+}

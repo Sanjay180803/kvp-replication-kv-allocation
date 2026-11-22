@@ -1,0 +1,11 @@
+{
+  "id": 3504,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5174,
+  "kept_frac": 0.04986470815616544,
+  "score": 10.0,
+  "pred": "  \n1. **bunghole**  \n2. **bunghole** (appears multiple times, so it's listed again)  \n3. **bunghole** (appears multiple times, so it's listed again)  \n4. **bunghole**  \n5. **bunghole**  \n6. **bunghole**  \n7. **bunghole**  \n8. **bunghole**  \n9. **bunghole**  \n10. **bunghole**  \n\nSince \"bun",
+  "sec": 8.23
+}

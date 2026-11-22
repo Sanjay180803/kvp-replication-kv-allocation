@@ -1,0 +1,11 @@
+{
+  "id": 3581,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5164,
+  "kept_frac": 0.09992254066615028,
+  "score": 10.0,
+  "pred": "  \n1. **p** (appears 10 times)  \n2. **nut** (appears 11 times)  \n3. **p** (appears 10 times)  \n4. **p** (appears 10 times)  \n5. **p** (appears 10 times)  \n6. **p** (appears 10 times)  \n7. **p** (appears 10 times)  \n8. **p** (appears 10 times)  \n9. **p** (appe",
+  "sec": 8.25
+}

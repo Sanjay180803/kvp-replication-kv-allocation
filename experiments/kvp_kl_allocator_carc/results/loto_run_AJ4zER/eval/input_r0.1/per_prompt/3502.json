@@ -1,0 +1,11 @@
+{
+  "id": 3502,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5230,
+  "kept_frac": 0.1,
+  "score": 10.0,
+  "pred": "  \n1. **copper**  \n2. **dollar**  \n3. **copper** (appears twice, so it's listed again)  \n4. **dollar** (appears multiple times, so it's listed again)  \n5. **dollar**  \n6. **copper**  \n7. **dollar**  \n8. **copper**  \n9. **dollar**  \n10. **copper**  \n\nTo clarify, \"copper\" and \"dollar\" are the most frequent words, with \"copper\" appearing ",
+  "sec": 8.29
+}

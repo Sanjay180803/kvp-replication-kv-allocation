@@ -1,0 +1,28 @@
+{
+  "complete": true,
+  "heldout": "niah_single_1",
+  "seed": 0,
+  "test_ids": [
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+  ],
+  "checkpoint_selection": "this fold VAL reward only"
+}

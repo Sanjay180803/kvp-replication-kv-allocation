@@ -1,0 +1,11 @@
+{
+  "id": 4002,
+  "task": "qa_2",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 2965,
+  "kept_frac": 0.09983136593591906,
+  "score": 0.0,
+  "pred": " The Hork-Bajir Chronicles",
+  "sec": 1.11
+}

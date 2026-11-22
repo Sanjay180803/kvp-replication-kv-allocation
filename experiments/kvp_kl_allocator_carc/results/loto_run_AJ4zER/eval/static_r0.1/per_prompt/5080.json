@@ -1,0 +1,11 @@
+{
+  "id": 5080,
+  "task": "niah_multivalue",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 3846,
+  "kept_frac": 0.0998439937597504,
+  "score": 75.0,
+  "pred": ":\n\n1. 9363326\n2. 7069650\n3. 8416216\n3. (This number is mentioned twice, so it's the same as the third one) 8416216",
+  "sec": 4.38
+}

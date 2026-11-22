@@ -1,0 +1,11 @@
+{
+  "id": 3506,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5220,
+  "kept_frac": 0.1,
+  "score": 10.0,
+  "pred": "  \n1. **enthusiastic**  \n2. **olive**  \n3. **bun** (which is a misspelling of \"bun\" in the original list, likely meant to be \"bun\" or \"bun\" contextually)  \n4. **suppression**  \n5. **bun** (repeated, likely a misspelling or repetition error)  \n6. **suppression** (repeated)  \n7. **enthusiastic** (repeated)  \n8. **bun** (repeated)  \n9",
+  "sec": 8.51
+}

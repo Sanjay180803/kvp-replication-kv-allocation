@@ -1,0 +1,11 @@
+{
+  "id": 1509,
+  "task": "qa_1",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 2786,
+  "kept_frac": 0.09978463747307968,
+  "score": 100.0,
+  "pred": " 9th century",
+  "sec": 0.89
+}

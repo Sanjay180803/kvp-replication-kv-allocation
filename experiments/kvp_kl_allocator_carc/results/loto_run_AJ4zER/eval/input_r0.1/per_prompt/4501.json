@@ -1,0 +1,11 @@
+{
+  "id": 4501,
+  "task": "vt",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 3867,
+  "kept_frac": 0.09981898112231705,
+  "score": 100.0,
+  "pred": " CAIRY KSBRQ CUWPD ZUJLJ NIWVC",
+  "sec": 1.92
+}

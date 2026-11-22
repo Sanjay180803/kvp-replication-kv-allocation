@@ -1,0 +1,11 @@
+{
+  "id": 3581,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5164,
+  "kept_frac": 0.09992254066615028,
+  "score": 20.0,
+  "pred": "  \n1. **nut**  \n2. **pigeon**  \n3. **nut** (appears twice)  \n4. **pigeon** (appears twice)  \n5. **nut** (appears three times)  \n6. **pigeon** (appears three times)  \n7. **nut** (appears four times)  \n8. **pigeon** (appears four times)  \n9. **nut** (appears five times)  \n10. **pigeon** (appears five times)  \n\nIn summary",
+  "sec": 8.48
+}

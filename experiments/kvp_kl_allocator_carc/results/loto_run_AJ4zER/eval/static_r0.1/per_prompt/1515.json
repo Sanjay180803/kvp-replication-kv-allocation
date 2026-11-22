@@ -1,0 +1,11 @@
+{
+  "id": 1515,
+  "task": "qa_1",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 2900,
+  "kept_frac": 0.1,
+  "score": 0.0,
+  "pred": " Normandy",
+  "sec": 0.8
+}

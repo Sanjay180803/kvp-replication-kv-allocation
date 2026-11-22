@@ -1,0 +1,11 @@
+{
+  "id": 3576,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5358,
+  "kept_frac": 0.09985069055617768,
+  "score": 20.0,
+  "pred": "  \n1. **tummy**  \n2. **mess**  \n3. **mess** (appears twice)  \n4. **mess**  \n5. **mess**  \n6. **mess**  \n7. **mess**  \n8. **mess**  \n9. **mess**  \n10. **mess**  \n\nIn summary, \"mess\" is the most frequently occurring word, appearing 10 times.",
+  "sec": 6.41
+}

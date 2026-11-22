@@ -1,0 +1,11 @@
+{
+  "id": 6007,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3887,
+  "kept_frac": 0.04990995626447131,
+  "score": 100.0,
+  "pred": ":\n\n- One of the special magic numbers for x-rated-comptroller is: 6692553\n- One of the special magic numbers for eminent-spirit is: 4191175\n- One of the special magic numbers for coherent-beauty is: 5171761\n- One of the special magic numbers for axiomatic-tremor is: 7754864",
+  "sec": 6.19
+}

@@ -1,0 +1,6 @@
+config.sh
+logs/
+__pycache__/
+*.pyc
+profiles/
+artifacts/

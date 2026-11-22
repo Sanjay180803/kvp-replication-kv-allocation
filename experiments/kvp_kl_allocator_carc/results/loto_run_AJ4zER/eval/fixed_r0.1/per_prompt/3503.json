@@ -1,0 +1,11 @@
+{
+  "id": 3503,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5135,
+  "kept_frac": 0.09990262901655307,
+  "score": 0.0,
+  "pred": "  \n1. **ra** (appears 34 times)  \n2. **ra** (appears 34 times, note: this is the same as the first, indicating a tie)  \n3. **ra** (appears 34 times, again a tie)  \n4. **ra** (appears 34 times, continuing the tie)  \n5. **ra** (appears 34 times, continuing the tie)  \n6. **ra** (appears 34 times, continuing the tie)  \n7. **ra**",
+  "sec": 8.43
+}

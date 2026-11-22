@@ -1,0 +1,11 @@
+{
+  "id": 3500,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5166,
+  "kept_frac": 0.09988385598141696,
+  "score": 0.0,
+  "pred": "  \n1. **f** (appears 10 times)  \n2. **e** (appears 9 times)  \n3. **t** (appears 9 times)  \n4. **r** (appears 8 times)  \n5. **a** (appears 8 times)  \n6. **i** (appears 8 times)  \n7. **o** (appears 7 times)  \n8. **h** (appears 7 times)  \n9. **l** (appears 7 times)  \n1",
+  "sec": 8.26
+}

@@ -1,0 +1,11 @@
+{
+  "id": 3509,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5313,
+  "kept_frac": 0.09994353472614342,
+  "score": 0.0,
+  "pred": "  \n1. **tum** (appears 11 times)  \n2. **tum** (appears 11 times)  \n3. **tum** (appears 11 times)  \n4. **tum** (appears 11 times)  \n5. **tum** (appears 11 times)  \n6. **tum** (appears 11 times)  \n7. **tum** (appears 11 times)  \n8. **tum** (appears 11 times)",
+  "sec": 8.5
+}

@@ -1,0 +1,11 @@
+{
+  "id": 6010,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3887,
+  "kept_frac": 0.04990995626447131,
+  "score": 100.0,
+  "pred": ":\n\n- 1841248 (available-placebo)\n- 9910817 (purring-obligation)\n- 1954280 (didactic-opium)\n- 8999183 (somber-catsup)",
+  "sec": 4.42
+}

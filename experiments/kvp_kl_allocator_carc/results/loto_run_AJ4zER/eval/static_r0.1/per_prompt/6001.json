@@ -1,0 +1,11 @@
+{
+  "id": 6001,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 3881,
+  "kept_frac": 0.0999742334449884,
+  "score": 100.0,
+  "pred": ":\n\n- Tested-familiar: 6707197\n- Colorful-termination: 5924115\n- Utopian-publishing: 5476583\n- Nondescript-humor: 3653446",
+  "sec": 4.41
+}

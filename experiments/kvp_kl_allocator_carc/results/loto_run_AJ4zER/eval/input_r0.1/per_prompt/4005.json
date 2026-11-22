@@ -1,0 +1,11 @@
+{
+  "id": 4005,
+  "task": "qa_2",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 2620,
+  "kept_frac": 0.1,
+  "score": 100.0,
+  "pred": " YG Entertainment",
+  "sec": 0.8
+}

@@ -1,0 +1,11 @@
+{
+  "id": 6007,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3887,
+  "kept_frac": 0.04990995626447131,
+  "score": 100.0,
+  "pred": ":\n\n- 6692553 (for x-rated-comptroller)\n- 4191175 (for eminent-spirit)\n- 5171761 (for coherent-beauty)\n- 7754864 (for axiomatic-tremor)",
+  "sec": 4.65
+}

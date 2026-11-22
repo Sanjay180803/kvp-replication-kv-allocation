@@ -1,0 +1,11 @@
+{
+  "id": 1517,
+  "task": "qa_1",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3360,
+  "kept_frac": 0.05,
+  "score": 100.0,
+  "pred": " Seljuk Turks.",
+  "sec": 1.08
+}

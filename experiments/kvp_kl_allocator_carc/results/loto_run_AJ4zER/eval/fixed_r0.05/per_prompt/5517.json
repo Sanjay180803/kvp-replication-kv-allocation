@@ -1,0 +1,11 @@
+{
+  "id": 5517,
+  "task": "niah_multikey_3",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 4014,
+  "kept_frac": 0.04982561036372696,
+  "score": 0.0,
+  "pred": " f69a0539-58f4-4098-8a7b-1a45889b0f1f. However, upon careful review of the text, it appears there might have been a slight misinterpretation; the correct UUID provided for that specific text is f69a0539-58f4-4098-8a7b-1a45889b0f1f. But based on the exact phrase given, it should be f69a0539-58f4",
+  "sec": 8.13
+}

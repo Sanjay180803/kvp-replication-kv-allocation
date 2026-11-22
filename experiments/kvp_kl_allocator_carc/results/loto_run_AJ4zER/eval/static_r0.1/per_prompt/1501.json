@@ -1,0 +1,11 @@
+{
+  "id": 1501,
+  "task": "qa_1",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 3102,
+  "kept_frac": 0.09993552546744036,
+  "score": 0.0,
+  "pred": " The Normans were in Normandy starting from the 10th century.",
+  "sec": 1.65
+}

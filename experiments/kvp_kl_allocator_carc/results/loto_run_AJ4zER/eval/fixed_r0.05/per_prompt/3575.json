@@ -1,0 +1,11 @@
+{
+  "id": 3575,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5191,
+  "kept_frac": 0.04989404738971297,
+  "score": 10.0,
+  "pred": "  \n1. **chuck**  \n2. **chuck** (appears twice)  \n3. **chuck**  \n4. **chuck**  \n5. **chuck**  \n6. **chuck**  \n7. **chuck**  \n8. **chuck**  \n9. **chuck**  \n10. **chuck**  \n\nAll occurrences of \"chuck\" are counted together, as it is the most frequent word in the list.",
+  "sec": 7.02
+}

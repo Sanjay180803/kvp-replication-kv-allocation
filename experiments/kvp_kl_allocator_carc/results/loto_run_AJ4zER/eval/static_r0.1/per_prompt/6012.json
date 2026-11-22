@@ -1,0 +1,11 @@
+{
+  "id": 6012,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 3881,
+  "kept_frac": 0.0999742334449884,
+  "score": 100.0,
+  "pred": ":\n\n- Orange-conversion: 6304573\n- Blue-eyed-curse: 4576135\n- Bloody-pole: 1156287\n- Ordinary-linguistics: 2677407",
+  "sec": 4.24
+}

@@ -1,0 +1,11 @@
+{
+  "id": 3504,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5174,
+  "kept_frac": 0.09992269037495168,
+  "score": 30.0,
+  "pred": "  \n1. **bunghole**  \n2. **momentous**  \n3. **sum**  \n4. **the** (not explicitly listed but implied as it appears very frequently)  \n5. **and** (not explicitly listed but implied as it appears very frequently)  \n6. **of** (not explicitly listed but implied as it appears very frequently)  \n7. **to** (not explicitly listed but implied as it appears very frequently)  \n8. **a** (not explicitly listed but implied as it appears very frequently)  \n9. **in** (not",
+  "sec": 8.27
+}

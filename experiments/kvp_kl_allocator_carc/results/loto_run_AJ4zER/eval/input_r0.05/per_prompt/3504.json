@@ -1,0 +1,11 @@
+{
+  "id": 3504,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5174,
+  "kept_frac": 0.04986470815616544,
+  "score": 10.0,
+  "pred": "  \n1. **bunghole**  \n2. **bunghole** (appears twice)  \n3. **bunghole** (appears three times)  \n4. **bunghole** (appears four times)  \n5. **bunghole** (appears five times)  \n6. **bunghole** (appears six times)  \n7. **bunghole** (appears seven times)  \n8. **bunghole** (appears eight times)  \n9. **bungh",
+  "sec": 8.14
+}

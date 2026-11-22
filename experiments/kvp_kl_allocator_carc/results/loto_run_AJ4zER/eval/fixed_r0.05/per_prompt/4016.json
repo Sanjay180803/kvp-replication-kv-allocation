@@ -1,0 +1,11 @@
+{
+  "id": 4016,
+  "task": "qa_2",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 4135,
+  "kept_frac": 0.0498186215235792,
+  "score": 0.0,
+  "pred": " North Atlantic Treaty Organization\n\nThe question seems to be asking about the previous name of the America East Conference, but the correct answer based on the provided documents is actually",
+  "sec": 2.78
+}

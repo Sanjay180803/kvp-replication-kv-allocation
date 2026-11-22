@@ -1,0 +1,11 @@
+{
+  "id": 3583,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5221,
+  "kept_frac": 0.09998084658111472,
+  "score": 0.0,
+  "pred": "  \n1. **fence** (appears 34 times)  \n2. **fence** (appears 34 times, note: this is likely a typo and should be \"fence\")  \n3. **fence** (appears 34 times, again, likely a typo and should be \"fence\")  \n4. **fence** (appears 34 times, again, likely a typo and should be \"fence\")  \n5. **fence** (appears 34 times, again, likely a typo and should",
+  "sec": 8.42
+}

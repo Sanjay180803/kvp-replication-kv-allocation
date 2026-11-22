@@ -1,0 +1,11 @@
+{
+  "id": 3503,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5135,
+  "kept_frac": 0.0498539435248296,
+  "score": 0.0,
+  "pred": "  \n1. **hypothesis**  \n2. **hypotheses**  \n3. **hypothesizing**  \n4. **hypothesized**  \n5. **hypothesizes**  \n6. **hypothesization**  \n7. **hypothesizer**  \n8. **hypothesizations**  \n9. **hypothesizers**  \n10. **hypothesizingly**\n\nThese words are derived from the root \"hypothesis\" and appear frequently in the provided list.",
+  "sec": 7.62
+}

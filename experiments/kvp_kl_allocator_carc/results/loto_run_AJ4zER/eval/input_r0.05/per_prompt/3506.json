@@ -1,0 +1,11 @@
+{
+  "id": 3506,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5220,
+  "kept_frac": 0.05,
+  "score": 10.0,
+  "pred": "  \n1. **Obligation**  \n2. **Enforcement** (appears as \"enforcement\" and \"enforced\")  \n3. **Obligations**  \n4. **Enforced**  \n5. **Breach**  \n6. **Contract**  \n7. **Party**  \n8. **Liability**  \n9. **Term**  \n10. **Performance**  \n\nNote: The exact count for some words might vary slightly depending on how they are counted (e.g., \"enforcement\" vs. \"enforced\").",
+  "sec": 7.95
+}

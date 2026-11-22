@@ -1,0 +1,11 @@
+{
+  "id": 5515,
+  "task": "niah_multikey_3",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 4005,
+  "kept_frac": 0.049937578027465665,
+  "score": 0.0,
+  "pred": " 37ec07a6-4b27-9c51-af82-5a3f49ee54c2. However, upon careful review of the text you provided, it seems there might be a typo or mismatch since the exact UUID you're asking for does not directly match any of the UUIDs listed. The correct UUID for 54f6516e-a9d0-4c27-915a-5f49eeb649ee as listed is 37ec07a6-4b27",
+  "sec": 8.08
+}

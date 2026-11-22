@@ -1,0 +1,11 @@
+{
+  "id": 3506,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5220,
+  "kept_frac": 0.1,
+  "score": 10.0,
+  "pred": "  \n1. **enthusiastic**  \n2. **olive**  \n3. **enthusiastic** (appears twice, so it's still the second most frequent)  \n4. **enthusiastic** (appears three times, making it the most frequent word)  \n5. **enthusiastic**  \n6. **enthusiastic**  \n7. **enthusiastic**  \n8. **enthusiastic**  \n9. **enthusiastic**  \n10. **enthusiastic**  \n\nIn summary,",
+  "sec": 8.27
+}

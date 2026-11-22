@@ -1,0 +1,11 @@
+{
+  "id": 3583,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5221,
+  "kept_frac": 0.09998084658111472,
+  "score": 0.0,
+  "pred": "  \n1. **frequent word 1**  \n2. **frequent word 2**  \n3. **frequent word 3**  \n4. **frequent word 4**  \n5. **frequent word 5**  \n6. **frequent word 6**  \n7. **frequent word 7**  \n8. **frequent word 8**  \n9. **frequent word 9**  \n10. **frequent word 10**\n\nTo provide the actual most common words, I would need to count the occurrences of each word",
+  "sec": 8.27
+}

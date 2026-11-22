@@ -1,0 +1,11 @@
+{
+  "id": 6009,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3890,
+  "kept_frac": 0.04987146529562982,
+  "score": 100.0,
+  "pred": ":\n\n- Loutish-inventor: 1036161\n- Onerous-insonence: 5785687\n- Narrow-ticket: 9164991\n- Madly-packet: 5449368",
+  "sec": 4.42
+}

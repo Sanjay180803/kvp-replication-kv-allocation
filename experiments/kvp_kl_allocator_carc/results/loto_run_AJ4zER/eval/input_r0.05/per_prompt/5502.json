@@ -1,0 +1,11 @@
+{
+  "id": 5502,
+  "task": "niah_multikey_3",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 4034,
+  "kept_frac": 0.049826474962816066,
+  "score": 0.0,
+  "pred": " 03cde2e3-21bd-461a-8699-5a59c8b85966.",
+  "sec": 3.0
+}

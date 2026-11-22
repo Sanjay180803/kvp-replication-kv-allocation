@@ -1,0 +1,11 @@
+{
+  "id": 3579,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5247,
+  "kept_frac": 0.09986659043262817,
+  "score": 10.0,
+  "pred": "  \n1. **gherkin**  \n2. **dexterity** (appears as \"dexterity\" and \"dexterity\" in different forms)  \n3. **dexterity**  \n4. **dexterity**  \n5. **dexterity**  \n6. **dexterity**  \n7. **dexterity**  \n8. **dexterity**  \n9. **dexterity**  \n10. **dexterity**  \n\nIt appears that \"dexterity\" is the most frequently occurring word in the list, appearing multiple times in various forms.",
+  "sec": 8.01
+}

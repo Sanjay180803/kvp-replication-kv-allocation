@@ -1,0 +1,11 @@
+{
+  "id": 3581,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5164,
+  "kept_frac": 0.09992254066615028,
+  "score": 20.0,
+  "pred": "  \n1. **pigeon**  \n2. **nut**  \n3. **nut** (appears twice)  \n4. **nut** (appears three times)  \n5. **nut** (appears four times)  \n6. **nut** (appears five times)  \n7. **nut** (appears six times)  \n8. **nut** (appears seven times)  \n9. **nut** (appears eight times)  \n10. **nut** (appears nine times)\n\nIn summary, the word \"nut\" appears the",
+  "sec": 8.41
+}

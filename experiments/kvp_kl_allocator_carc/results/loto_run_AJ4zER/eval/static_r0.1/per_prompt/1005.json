@@ -1,0 +1,11 @@
+{
+  "id": 1005,
+  "task": "fwe",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 4094,
+  "kept_frac": 0.09990229604298974,
+  "score": 100.0,
+  "pred": " glxshv, toxcpp, and sidjpe.",
+  "sec": 1.78
+}

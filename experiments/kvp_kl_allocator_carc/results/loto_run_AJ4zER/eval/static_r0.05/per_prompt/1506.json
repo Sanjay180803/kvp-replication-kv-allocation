@@ -1,0 +1,11 @@
+{
+  "id": 1506,
+  "task": "qa_1",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 2808,
+  "kept_frac": 0.04985754985754986,
+  "score": 100.0,
+  "pred": " The duchy of Normandy was ruled by the Norman dynasty, specifically by figures such as Richard I of Normandy and William the Conqueror, among",
+  "sec": 2.36
+}

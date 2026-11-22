@@ -1,0 +1,11 @@
+{
+  "id": 3505,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5184,
+  "kept_frac": 0.09992283950617284,
+  "score": 10.0,
+  "pred": "  \n1. **monument**  \n2. **barnacle** (appears as \"barnacle\" and \"gherkin\", but counted as one unique word)  \n3. **barnacle**  \n4. **barnacle**  \n5. **barnacle**  \n6. **barnacle**  \n7. **barnacle**  \n8. **barnacle**  \n9. **barnacle**  \n10. **barnacle**  \n\nGiven the repetition of \"barnacle\" and \"gherkin\" as the",
+  "sec": 8.46
+}

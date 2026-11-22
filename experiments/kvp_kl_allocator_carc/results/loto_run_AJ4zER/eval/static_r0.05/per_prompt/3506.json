@@ -1,0 +1,11 @@
+{
+  "id": 3506,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5220,
+  "kept_frac": 0.05,
+  "score": 0.0,
+  "pred": "  \n1. **olive**  \n2. **decoration** (from \"decoration\" and \"decorations\")  \n3. **decoration**  \n4. **decoration**  \n5. **decoration**  \n6. **decoration**  \n7. **decoration**  \n8. **decoration**  \n9. **decoration**  \n10. **decoration**  \n\nNote: The word \"decoration\" appears multiple times in the list, making it the most frequent word.",
+  "sec": 7.46
+}

@@ -1,0 +1,11 @@
+{
+  "id": 3509,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5313,
+  "kept_frac": 0.049877658573310744,
+  "score": 10.0,
+  "pred": "  \n1. **stitcher**  \n2. **stitcher** (appears multiple times, counting each instance)  \n3. **stitcher**  \n4. **stitcher**  \n5. **stitcher**  \n6. **stitcher**  \n7. **stitcher**  \n8. **stitcher**  \n9. **stitcher**  \n10. **stitcher**  \n\nGiven the frequency, \"stitcher\" appears the most number of times. If there are other words with similar high frequency, they would",
+  "sec": 8.24
+}

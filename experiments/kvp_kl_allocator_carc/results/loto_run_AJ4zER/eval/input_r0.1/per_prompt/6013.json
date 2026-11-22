@@ -1,0 +1,11 @@
+{
+  "id": 6013,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 3875,
+  "kept_frac": 0.09987096774193549,
+  "score": 100.0,
+  "pred": ":\n\n- different-abbey: 8351517\n- subsequent-cart: 9874152\n- ablaze-plier: 6022741\n- ruthless-legal: 6075395",
+  "sec": 4.22
+}

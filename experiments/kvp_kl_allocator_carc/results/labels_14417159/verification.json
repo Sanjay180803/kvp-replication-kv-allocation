@@ -1,0 +1,76 @@
+{
+  "label_job_id": "14417159",
+  "successful_label_smoke_job_id": "14417065",
+  "evidence": "Downloaded coverage, manifest, split, per-prompt JSONL diagnostics, and final SUCCESS in job log. No separate sacct record supplied.",
+  "complete": true,
+  "gpu": "NVIDIA A40",
+  "output_directory": "/scratch1/chenpaul/kvp/allocator_data/labels_carc",
+  "split_sha1": "874e55c37a9a7aa7c87b2939e990c30f07b99355",
+  "input_split_sha256_matches_manifest": true,
+  "saved_split_data_matches_packaged_input": true,
+  "source_hashes_match": {
+    "label_carc.py": true,
+    "label_io.py": true,
+    "ruler_scoring.py": true,
+    "prepare.py": true
+  },
+  "tensor_validation": "Performed by server generation code and confirmed in SUCCESS log; tensor files not downloaded or independently reloaded locally.",
+  "splits": {
+    "train": {
+      "completed": 1164,
+      "duplicate_ids": 0,
+      "missing_ids": [],
+      "extra_ids": [],
+      "task_counts": {
+        "niah_single_1": 90,
+        "niah_multikey_2": 90,
+        "fwe": 90,
+        "qa_1": 90,
+        "niah_single_3": 89,
+        "niah_multikey_1": 89,
+        "niah_single_2": 90,
+        "cwe": 90,
+        "qa_2": 86,
+        "vt": 90,
+        "niah_multivalue": 90,
+        "niah_multikey_3": 90,
+        "niah_multiquery": 90
+      },
+      "full_cache_diagnostic_score_mean": 95.30498281786942,
+      "future_positions_min": 1,
+      "future_positions_median": 14.0,
+      "future_positions_max": 80,
+      "zero_future_attention_ids": [],
+      "summed_prompt_seconds": 3976.94
+    },
+    "val": {
+      "completed": 65,
+      "duplicate_ids": 0,
+      "missing_ids": [],
+      "extra_ids": [],
+      "task_counts": {
+        "niah_single_1": 5,
+        "niah_multikey_2": 5,
+        "fwe": 5,
+        "qa_1": 5,
+        "niah_single_3": 5,
+        "niah_multikey_1": 5,
+        "niah_single_2": 5,
+        "cwe": 5,
+        "qa_2": 5,
+        "vt": 5,
+        "niah_multivalue": 5,
+        "niah_multikey_3": 5,
+        "niah_multiquery": 5
+      },
+      "full_cache_diagnostic_score_mean": 90.25641025641026,
+      "future_positions_min": 1,
+      "future_positions_median": 15,
+      "future_positions_max": 75,
+      "zero_future_attention_ids": [],
+      "summed_prompt_seconds": 216.6
+    }
+  },
+  "summed_prompt_seconds": 4193.54,
+  "timing_note": "Sum of logged per-prompt durations; not total Slurm elapsed time."
+}

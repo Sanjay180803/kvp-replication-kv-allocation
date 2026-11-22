@@ -1,0 +1,11 @@
+{
+  "id": 3584,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5090,
+  "kept_frac": 0.049901768172888016,
+  "score": 0.0,
+  "pred": "  \n1. **am**  \n2. **am** (Note: This appears to be a repetition or typo, as \"am\" is listed twice. Assuming it's a single word, it would be the most frequent.)  \n3. **am**  \n4. **am**  \n5. **am**  \n6. **am**  \n7. **am**  \n8. **am**  \n9. **am**  \n10. **am**  \n\nGiven the repetition, it seems \"am\" is the most frequent word. If there are other words with similar frequency,",
+  "sec": 8.07
+}

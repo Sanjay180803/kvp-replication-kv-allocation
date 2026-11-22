@@ -1,0 +1,2042 @@
+Job 14417159 | labeling full | output /scratch1/chenpaul/kvp/allocator_data/labels_carc
+name, memory.total [MiB], driver_version
+NVIDIA A40, 46068 MiB, 580.159.04
+A40 FlexAttention kernel options already configured.
+Skipping import of cpp extensions due to incompatible torch version 2.10.0+cu128 for torchao version 0.15.0             Please see https://github.com/pytorch/ao/issues/2919 for more info
+/home1/chenpaul/ml-learning-to-evict/src/kvcompression/__init__.py:67: UserWarning: register_new_resolver() is deprecated and will be removed in a future release.
+Use register_resolver() instead.
+See https://github.com/hydra-ecosystem/omegaconf/issues/426 for migration instructions.
+
+  OmegaConf.register_new_resolver("fmt", format_resolver, replace=True)
+/home1/chenpaul/ml-learning-to-evict/src/kvcompression/__init__.py:67: UserWarning: Resolver 'fmt' annotation for 'value' cannot be checked at runtime: <built-in function any>
+  OmegaConf.register_new_resolver("fmt", format_resolver, replace=True)
+Selected labels: {'train': 1164, 'val': 65}
+GPU: NVIDIA A40 | validated 112 checkpoints
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000000/kv_head_000/2026-11-05_08-50-45/best_ckpt.pth'.
+[22:50:33] INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000000/kv_head_                           
+                    000/2026-11-05_08-50-45/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000000/kv_head_001/2026-11-05_15-33-25/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000000/kv_head_                           
+                    001/2026-11-05_15-33-25/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000000/kv_head_002/2026-11-05_08-50-46/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000000/kv_head_                           
+                    002/2026-11-05_08-50-46/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000000/kv_head_003/2026-11-05_15-28-58/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000000/kv_head_                           
+                    003/2026-11-05_15-28-58/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000001/kv_head_000/2026-10-31_15-23-52/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000001/kv_head_                           
+                    000/2026-10-31_15-23-52/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000001/kv_head_001/2026-10-31_22-12-16/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000001/kv_head_                           
+                    001/2026-10-31_22-12-16/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000001/kv_head_002/2026-10-31_15-24-21/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000001/kv_head_                           
+                    002/2026-10-31_15-24-21/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000001/kv_head_003/2026-10-31_22-04-18/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000001/kv_head_                           
+                    003/2026-10-31_22-04-18/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000002/kv_head_000/2026-10-31_15-24-22/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000002/kv_head_                           
+                    000/2026-10-31_15-24-22/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000002/kv_head_001/2026-10-31_22-11-36/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000002/kv_head_                           
+                    001/2026-10-31_22-11-36/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000002/kv_head_002/2026-10-31_15-24-51/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000002/kv_head_                           
+                    002/2026-10-31_15-24-51/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000002/kv_head_003/2026-10-31_22-05-01/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000002/kv_head_                           
+                    003/2026-10-31_22-05-01/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000003/kv_head_000/2026-10-31_15-25-58/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000003/kv_head_                           
+                    000/2026-10-31_15-25-58/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000003/kv_head_001/2026-10-31_22-11-50/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000003/kv_head_                           
+                    001/2026-10-31_22-11-50/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000003/kv_head_002/2026-10-31_15-31-29/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000003/kv_head_                           
+                    002/2026-10-31_15-31-29/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000003/kv_head_003/2026-10-31_22-19-57/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000003/kv_head_                           
+                    003/2026-10-31_22-19-57/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000004/kv_head_000/2026-10-31_15-31-58/best_ckpt.pth'.
+[22:50:34] INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000004/kv_head_                           
+                    000/2026-10-31_15-31-58/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000004/kv_head_001/2026-10-31_22-12-47/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000004/kv_head_                           
+                    001/2026-10-31_22-12-47/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000004/kv_head_002/2026-10-31_15-31-59/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000004/kv_head_                           
+                    002/2026-10-31_15-31-59/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000004/kv_head_003/2026-10-31_22-19-33/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000004/kv_head_                           
+                    003/2026-10-31_22-19-33/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000005/kv_head_000/2026-10-31_16-37-38/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000005/kv_head_                           
+                    000/2026-10-31_16-37-38/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000005/kv_head_001/2026-11-05_08-50-45/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000005/kv_head_                           
+                    001/2026-11-05_08-50-45/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000005/kv_head_002/2026-11-05_23-34-10/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000005/kv_head_                           
+                    002/2026-11-05_23-34-10/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000005/kv_head_003/2026-10-31_19-37-47/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000005/kv_head_                           
+                    003/2026-10-31_19-37-47/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000006/kv_head_000/2026-11-05_23-34-32/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000006/kv_head_                           
+                    000/2026-11-05_23-34-32/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000006/kv_head_001/2026-10-31_22-41-07/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000006/kv_head_                           
+                    001/2026-10-31_22-41-07/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000006/kv_head_002/2026-10-31_22-29-30/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000006/kv_head_                           
+                    002/2026-10-31_22-29-30/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000006/kv_head_003/2026-11-01_01-23-02/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000006/kv_head_                           
+                    003/2026-11-01_01-23-02/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000007/kv_head_000/2026-11-05_23-38-10/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000007/kv_head_                           
+                    000/2026-11-05_23-38-10/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000007/kv_head_001/2026-11-06_06-17-04/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000007/kv_head_                           
+                    001/2026-11-06_06-17-04/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000007/kv_head_002/2026-11-05_23-38-42/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000007/kv_head_                           
+                    002/2026-11-05_23-38-42/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000007/kv_head_003/2026-11-01_05-35-54/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000007/kv_head_                           
+                    003/2026-11-01_05-35-54/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000008/kv_head_000/2026-11-01_03-43-12/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000008/kv_head_                           
+                    000/2026-11-01_03-43-12/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000008/kv_head_001/2026-11-01_10-19-28/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000008/kv_head_                           
+                    001/2026-11-01_10-19-28/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000008/kv_head_002/2026-11-01_03-52-22/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000008/kv_head_                           
+                    002/2026-11-01_03-52-22/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000008/kv_head_003/2026-10-24_10-01-59/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000008/kv_head_                           
+                    003/2026-10-24_10-01-59/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000009/kv_head_000/2026-11-01_03-55-26/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000009/kv_head_                           
+                    000/2026-11-01_03-55-26/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000009/kv_head_001/2026-11-01_10-32-13/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000009/kv_head_                           
+                    001/2026-11-01_10-32-13/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000009/kv_head_002/2026-11-01_03-57-28/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000009/kv_head_                           
+                    002/2026-11-01_03-57-28/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000009/kv_head_003/2026-11-01_10-37-58/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000009/kv_head_                           
+                    003/2026-11-01_10-37-58/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000010/kv_head_000/2026-11-01_03-58-00/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000010/kv_head_                           
+                    000/2026-11-01_03-58-00/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000010/kv_head_001/2026-11-01_10-39-27/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000010/kv_head_                           
+                    001/2026-11-01_10-39-27/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000010/kv_head_002/2026-11-01_03-58-30/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000010/kv_head_                           
+                    002/2026-11-01_03-58-30/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000010/kv_head_003/2026-11-01_10-41-56/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000010/kv_head_                           
+                    003/2026-11-01_10-41-56/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000011/kv_head_000/2026-11-01_04-00-36/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000011/kv_head_                           
+                    000/2026-11-01_04-00-36/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000011/kv_head_001/2026-11-01_10-39-41/best_ckpt.pth'.
+[22:50:35] INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000011/kv_head_                           
+                    001/2026-11-01_10-39-41/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000011/kv_head_002/2026-11-01_04-05-38/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000011/kv_head_                           
+                    002/2026-11-01_04-05-38/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000011/kv_head_003/2026-11-01_10-47-40/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000011/kv_head_                           
+                    003/2026-11-01_10-47-40/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000012/kv_head_000/2026-11-01_04-05-38/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000012/kv_head_                           
+                    000/2026-11-01_04-05-38/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000012/kv_head_001/2026-11-01_10-48-27/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000012/kv_head_                           
+                    001/2026-11-01_10-48-27/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000012/kv_head_002/2026-11-01_08-30-49/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000012/kv_head_                           
+                    002/2026-11-01_08-30-49/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000012/kv_head_003/2026-11-01_15-12-12/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000012/kv_head_                           
+                    003/2026-11-01_15-12-12/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000013/kv_head_000/2026-11-01_10-31-09/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000013/kv_head_                           
+                    000/2026-11-01_10-31-09/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000013/kv_head_001/2026-11-01_17-08-56/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000013/kv_head_                           
+                    001/2026-11-01_17-08-56/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000013/kv_head_002/2026-11-01_16-58-46/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000013/kv_head_                           
+                    002/2026-11-01_16-58-46/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000013/kv_head_003/2026-11-01_23-38-00/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000013/kv_head_                           
+                    003/2026-11-01_23-38-00/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000014/kv_head_000/2026-11-01_17-10-56/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000014/kv_head_                           
+                    000/2026-11-01_17-10-56/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000014/kv_head_001/2026-11-01_23-48-04/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000014/kv_head_                           
+                    001/2026-11-01_23-48-04/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000014/kv_head_002/2026-11-05_23-39-42/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000014/kv_head_                           
+                    002/2026-11-05_23-39-42/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000014/kv_head_003/2026-11-01_22-20-34/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000014/kv_head_                           
+                    003/2026-11-01_22-20-34/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000015/kv_head_000/2026-11-06_00-29-13/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000015/kv_head_                           
+                    000/2026-11-06_00-29-13/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000015/kv_head_001/2026-11-06_07-16-47/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000015/kv_head_                           
+                    001/2026-11-06_07-16-47/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000015/kv_head_002/2026-11-01_17-23-06/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000015/kv_head_                           
+                    002/2026-11-01_17-23-06/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000015/kv_head_003/2026-11-02_00-07-59/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000015/kv_head_                           
+                    003/2026-11-02_00-07-59/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000016/kv_head_000/2026-11-01_17-25-09/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000016/kv_head_                           
+                    000/2026-11-01_17-25-09/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000016/kv_head_001/2026-10-24_09-55-55/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000016/kv_head_                           
+                    001/2026-10-24_09-55-55/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000016/kv_head_002/2026-11-01_17-31-15/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000016/kv_head_                           
+                    002/2026-11-01_17-31-15/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000016/kv_head_003/2026-11-02_00-17-14/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000016/kv_head_                           
+                    003/2026-11-02_00-17-14/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000017/kv_head_000/2026-11-01_17-31-45/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000017/kv_head_                           
+                    000/2026-11-01_17-31-45/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000017/kv_head_001/2026-11-06_00-45-09/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000017/kv_head_                           
+                    001/2026-11-06_00-45-09/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000017/kv_head_002/2026-11-01_21-51-36/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000017/kv_head_                           
+                    002/2026-11-01_21-51-36/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000017/kv_head_003/2026-11-06_01-16-44/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000017/kv_head_                           
+                    003/2026-11-06_01-16-44/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000018/kv_head_000/2026-11-01_23-48-09/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000018/kv_head_                           
+                    000/2026-11-01_23-48-09/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000018/kv_head_001/2026-11-02_06-27-06/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000018/kv_head_                           
+                    001/2026-11-02_06-27-06/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000018/kv_head_002/2026-11-02_00-08-25/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000018/kv_head_                           
+                    002/2026-11-02_00-08-25/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000018/kv_head_003/2026-11-02_06-52-35/best_ckpt.pth'.
+[22:50:36] INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000018/kv_head_                           
+                    003/2026-11-02_06-52-35/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000019/kv_head_000/2026-11-02_03-06-06/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000019/kv_head_                           
+                    000/2026-11-02_03-06-06/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000019/kv_head_001/2026-11-02_09-49-45/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000019/kv_head_                           
+                    001/2026-11-02_09-49-45/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000019/kv_head_002/2026-11-02_04-57-10/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000019/kv_head_                           
+                    002/2026-11-02_04-57-10/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000019/kv_head_003/2026-11-06_01-18-08/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000019/kv_head_                           
+                    003/2026-11-06_01-18-08/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000020/kv_head_000/2026-11-02_06-17-09/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000020/kv_head_                           
+                    000/2026-11-02_06-17-09/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000020/kv_head_001/2026-11-02_13-02-33/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000020/kv_head_                           
+                    001/2026-11-02_13-02-33/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000020/kv_head_002/2026-11-02_06-17-39/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000020/kv_head_                           
+                    002/2026-11-02_06-17-39/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000020/kv_head_003/2026-11-02_12-57-40/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000020/kv_head_                           
+                    003/2026-11-02_12-57-40/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000021/kv_head_000/2026-11-06_01-19-42/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000021/kv_head_                           
+                    000/2026-11-06_01-19-42/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000021/kv_head_001/2026-11-02_10-44-45/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000021/kv_head_                           
+                    001/2026-11-02_10-44-45/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000021/kv_head_002/2026-11-02_06-56-44/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000021/kv_head_                           
+                    002/2026-11-02_06-56-44/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000021/kv_head_003/2026-11-02_13-40-59/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000021/kv_head_                           
+                    003/2026-11-02_13-40-59/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000022/kv_head_000/2026-11-02_07-02-29/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000022/kv_head_                           
+                    000/2026-11-02_07-02-29/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000022/kv_head_001/2026-11-02_13-46-55/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000022/kv_head_                           
+                    001/2026-11-02_13-46-55/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000022/kv_head_002/2026-11-02_08-02-30/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000022/kv_head_                           
+                    002/2026-11-02_08-02-30/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000022/kv_head_003/2026-11-06_01-22-24/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000022/kv_head_                           
+                    003/2026-11-06_01-22-24/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000023/kv_head_000/2026-11-02_19-38-04/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000023/kv_head_                           
+                    000/2026-11-02_19-38-04/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000023/kv_head_001/2026-11-03_00-32-26/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000023/kv_head_                           
+                    001/2026-11-03_00-32-26/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000023/kv_head_002/2026-11-02_19-47-53/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000023/kv_head_                           
+                    002/2026-11-02_19-47-53/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000023/kv_head_003/2026-11-03_02-33-18/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000023/kv_head_                           
+                    003/2026-11-03_02-33-18/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000024/kv_head_000/2026-11-05_08-35-18/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000024/kv_head_                           
+                    000/2026-11-05_08-35-18/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000024/kv_head_001/2026-11-05_15-21-51/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000024/kv_head_                           
+                    001/2026-11-05_15-21-51/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000024/kv_head_002/2026-11-05_08-39-09/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000024/kv_head_                           
+                    002/2026-11-05_08-39-09/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000024/kv_head_003/2026-11-05_15-19-28/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000024/kv_head_                           
+                    003/2026-11-05_15-19-28/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000025/kv_head_000/2026-11-05_08-40-20/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000025/kv_head_                           
+                    000/2026-11-05_08-40-20/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000025/kv_head_001/2026-11-05_15-26-56/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000025/kv_head_                           
+                    001/2026-11-05_15-26-56/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000025/kv_head_002/2026-11-05_08-43-02/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000025/kv_head_                           
+                    002/2026-11-05_08-43-02/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000025/kv_head_003/2026-11-05_15-30-37/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000025/kv_head_                           
+                    003/2026-11-05_15-30-37/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000026/kv_head_000/2026-11-07_23-10-21/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000026/kv_head_                           
+                    000/2026-11-07_23-10-21/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000026/kv_head_001/2026-11-08_05-50-18/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000026/kv_head_                           
+                    001/2026-11-08_05-50-18/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000026/kv_head_002/2026-11-07_23-10-33/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000026/kv_head_                           
+                    002/2026-11-07_23-10-33/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000026/kv_head_003/2026-11-08_05-59-41/best_ckpt.pth'.
+[22:50:37] INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000026/kv_head_                           
+                    003/2026-11-08_05-59-41/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000027/kv_head_000/2026-11-07_23-17-58/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000027/kv_head_                           
+                    000/2026-11-07_23-17-58/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000027/kv_head_001/2026-11-08_06-05-53/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000027/kv_head_                           
+                    001/2026-11-08_06-05-53/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000027/kv_head_002/2026-11-07_23-22-08/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000027/kv_head_                           
+                    002/2026-11-07_23-22-08/best_ckpt                           
+                    .pth'.                                                      
+Agent 'None' found. Attempting instantiation from '/scratch1/chenpaul/kvp/agents/ruler845_b128/layer_000027/kv_head_003/2026-11-08_06-10-08/best_ckpt.pth'.
+           INFO     Agent 'None' found. Attempting    sampler_agent_press.py:111
+                    instantiation from                                          
+                    '/scratch1/chenpaul/kvp/agents/ru                           
+                    ler845_b128/layer_000027/kv_head_                           
+                    003/2026-11-08_06-10-08/best_ckpt                           
+                    .pth'.                                                      
+Loaded Qwen and 112 frozen KVP agents
+/scratch1/chenpaul/kvp_kl/venv/lib/python3.12/site-packages/torch/nn/functional.py:2954: UserWarning: Mismatch dtype between input and weight: input dtype = float, weight dtype = c10::BFloat16, Cannot dispatch to fused implementation. (Triggered internally at /pytorch/aten/src/ATen/native/layer_norm.cpp:344.)
+  return torch.rms_norm(input, normalized_shape, weight, eps)
+[train 1/1164] id=410 P=3690 gen=10 full=100.0 41.32s
+[train 2/1164] id=411 P=3693 gen=10 full=100.0 2.25s
+[train 3/1164] id=412 P=3696 gen=10 full=100.0 2.26s
+[train 4/1164] id=413 P=3693 gen=10 full=100.0 2.26s
+[train 5/1164] id=414 P=3690 gen=10 full=100.0 2.26s
+[train 6/1164] id=415 P=3687 gen=10 full=100.0 2.28s
+[train 7/1164] id=416 P=3693 gen=10 full=100.0 2.26s
+[train 8/1164] id=417 P=3690 gen=10 full=100.0 2.28s
+[train 9/1164] id=418 P=3687 gen=10 full=100.0 2.28s
+[train 10/1164] id=419 P=3690 gen=10 full=100.0 2.25s
+[train 11/1164] id=420 P=3690 gen=10 full=100.0 2.25s
+[train 12/1164] id=421 P=3690 gen=10 full=100.0 2.26s
+[train 13/1164] id=422 P=3687 gen=10 full=100.0 2.27s
+[train 14/1164] id=423 P=3690 gen=10 full=100.0 2.25s
+[train 15/1164] id=424 P=3693 gen=10 full=100.0 2.27s
+[train 16/1164] id=425 P=3690 gen=10 full=100.0 2.26s
+[train 17/1164] id=426 P=3690 gen=10 full=100.0 2.31s
+[train 18/1164] id=427 P=3687 gen=10 full=100.0 2.28s
+[train 19/1164] id=428 P=3693 gen=10 full=100.0 2.3s
+[train 20/1164] id=429 P=3687 gen=10 full=100.0 2.26s
+[train 21/1164] id=430 P=3687 gen=10 full=100.0 2.26s
+[train 22/1164] id=431 P=3690 gen=10 full=100.0 2.72s
+[train 23/1164] id=432 P=3687 gen=10 full=100.0 2.27s
+[train 24/1164] id=433 P=3690 gen=10 full=100.0 2.26s
+[train 25/1164] id=434 P=3693 gen=10 full=100.0 2.26s
+[train 26/1164] id=435 P=3687 gen=10 full=100.0 2.3s
+[train 27/1164] id=436 P=3690 gen=10 full=100.0 2.29s
+[train 28/1164] id=437 P=3690 gen=10 full=100.0 2.27s
+[train 29/1164] id=438 P=3690 gen=10 full=100.0 2.28s
+[train 30/1164] id=439 P=3687 gen=10 full=100.0 2.3s
+[train 31/1164] id=440 P=3684 gen=10 full=100.0 2.27s
+[train 32/1164] id=441 P=3690 gen=10 full=100.0 2.29s
+[train 33/1164] id=442 P=3690 gen=10 full=100.0 2.31s
+[train 34/1164] id=443 P=3696 gen=10 full=100.0 2.29s
+[train 35/1164] id=444 P=3690 gen=10 full=100.0 2.31s
+[train 36/1164] id=445 P=3690 gen=10 full=100.0 2.27s
+[train 37/1164] id=446 P=3693 gen=10 full=100.0 2.29s
+[train 38/1164] id=447 P=3690 gen=10 full=100.0 2.3s
+[train 39/1164] id=448 P=3690 gen=10 full=100.0 2.29s
+[train 40/1164] id=449 P=3693 gen=10 full=100.0 2.29s
+[train 41/1164] id=450 P=3687 gen=10 full=100.0 2.28s
+[train 42/1164] id=451 P=3693 gen=10 full=100.0 2.29s
+[train 43/1164] id=452 P=3687 gen=10 full=100.0 2.26s
+[train 44/1164] id=453 P=3690 gen=10 full=100.0 2.27s
+[train 45/1164] id=454 P=3693 gen=10 full=100.0 2.27s
+[train 46/1164] id=455 P=3693 gen=10 full=100.0 2.27s
+[train 47/1164] id=456 P=3690 gen=10 full=100.0 2.27s
+[train 48/1164] id=457 P=3690 gen=10 full=100.0 2.3s
+[train 49/1164] id=458 P=3690 gen=10 full=100.0 2.29s
+[train 50/1164] id=459 P=3693 gen=10 full=100.0 2.27s
+[train 51/1164] id=460 P=3687 gen=11 full=100.0 2.39s
+[train 52/1164] id=461 P=3687 gen=10 full=100.0 2.28s
+[train 53/1164] id=462 P=3690 gen=10 full=100.0 2.31s
+[train 54/1164] id=463 P=3690 gen=10 full=100.0 2.27s
+[train 55/1164] id=464 P=3690 gen=10 full=100.0 2.28s
+[train 56/1164] id=465 P=3687 gen=10 full=100.0 2.32s
+[train 57/1164] id=466 P=3693 gen=10 full=100.0 2.29s
+[train 58/1164] id=467 P=3690 gen=10 full=100.0 2.27s
+[train 59/1164] id=468 P=3690 gen=10 full=100.0 2.29s
+[train 60/1164] id=469 P=3690 gen=10 full=100.0 2.29s
+[train 61/1164] id=470 P=3687 gen=10 full=100.0 2.27s
+[train 62/1164] id=471 P=3690 gen=10 full=100.0 2.27s
+[train 63/1164] id=472 P=3690 gen=10 full=100.0 2.27s
+[train 64/1164] id=473 P=3693 gen=10 full=100.0 2.27s
+[train 65/1164] id=474 P=3687 gen=10 full=100.0 2.26s
+[train 66/1164] id=475 P=3687 gen=10 full=100.0 2.27s
+[train 67/1164] id=476 P=3687 gen=10 full=100.0 2.27s
+[train 68/1164] id=477 P=3693 gen=10 full=100.0 2.3s
+[train 69/1164] id=478 P=3687 gen=10 full=100.0 2.27s
+[train 70/1164] id=479 P=3693 gen=10 full=100.0 2.29s
+[train 71/1164] id=480 P=3690 gen=10 full=100.0 2.3s
+[train 72/1164] id=481 P=3687 gen=10 full=100.0 2.27s
+[train 73/1164] id=482 P=3687 gen=10 full=100.0 2.28s
+[train 74/1164] id=483 P=3693 gen=10 full=100.0 2.28s
+[train 75/1164] id=484 P=3690 gen=10 full=100.0 2.27s
+[train 76/1164] id=485 P=3690 gen=10 full=100.0 2.31s
+[train 77/1164] id=486 P=3693 gen=10 full=100.0 2.29s
+[train 78/1164] id=487 P=3687 gen=10 full=100.0 2.34s
+[train 79/1164] id=488 P=3687 gen=10 full=100.0 2.26s
+[train 80/1164] id=489 P=3687 gen=10 full=100.0 2.27s
+[train 81/1164] id=490 P=3687 gen=10 full=100.0 2.29s
+[train 82/1164] id=491 P=3690 gen=10 full=100.0 2.3s
+[train 83/1164] id=492 P=3687 gen=10 full=100.0 2.26s
+[train 84/1164] id=493 P=3687 gen=10 full=100.0 2.28s
+[train 85/1164] id=494 P=3690 gen=10 full=100.0 2.28s
+[train 86/1164] id=495 P=3687 gen=10 full=100.0 2.34s
+[train 87/1164] id=496 P=3684 gen=10 full=100.0 2.29s
+[train 88/1164] id=497 P=3687 gen=10 full=100.0 2.27s
+[train 89/1164] id=498 P=3690 gen=10 full=100.0 2.31s
+[train 90/1164] id=499 P=3690 gen=10 full=100.0 2.33s
+[train 91/1164] id=910 P=4444 gen=10 full=100.0 3.04s
+[train 92/1164] id=911 P=4449 gen=10 full=100.0 2.8s
+[train 93/1164] id=912 P=4445 gen=10 full=100.0 2.78s
+[train 94/1164] id=913 P=4430 gen=10 full=100.0 2.76s
+[train 95/1164] id=914 P=4461 gen=10 full=100.0 2.77s
+[train 96/1164] id=915 P=4462 gen=10 full=100.0 2.77s
+[train 97/1164] id=916 P=4463 gen=10 full=100.0 2.79s
+[train 98/1164] id=917 P=4455 gen=10 full=100.0 2.78s
+[train 99/1164] id=918 P=4459 gen=10 full=100.0 2.78s
+[train 100/1164] id=919 P=4431 gen=10 full=100.0 2.75s
+[train 101/1164] id=920 P=4439 gen=10 full=100.0 2.76s
+[train 102/1164] id=921 P=4439 gen=10 full=100.0 2.74s
+[train 103/1164] id=922 P=4472 gen=10 full=100.0 2.79s
+[train 104/1164] id=923 P=4445 gen=10 full=100.0 2.8s
+[train 105/1164] id=924 P=4473 gen=10 full=100.0 2.81s
+[train 106/1164] id=925 P=4445 gen=10 full=100.0 2.76s
+[train 107/1164] id=926 P=4465 gen=10 full=100.0 2.78s
+[train 108/1164] id=927 P=4435 gen=10 full=100.0 2.75s
+[train 109/1164] id=928 P=4472 gen=10 full=100.0 2.82s
+[train 110/1164] id=929 P=4458 gen=10 full=100.0 2.76s
+[train 111/1164] id=930 P=4438 gen=10 full=100.0 2.79s
+[train 112/1164] id=931 P=4451 gen=10 full=100.0 2.77s
+[train 113/1164] id=932 P=4480 gen=10 full=100.0 2.83s
+[train 114/1164] id=933 P=4440 gen=10 full=100.0 2.78s
+[train 115/1164] id=934 P=4445 gen=10 full=100.0 2.78s
+[train 116/1164] id=935 P=4485 gen=10 full=100.0 2.82s
+[train 117/1164] id=936 P=4435 gen=10 full=100.0 2.77s
+[train 118/1164] id=937 P=4457 gen=10 full=100.0 2.77s
+[train 119/1164] id=938 P=4415 gen=10 full=100.0 2.79s
+[train 120/1164] id=939 P=4459 gen=10 full=100.0 2.78s
+[train 121/1164] id=940 P=4453 gen=10 full=100.0 2.75s
+[train 122/1164] id=941 P=4459 gen=10 full=100.0 2.76s
+[train 123/1164] id=942 P=4446 gen=10 full=100.0 2.75s
+[train 124/1164] id=943 P=4461 gen=10 full=100.0 2.78s
+[train 125/1164] id=944 P=4453 gen=10 full=100.0 2.83s
+[train 126/1164] id=945 P=4442 gen=10 full=100.0 2.76s
+[train 127/1164] id=946 P=4445 gen=10 full=100.0 2.76s
+[train 128/1164] id=947 P=4478 gen=10 full=100.0 2.79s
+[train 129/1164] id=948 P=4448 gen=10 full=100.0 2.76s
+[train 130/1164] id=949 P=4430 gen=10 full=100.0 2.76s
+[train 131/1164] id=950 P=4438 gen=10 full=100.0 2.81s
+[train 132/1164] id=951 P=4453 gen=10 full=100.0 2.76s
+[train 133/1164] id=952 P=4470 gen=10 full=100.0 2.79s
+[train 134/1164] id=953 P=4446 gen=10 full=100.0 2.78s
+[train 135/1164] id=954 P=4437 gen=10 full=100.0 2.79s
+[train 136/1164] id=955 P=4449 gen=10 full=100.0 2.8s
+[train 137/1164] id=956 P=4461 gen=10 full=100.0 2.81s
+[train 138/1164] id=957 P=4436 gen=10 full=100.0 2.77s
+[train 139/1164] id=958 P=4455 gen=10 full=100.0 2.76s
+[train 140/1164] id=959 P=4454 gen=10 full=100.0 2.77s
+[train 141/1164] id=960 P=4441 gen=10 full=100.0 2.76s
+[train 142/1164] id=961 P=4441 gen=10 full=100.0 2.81s
+[train 143/1164] id=962 P=4441 gen=10 full=100.0 2.78s
+[train 144/1164] id=963 P=4424 gen=10 full=100.0 2.78s
+[train 145/1164] id=964 P=4463 gen=10 full=100.0 2.78s
+[train 146/1164] id=965 P=4457 gen=10 full=100.0 2.78s
+[train 147/1164] id=966 P=4453 gen=10 full=100.0 2.77s
+[train 148/1164] id=967 P=4468 gen=10 full=100.0 2.8s
+[train 149/1164] id=968 P=4455 gen=10 full=100.0 2.75s
+[train 150/1164] id=969 P=4448 gen=10 full=100.0 2.81s
+[train 151/1164] id=970 P=4465 gen=10 full=100.0 2.77s
+[train 152/1164] id=971 P=4426 gen=10 full=100.0 2.8s
+[train 153/1164] id=972 P=4440 gen=10 full=100.0 2.78s
+[train 154/1164] id=973 P=4459 gen=10 full=100.0 2.77s
+[train 155/1164] id=974 P=4441 gen=10 full=100.0 2.78s
+[train 156/1164] id=975 P=4428 gen=10 full=100.0 2.75s
+[train 157/1164] id=976 P=4444 gen=10 full=100.0 2.75s
+[train 158/1164] id=977 P=4426 gen=10 full=100.0 2.74s
+[train 159/1164] id=978 P=4456 gen=10 full=100.0 2.76s
+[train 160/1164] id=979 P=4441 gen=10 full=100.0 2.77s
+[train 161/1164] id=980 P=4443 gen=10 full=100.0 2.77s
+[train 162/1164] id=981 P=4445 gen=10 full=100.0 2.82s
+[train 163/1164] id=982 P=4445 gen=10 full=100.0 2.78s
+[train 164/1164] id=983 P=4473 gen=10 full=100.0 2.83s
+[train 165/1164] id=984 P=4463 gen=10 full=100.0 2.79s
+[train 166/1164] id=985 P=4452 gen=10 full=100.0 2.78s
+[train 167/1164] id=986 P=4476 gen=10 full=100.0 2.77s
+[train 168/1164] id=987 P=4465 gen=10 full=100.0 2.77s
+[train 169/1164] id=988 P=4469 gen=10 full=100.0 2.76s
+[train 170/1164] id=989 P=4442 gen=10 full=100.0 2.77s
+[train 171/1164] id=990 P=4417 gen=10 full=100.0 2.75s
+[train 172/1164] id=991 P=4474 gen=10 full=100.0 2.8s
+[train 173/1164] id=992 P=4469 gen=10 full=100.0 2.8s
+[train 174/1164] id=993 P=4465 gen=10 full=100.0 2.77s
+[train 175/1164] id=994 P=4451 gen=10 full=100.0 2.77s
+[train 176/1164] id=995 P=4457 gen=10 full=100.0 2.77s
+[train 177/1164] id=996 P=4462 gen=10 full=100.0 2.77s
+[train 178/1164] id=997 P=4444 gen=10 full=100.0 2.76s
+[train 179/1164] id=998 P=4431 gen=10 full=100.0 2.78s
+[train 180/1164] id=999 P=4449 gen=10 full=100.0 2.76s
+[train 181/1164] id=1410 P=3939 gen=16 full=100.0 2.87s
+[train 182/1164] id=1411 P=3952 gen=15 full=100.0 2.76s
+[train 183/1164] id=1412 P=4066 gen=15 full=100.0 2.83s
+[train 184/1164] id=1413 P=3991 gen=15 full=100.0 2.79s
+[train 185/1164] id=1414 P=3893 gen=18 full=100.0 2.96s
+[train 186/1164] id=1415 P=3916 gen=15 full=66.66666666666667 2.74s
+[train 187/1164] id=1416 P=3888 gen=15 full=100.0 2.74s
+[train 188/1164] id=1417 P=3971 gen=16 full=66.66666666666667 2.86s
+[train 189/1164] id=1418 P=4019 gen=15 full=100.0 2.83s
+[train 190/1164] id=1419 P=4025 gen=15 full=100.0 2.81s
+[train 191/1164] id=1420 P=3978 gen=14 full=100.0 2.74s
+[train 192/1164] id=1421 P=3884 gen=15 full=66.66666666666667 2.78s
+[train 193/1164] id=1422 P=4021 gen=16 full=100.0 2.88s
+[train 194/1164] id=1423 P=4052 gen=20 full=100.0 3.14s
+[train 195/1164] id=1424 P=4025 gen=13 full=100.0 2.71s
+[train 196/1164] id=1425 P=3961 gen=16 full=100.0 2.86s
+[train 197/1164] id=1426 P=4005 gen=16 full=100.0 2.86s
+[train 198/1164] id=1427 P=3881 gen=14 full=66.66666666666667 2.69s
+[train 199/1164] id=1428 P=3892 gen=14 full=100.0 2.66s
+[train 200/1164] id=1429 P=3746 gen=17 full=66.66666666666667 2.81s
+[train 201/1164] id=1430 P=3869 gen=15 full=100.0 2.77s
+[train 202/1164] id=1431 P=3968 gen=14 full=66.66666666666667 2.7s
+[train 203/1164] id=1432 P=3971 gen=14 full=100.0 2.79s
+[train 204/1164] id=1433 P=4044 gen=15 full=66.66666666666667 2.85s
+[train 205/1164] id=1434 P=4399 gen=15 full=100.0 3.08s
+[train 206/1164] id=1435 P=3917 gen=13 full=100.0 2.61s
+[train 207/1164] id=1436 P=3990 gen=14 full=66.66666666666667 2.73s
+[train 208/1164] id=1437 P=4019 gen=16 full=66.66666666666667 2.93s
+[train 209/1164] id=1438 P=3976 gen=13 full=100.0 2.67s
+[train 210/1164] id=1439 P=4119 gen=16 full=66.66666666666667 2.93s
+[train 211/1164] id=1440 P=3983 gen=15 full=66.66666666666667 2.83s
+[train 212/1164] id=1441 P=3879 gen=18 full=66.66666666666667 2.95s
+[train 213/1164] id=1442 P=4021 gen=18 full=100.0 3.01s
+[train 214/1164] id=1443 P=3962 gen=15 full=100.0 2.8s
+[train 215/1164] id=1444 P=4032 gen=13 full=66.66666666666667 2.66s
+[train 216/1164] id=1445 P=4006 gen=14 full=66.66666666666667 2.72s
+[train 217/1164] id=1446 P=3944 gen=16 full=66.66666666666667 2.81s
+[train 218/1164] id=1447 P=4103 gen=14 full=100.0 2.81s
+[train 219/1164] id=1448 P=3767 gen=14 full=100.0 2.63s
+[train 220/1164] id=1449 P=4101 gen=14 full=100.0 2.81s
+[train 221/1164] id=1450 P=4083 gen=15 full=100.0 2.88s
+[train 222/1164] id=1451 P=4100 gen=14 full=100.0 2.88s
+[train 223/1164] id=1452 P=4005 gen=22 full=100.0 3.26s
+[train 224/1164] id=1453 P=3967 gen=14 full=100.0 2.71s
+[train 225/1164] id=1454 P=4100 gen=14 full=100.0 2.83s
+[train 226/1164] id=1455 P=3904 gen=16 full=100.0 2.8s
+[train 227/1164] id=1456 P=4442 gen=16 full=100.0 3.16s
+[train 228/1164] id=1457 P=4010 gen=14 full=100.0 2.73s
+[train 229/1164] id=1458 P=3892 gen=18 full=66.66666666666667 2.92s
+[train 230/1164] id=1459 P=3965 gen=16 full=100.0 2.83s
+[train 231/1164] id=1460 P=3893 gen=16 full=100.0 2.79s
+[train 232/1164] id=1461 P=3986 gen=13 full=100.0 2.74s
+[train 233/1164] id=1462 P=3851 gen=14 full=100.0 2.66s
+[train 234/1164] id=1463 P=4065 gen=15 full=100.0 2.82s
+[train 235/1164] id=1464 P=3954 gen=16 full=100.0 2.83s
+[train 236/1164] id=1465 P=3880 gen=14 full=66.66666666666667 2.69s
+[train 237/1164] id=1466 P=4018 gen=14 full=100.0 2.79s
+[train 238/1164] id=1467 P=3977 gen=13 full=100.0 2.67s
+[train 239/1164] id=1468 P=4066 gen=15 full=66.66666666666667 2.8s
+[train 240/1164] id=1469 P=3897 gen=18 full=66.66666666666667 2.94s
+[train 241/1164] id=1470 P=3966 gen=19 full=100.0 3.02s
+[train 242/1164] id=1471 P=3986 gen=15 full=100.0 2.78s
+[train 243/1164] id=1472 P=4092 gen=14 full=100.0 2.77s
+[train 244/1164] id=1473 P=3927 gen=15 full=66.66666666666667 2.77s
+[train 245/1164] id=1474 P=3870 gen=12 full=100.0 2.56s
+[train 246/1164] id=1475 P=3889 gen=15 full=66.66666666666667 2.72s
+[train 247/1164] id=1476 P=3979 gen=18 full=66.66666666666667 3.01s
+[train 248/1164] id=1477 P=3943 gen=15 full=66.66666666666667 2.75s
+[train 249/1164] id=1478 P=4019 gen=15 full=66.66666666666667 2.81s
+[train 250/1164] id=1479 P=4071 gen=20 full=100.0 3.19s
+[train 251/1164] id=1480 P=4001 gen=13 full=100.0 2.66s
+[train 252/1164] id=1481 P=4034 gen=19 full=100.0 3.07s
+[train 253/1164] id=1482 P=3995 gen=13 full=100.0 2.67s
+[train 254/1164] id=1483 P=3898 gen=19 full=100.0 3.01s
+[train 255/1164] id=1484 P=3994 gen=13 full=100.0 2.66s
+[train 256/1164] id=1485 P=4003 gen=13 full=100.0 2.66s
+[train 257/1164] id=1486 P=3899 gen=15 full=66.66666666666667 2.74s
+[train 258/1164] id=1487 P=3951 gen=16 full=100.0 2.83s
+[train 259/1164] id=1488 P=3938 gen=16 full=66.66666666666667 2.85s
+[train 260/1164] id=1489 P=4018 gen=16 full=100.0 2.87s
+[train 261/1164] id=1490 P=4013 gen=19 full=66.66666666666667 3.06s
+[train 262/1164] id=1491 P=4053 gen=15 full=100.0 2.81s
+[train 263/1164] id=1492 P=3912 gen=14 full=66.66666666666667 2.7s
+[train 264/1164] id=1493 P=4040 gen=13 full=100.0 2.69s
+[train 265/1164] id=1494 P=3932 gen=15 full=100.0 2.74s
+[train 266/1164] id=1495 P=3838 gen=16 full=66.66666666666667 2.77s
+[train 267/1164] id=1496 P=3947 gen=16 full=100.0 2.83s
+[train 268/1164] id=1497 P=3891 gen=16 full=100.0 2.81s
+[train 269/1164] id=1498 P=4035 gen=18 full=100.0 3.01s
+[train 270/1164] id=1499 P=3888 gen=15 full=66.66666666666667 2.77s
+[train 271/1164] id=1910 P=2330 gen=2 full=100.0 1.24s
+[train 272/1164] id=1911 P=2293 gen=22 full=100.0 2.35s
+[train 273/1164] id=1912 P=1880 gen=17 full=100.0 1.87s
+[train 274/1164] id=1913 P=2357 gen=11 full=100.0 1.71s
+[train 275/1164] id=1914 P=2428 gen=10 full=100.0 1.69s
+[train 276/1164] id=1915 P=2637 gen=16 full=0.0 2.15s
+[train 277/1164] id=1916 P=2067 gen=2 full=100.0 1.05s
+[train 278/1164] id=1917 P=2334 gen=2 full=100.0 1.15s
+[train 279/1164] id=1918 P=2261 gen=2 full=100.0 1.09s
+[train 280/1164] id=1919 P=2184 gen=11 full=100.0 1.63s
+[train 281/1164] id=1920 P=2187 gen=4 full=0.0 1.21s
+[train 282/1164] id=1921 P=2010 gen=4 full=100.0 1.12s
+[train 283/1164] id=1922 P=2344 gen=3 full=100.0 1.22s
+[train 284/1164] id=1923 P=2047 gen=4 full=100.0 1.17s
+[train 285/1164] id=1924 P=2274 gen=4 full=100.0 1.26s
+[train 286/1164] id=1925 P=1779 gen=3 full=100.0 1.01s
+[train 287/1164] id=1926 P=2384 gen=32 full=100.0 3.04s
+[train 288/1164] id=1927 P=2326 gen=2 full=100.0 1.15s
+[train 289/1164] id=1928 P=2162 gen=6 full=100.0 1.33s
+[train 290/1164] id=1929 P=2111 gen=3 full=100.0 1.1s
+[train 291/1164] id=1930 P=1900 gen=8 full=100.0 1.38s
+[train 292/1164] id=1931 P=2152 gen=3 full=100.0 1.12s
+[train 293/1164] id=1932 P=2475 gen=25 full=0.0 2.64s
+[train 294/1164] id=1933 P=1662 gen=2 full=100.0 0.92s
+[train 295/1164] id=1934 P=2224 gen=4 full=100.0 1.22s
+[train 296/1164] id=1935 P=2060 gen=11 full=100.0 1.59s
+[train 297/1164] id=1936 P=1694 gen=4 full=0.0 1.04s
+[train 298/1164] id=1937 P=2090 gen=3 full=100.0 1.13s
+[train 299/1164] id=1938 P=2042 gen=5 full=100.0 1.2s
+[train 300/1164] id=1939 P=2300 gen=3 full=100.0 1.16s
+[train 301/1164] id=1940 P=2203 gen=5 full=0.0 1.26s
+[train 302/1164] id=1941 P=2392 gen=5 full=100.0 1.35s
+[train 303/1164] id=1942 P=2023 gen=5 full=100.0 1.19s
+[train 304/1164] id=1943 P=1956 gen=4 full=100.0 1.12s
+[train 305/1164] id=1944 P=2271 gen=2 full=0.0 1.12s
+[train 306/1164] id=1945 P=2023 gen=2 full=100.0 1.03s
+[train 307/1164] id=1946 P=1947 gen=2 full=100.0 1.0s
+[train 308/1164] id=1947 P=2127 gen=6 full=100.0 1.35s
+[train 309/1164] id=1948 P=2311 gen=5 full=100.0 1.35s
+[train 310/1164] id=1949 P=2035 gen=3 full=100.0 1.11s
+[train 311/1164] id=1950 P=2431 gen=3 full=100.0 1.25s
+[train 312/1164] id=1951 P=2195 gen=32 full=100.0 2.99s
+[train 313/1164] id=1952 P=2184 gen=2 full=100.0 1.07s
+[train 314/1164] id=1953 P=2283 gen=3 full=100.0 1.17s
+[train 315/1164] id=1954 P=2235 gen=4 full=100.0 1.22s
+[train 316/1164] id=1955 P=2157 gen=2 full=100.0 1.08s
+[train 317/1164] id=1956 P=1958 gen=2 full=100.0 1.0s
+[train 318/1164] id=1957 P=1966 gen=2 full=100.0 1.0s
+[train 319/1164] id=1958 P=1979 gen=4 full=100.0 1.15s
+[train 320/1164] id=1959 P=2329 gen=3 full=100.0 1.26s
+[train 321/1164] id=1960 P=2217 gen=4 full=100.0 1.2s
+[train 322/1164] id=1961 P=1969 gen=3 full=0.0 1.1s
+[train 323/1164] id=1962 P=2071 gen=6 full=100.0 1.35s
+[train 324/1164] id=1963 P=2543 gen=4 full=100.0 1.37s
+[train 325/1164] id=1964 P=1944 gen=6 full=100.0 1.26s
+[train 326/1164] id=1965 P=1900 gen=10 full=100.0 1.49s
+[train 327/1164] id=1966 P=2091 gen=2 full=100.0 1.04s
+[train 328/1164] id=1967 P=2044 gen=5 full=100.0 1.19s
+[train 329/1164] id=1968 P=2217 gen=6 full=100.0 1.32s
+[train 330/1164] id=1969 P=2440 gen=4 full=100.0 1.39s
+[train 331/1164] id=1970 P=2105 gen=2 full=100.0 1.05s
+[train 332/1164] id=1971 P=2181 gen=4 full=100.0 1.22s
+[train 333/1164] id=1972 P=2236 gen=4 full=0.0 1.21s
+[train 334/1164] id=1973 P=3247 gen=4 full=100.0 1.7s
+[train 335/1164] id=1974 P=3249 gen=4 full=100.0 1.71s
+[train 336/1164] id=1975 P=3254 gen=6 full=100.0 1.81s
+[train 337/1164] id=1976 P=3240 gen=3 full=100.0 1.62s
+[train 338/1164] id=1977 P=3317 gen=4 full=100.0 1.7s
+[train 339/1164] id=1978 P=3349 gen=6 full=100.0 1.87s
+[train 340/1164] id=1979 P=3340 gen=3 full=0.0 1.67s
+[train 341/1164] id=1980 P=3219 gen=2 full=100.0 1.58s
+[train 342/1164] id=1981 P=3279 gen=6 full=100.0 1.83s
+[train 343/1164] id=1982 P=3262 gen=3 full=100.0 1.63s
+[train 344/1164] id=1983 P=3368 gen=3 full=100.0 1.69s
+[train 345/1164] id=1984 P=3370 gen=3 full=0.0 1.73s
+[train 346/1164] id=1985 P=3317 gen=3 full=100.0 1.68s
+[train 347/1164] id=1986 P=3334 gen=13 full=100.0 2.36s
+[train 348/1164] id=1987 P=3254 gen=20 full=100.0 2.74s
+[train 349/1164] id=1988 P=3323 gen=7 full=100.0 1.91s
+[train 350/1164] id=1989 P=3314 gen=24 full=100.0 3.01s
+[train 351/1164] id=1990 P=3363 gen=8 full=100.0 2.04s
+[train 352/1164] id=1991 P=3347 gen=5 full=100.0 1.81s
+[train 353/1164] id=1992 P=3285 gen=3 full=100.0 1.63s
+[train 354/1164] id=1993 P=3313 gen=14 full=100.0 2.35s
+[train 355/1164] id=1994 P=3271 gen=3 full=100.0 1.63s
+[train 356/1164] id=1995 P=3269 gen=4 full=100.0 1.69s
+[train 357/1164] id=1996 P=3305 gen=3 full=100.0 1.64s
+[train 358/1164] id=1997 P=3216 gen=6 full=100.0 1.83s
+[train 359/1164] id=1998 P=3312 gen=3 full=0.0 1.65s
+[train 360/1164] id=1999 P=3277 gen=18 full=100.0 2.64s
+[train 361/1164] id=2410 P=3810 gen=35 full=100.0 4.09s
+[train 362/1164] id=2411 P=3809 gen=34 full=100.0 3.94s
+[train 363/1164] id=2412 P=3806 gen=34 full=100.0 3.97s
+[train 364/1164] id=2413 P=3808 gen=36 full=100.0 4.1s
+[train 365/1164] id=2414 P=3811 gen=36 full=100.0 4.08s
+[train 366/1164] id=2415 P=3815 gen=37 full=100.0 4.19s
+[train 367/1164] id=2416 P=3813 gen=38 full=100.0 4.28s
+[train 368/1164] id=2417 P=3810 gen=35 full=100.0 4.01s
+[train 369/1164] id=2418 P=3807 gen=35 full=100.0 4.03s
+[train 370/1164] id=2419 P=3811 gen=36 full=100.0 4.08s
+[train 371/1164] id=2420 P=3812 gen=34 full=100.0 3.96s
+[train 372/1164] id=2421 P=3806 gen=37 full=100.0 4.16s
+[train 373/1164] id=2422 P=3815 gen=37 full=100.0 4.18s
+[train 374/1164] id=2423 P=3814 gen=36 full=100.0 4.08s
+[train 375/1164] id=2424 P=3816 gen=38 full=100.0 4.25s
+[train 376/1164] id=2425 P=3814 gen=36 full=100.0 4.07s
+[train 377/1164] id=2426 P=3815 gen=37 full=100.0 4.14s
+[train 378/1164] id=2427 P=3815 gen=34 full=100.0 3.95s
+[train 379/1164] id=2428 P=3817 gen=36 full=100.0 4.08s
+[train 380/1164] id=2429 P=3817 gen=39 full=100.0 4.32s
+[train 381/1164] id=2430 P=3809 gen=34 full=100.0 3.94s
+[train 382/1164] id=2431 P=3814 gen=33 full=100.0 3.89s
+[train 383/1164] id=2432 P=3814 gen=36 full=100.0 4.11s
+[train 384/1164] id=2433 P=3812 gen=34 full=100.0 3.96s
+[train 385/1164] id=2434 P=3814 gen=36 full=100.0 4.08s
+[train 386/1164] id=2435 P=3815 gen=37 full=100.0 4.15s
+[train 387/1164] id=2436 P=3814 gen=36 full=100.0 4.08s
+[train 388/1164] id=2437 P=3807 gen=35 full=100.0 4.01s
+[train 389/1164] id=2438 P=3811 gen=36 full=100.0 4.08s
+[train 390/1164] id=2439 P=3807 gen=35 full=100.0 4.03s
+[train 391/1164] id=2440 P=3813 gen=35 full=100.0 4.06s
+[train 392/1164] id=2441 P=3808 gen=33 full=100.0 3.89s
+[train 393/1164] id=2442 P=3811 gen=36 full=100.0 4.1s
+[train 394/1164] id=2443 P=3808 gen=36 full=100.0 4.1s
+[train 395/1164] id=2444 P=3806 gen=34 full=100.0 3.93s
+[train 396/1164] id=2445 P=3812 gen=37 full=100.0 4.17s
+[train 397/1164] id=2446 P=3803 gen=34 full=100.0 3.92s
+[train 398/1164] id=2447 P=3808 gen=36 full=100.0 4.12s
+[train 399/1164] id=2448 P=3810 gen=37 full=100.0 4.15s
+[train 400/1164] id=2449 P=3809 gen=34 full=100.0 3.95s
+[train 401/1164] id=2450 P=3808 gen=36 full=100.0 4.09s
+[train 402/1164] id=2451 P=3814 gen=39 full=100.0 4.31s
+[train 403/1164] id=2452 P=3808 gen=36 full=100.0 4.13s
+[train 404/1164] id=2453 P=3816 gen=35 full=100.0 4.04s
+[train 405/1164] id=2454 P=3808 gen=36 full=100.0 4.13s
+[train 406/1164] id=2455 P=3812 gen=37 full=100.0 4.14s
+[train 407/1164] id=2456 P=3808 gen=33 full=100.0 3.88s
+[train 408/1164] id=2457 P=3808 gen=36 full=100.0 4.1s
+[train 409/1164] id=2459 P=3806 gen=34 full=100.0 3.98s
+[train 410/1164] id=2460 P=3808 gen=33 full=100.0 3.85s
+[train 411/1164] id=2461 P=3811 gen=36 full=100.0 4.1s
+[train 412/1164] id=2462 P=3815 gen=37 full=100.0 4.18s
+[train 413/1164] id=2463 P=3814 gen=36 full=100.0 4.12s
+[train 414/1164] id=2464 P=3810 gen=35 full=100.0 4.06s
+[train 415/1164] id=2465 P=3806 gen=34 full=100.0 3.91s
+[train 416/1164] id=2466 P=3816 gen=38 full=100.0 4.26s
+[train 417/1164] id=2467 P=3801 gen=32 full=100.0 3.83s
+[train 418/1164] id=2468 P=3813 gen=38 full=100.0 4.25s
+[train 419/1164] id=2469 P=3809 gen=37 full=100.0 4.18s
+[train 420/1164] id=2470 P=3813 gen=37 full=100.0 4.17s
+[train 421/1164] id=2471 P=3810 gen=38 full=100.0 4.22s
+[train 422/1164] id=2472 P=3813 gen=38 full=100.0 4.22s
+[train 423/1164] id=2473 P=3808 gen=36 full=100.0 4.09s
+[train 424/1164] id=2474 P=3815 gen=37 full=100.0 4.15s
+[train 425/1164] id=2475 P=3811 gen=36 full=100.0 4.09s
+[train 426/1164] id=2476 P=3816 gen=38 full=100.0 4.22s
+[train 427/1164] id=2477 P=3808 gen=33 full=100.0 3.85s
+[train 428/1164] id=2478 P=3822 gen=38 full=100.0 4.25s
+[train 429/1164] id=2479 P=3802 gen=33 full=100.0 3.85s
+[train 430/1164] id=2480 P=3803 gen=31 full=100.0 3.74s
+[train 431/1164] id=2481 P=3810 gen=35 full=100.0 4.04s
+[train 432/1164] id=2482 P=3806 gen=31 full=100.0 3.74s
+[train 433/1164] id=2483 P=3808 gen=39 full=100.0 4.3s
+[train 434/1164] id=2484 P=3808 gen=33 full=100.0 3.88s
+[train 435/1164] id=2485 P=3806 gen=34 full=100.0 3.92s
+[train 436/1164] id=2486 P=3806 gen=34 full=100.0 3.93s
+[train 437/1164] id=2487 P=3808 gen=36 full=100.0 4.09s
+[train 438/1164] id=2488 P=3811 gen=36 full=100.0 4.08s
+[train 439/1164] id=2489 P=3805 gen=33 full=100.0 3.88s
+[train 440/1164] id=2490 P=3808 gen=33 full=100.0 3.85s
+[train 441/1164] id=2491 P=3808 gen=35 full=100.0 4.02s
+[train 442/1164] id=2492 P=3811 gen=39 full=100.0 4.33s
+[train 443/1164] id=2493 P=3806 gen=34 full=100.0 3.96s
+[train 444/1164] id=2494 P=3814 gen=36 full=100.0 4.11s
+[train 445/1164] id=2495 P=3808 gen=36 full=100.0 4.08s
+[train 446/1164] id=2496 P=3811 gen=39 full=100.0 4.29s
+[train 447/1164] id=2497 P=3811 gen=39 full=100.0 4.32s
+[train 448/1164] id=2498 P=3815 gen=37 full=100.0 4.16s
+[train 449/1164] id=2499 P=3811 gen=36 full=100.0 4.14s
+[train 450/1164] id=2910 P=3849 gen=10 full=100.0 2.46s
+[train 451/1164] id=2911 P=3848 gen=10 full=100.0 2.41s
+[train 452/1164] id=2912 P=3852 gen=10 full=100.0 2.43s
+[train 453/1164] id=2913 P=3842 gen=10 full=100.0 2.42s
+[train 454/1164] id=2914 P=3850 gen=10 full=100.0 2.47s
+[train 455/1164] id=2915 P=3854 gen=10 full=100.0 2.41s
+[train 456/1164] id=2916 P=3853 gen=10 full=100.0 2.44s
+[train 457/1164] id=2917 P=3848 gen=10 full=100.0 2.43s
+[train 458/1164] id=2918 P=3844 gen=10 full=100.0 2.45s
+[train 459/1164] id=2919 P=3846 gen=10 full=100.0 2.45s
+[train 460/1164] id=2920 P=3855 gen=10 full=100.0 2.4s
+[train 461/1164] id=2921 P=3845 gen=10 full=100.0 2.43s
+[train 462/1164] id=2922 P=3852 gen=10 full=100.0 2.47s
+[train 463/1164] id=2923 P=3852 gen=10 full=100.0 2.41s
+[train 464/1164] id=2924 P=3853 gen=10 full=100.0 2.41s
+[train 465/1164] id=2925 P=3846 gen=10 full=100.0 2.44s
+[train 466/1164] id=2926 P=3850 gen=10 full=100.0 2.41s
+[train 467/1164] id=2927 P=3845 gen=10 full=100.0 2.41s
+[train 468/1164] id=2928 P=3849 gen=10 full=100.0 2.42s
+[train 469/1164] id=2929 P=3851 gen=10 full=100.0 2.43s
+[train 470/1164] id=2930 P=3841 gen=10 full=100.0 2.41s
+[train 471/1164] id=2931 P=3854 gen=10 full=100.0 2.44s
+[train 472/1164] id=2932 P=3859 gen=10 full=100.0 2.44s
+[train 473/1164] id=2933 P=3845 gen=10 full=100.0 2.41s
+[train 474/1164] id=2934 P=3847 gen=10 full=100.0 2.48s
+[train 475/1164] id=2936 P=3848 gen=10 full=100.0 2.45s
+[train 476/1164] id=2937 P=3847 gen=10 full=100.0 2.45s
+[train 477/1164] id=2938 P=3850 gen=10 full=100.0 2.41s
+[train 478/1164] id=2939 P=3850 gen=10 full=100.0 2.41s
+[train 479/1164] id=2940 P=3849 gen=10 full=100.0 2.45s
+[train 480/1164] id=2941 P=3847 gen=10 full=100.0 2.4s
+[train 481/1164] id=2942 P=3844 gen=10 full=100.0 2.43s
+[train 482/1164] id=2943 P=3847 gen=10 full=100.0 2.4s
+[train 483/1164] id=2944 P=3853 gen=10 full=100.0 2.42s
+[train 484/1164] id=2945 P=3853 gen=10 full=100.0 2.41s
+[train 485/1164] id=2946 P=3850 gen=10 full=100.0 2.45s
+[train 486/1164] id=2947 P=3848 gen=10 full=100.0 2.45s
+[train 487/1164] id=2948 P=3844 gen=10 full=100.0 2.44s
+[train 488/1164] id=2949 P=3857 gen=10 full=100.0 2.43s
+[train 489/1164] id=2950 P=3856 gen=10 full=100.0 2.4s
+[train 490/1164] id=2951 P=3854 gen=10 full=100.0 2.43s
+[train 491/1164] id=2952 P=3846 gen=10 full=100.0 2.43s
+[train 492/1164] id=2953 P=3852 gen=10 full=100.0 2.46s
+[train 493/1164] id=2954 P=3846 gen=10 full=100.0 2.41s
+[train 494/1164] id=2955 P=3848 gen=10 full=100.0 2.41s
+[train 495/1164] id=2956 P=3853 gen=10 full=100.0 2.42s
+[train 496/1164] id=2957 P=3846 gen=10 full=100.0 2.46s
+[train 497/1164] id=2958 P=3845 gen=10 full=100.0 2.43s
+[train 498/1164] id=2959 P=3850 gen=10 full=100.0 2.41s
+[train 499/1164] id=2960 P=3842 gen=10 full=100.0 2.43s
+[train 500/1164] id=2961 P=3846 gen=10 full=100.0 2.45s
+[train 501/1164] id=2962 P=3846 gen=10 full=100.0 2.4s
+[train 502/1164] id=2963 P=3846 gen=10 full=100.0 2.47s
+[train 503/1164] id=2964 P=3848 gen=10 full=100.0 2.4s
+[train 504/1164] id=2965 P=3845 gen=10 full=100.0 2.41s
+[train 505/1164] id=2966 P=3845 gen=10 full=100.0 2.41s
+[train 506/1164] id=2967 P=3848 gen=10 full=100.0 2.42s
+[train 507/1164] id=2968 P=3849 gen=10 full=100.0 2.42s
+[train 508/1164] id=2969 P=3852 gen=10 full=100.0 2.43s
+[train 509/1164] id=2970 P=3845 gen=10 full=100.0 2.46s
+[train 510/1164] id=2971 P=3845 gen=10 full=100.0 2.41s
+[train 511/1164] id=2972 P=3849 gen=10 full=100.0 2.46s
+[train 512/1164] id=2973 P=3848 gen=10 full=100.0 2.4s
+[train 513/1164] id=2974 P=3846 gen=10 full=100.0 2.47s
+[train 514/1164] id=2975 P=3848 gen=10 full=100.0 2.44s
+[train 515/1164] id=2976 P=3861 gen=10 full=100.0 2.4s
+[train 516/1164] id=2977 P=3850 gen=10 full=100.0 2.45s
+[train 517/1164] id=2978 P=3845 gen=10 full=100.0 2.46s
+[train 518/1164] id=2979 P=3853 gen=10 full=100.0 2.47s
+[train 519/1164] id=2980 P=3847 gen=10 full=100.0 2.43s
+[train 520/1164] id=2981 P=3852 gen=10 full=100.0 2.43s
+[train 521/1164] id=2982 P=3854 gen=10 full=100.0 2.4s
+[train 522/1164] id=2983 P=3859 gen=10 full=100.0 2.43s
+[train 523/1164] id=2984 P=3849 gen=10 full=100.0 2.4s
+[train 524/1164] id=2985 P=3849 gen=10 full=100.0 2.44s
+[train 525/1164] id=2986 P=3852 gen=10 full=100.0 2.46s
+[train 526/1164] id=2987 P=3854 gen=10 full=100.0 2.4s
+[train 527/1164] id=2988 P=3851 gen=10 full=100.0 2.46s
+[train 528/1164] id=2989 P=3845 gen=10 full=100.0 2.49s
+[train 529/1164] id=2990 P=3850 gen=10 full=100.0 2.42s
+[train 530/1164] id=2991 P=3857 gen=10 full=100.0 2.4s
+[train 531/1164] id=2992 P=3848 gen=10 full=100.0 2.45s
+[train 532/1164] id=2993 P=3850 gen=10 full=100.0 2.43s
+[train 533/1164] id=2994 P=3852 gen=10 full=100.0 2.46s
+[train 534/1164] id=2995 P=3845 gen=10 full=100.0 2.46s
+[train 535/1164] id=2996 P=3850 gen=10 full=100.0 2.44s
+[train 536/1164] id=2997 P=3853 gen=10 full=100.0 2.42s
+[train 537/1164] id=2998 P=3852 gen=10 full=100.0 2.45s
+[train 538/1164] id=2999 P=3850 gen=10 full=100.0 2.41s
+[train 539/1164] id=3410 P=3785 gen=10 full=100.0 2.38s
+[train 540/1164] id=3411 P=3782 gen=33 full=100.0 3.87s
+[train 541/1164] id=3412 P=3788 gen=10 full=100.0 2.33s
+[train 542/1164] id=3413 P=3785 gen=10 full=100.0 2.35s
+[train 543/1164] id=3414 P=3782 gen=10 full=100.0 2.38s
+[train 544/1164] id=3415 P=3785 gen=10 full=100.0 2.38s
+[train 545/1164] id=3416 P=3779 gen=10 full=100.0 2.34s
+[train 546/1164] id=3417 P=3785 gen=10 full=100.0 2.35s
+[train 547/1164] id=3418 P=3788 gen=10 full=100.0 2.33s
+[train 548/1164] id=3419 P=3791 gen=10 full=100.0 2.36s
+[train 549/1164] id=3420 P=3788 gen=10 full=100.0 2.36s
+[train 550/1164] id=3421 P=3785 gen=10 full=100.0 2.37s
+[train 551/1164] id=3422 P=3782 gen=10 full=100.0 2.37s
+[train 552/1164] id=3423 P=3788 gen=10 full=100.0 2.33s
+[train 553/1164] id=3424 P=3785 gen=10 full=100.0 2.41s
+[train 554/1164] id=3425 P=3782 gen=10 full=100.0 2.37s
+[train 555/1164] id=3426 P=3785 gen=10 full=100.0 2.36s
+[train 556/1164] id=3427 P=3785 gen=10 full=100.0 2.33s
+[train 557/1164] id=3428 P=3785 gen=10 full=100.0 2.36s
+[train 558/1164] id=3429 P=3782 gen=10 full=100.0 2.33s
+[train 559/1164] id=3430 P=3785 gen=10 full=100.0 2.33s
+[train 560/1164] id=3431 P=3788 gen=10 full=100.0 2.33s
+[train 561/1164] id=3432 P=3785 gen=10 full=100.0 2.33s
+[train 562/1164] id=3433 P=3785 gen=10 full=100.0 2.4s
+[train 563/1164] id=3434 P=3782 gen=10 full=100.0 2.36s
+[train 564/1164] id=3435 P=3788 gen=10 full=100.0 2.33s
+[train 565/1164] id=3436 P=3782 gen=10 full=100.0 2.37s
+[train 566/1164] id=3437 P=3782 gen=10 full=100.0 2.32s
+[train 567/1164] id=3438 P=3782 gen=10 full=100.0 2.37s
+[train 568/1164] id=3439 P=3782 gen=10 full=100.0 2.35s
+[train 569/1164] id=3440 P=3785 gen=10 full=100.0 2.38s
+[train 570/1164] id=3441 P=3782 gen=10 full=100.0 2.33s
+[train 571/1164] id=3442 P=3788 gen=10 full=100.0 2.36s
+[train 572/1164] id=3443 P=3782 gen=10 full=100.0 2.34s
+[train 573/1164] id=3444 P=3785 gen=10 full=100.0 2.33s
+[train 574/1164] id=3445 P=3785 gen=10 full=100.0 2.33s
+[train 575/1164] id=3446 P=3785 gen=10 full=100.0 2.33s
+[train 576/1164] id=3447 P=3782 gen=10 full=100.0 2.38s
+[train 577/1164] id=3448 P=3779 gen=10 full=100.0 2.35s
+[train 578/1164] id=3449 P=3785 gen=10 full=100.0 2.33s
+[train 579/1164] id=3450 P=3785 gen=10 full=100.0 2.34s
+[train 580/1164] id=3451 P=3791 gen=10 full=100.0 2.37s
+[train 581/1164] id=3452 P=3785 gen=10 full=100.0 2.37s
+[train 582/1164] id=3453 P=3785 gen=10 full=100.0 2.37s
+[train 583/1164] id=3454 P=3788 gen=10 full=100.0 2.35s
+[train 584/1164] id=3455 P=3785 gen=10 full=100.0 2.35s
+[train 585/1164] id=3456 P=3785 gen=10 full=100.0 2.33s
+[train 586/1164] id=3457 P=3788 gen=10 full=100.0 2.37s
+[train 587/1164] id=3458 P=3782 gen=10 full=100.0 2.36s
+[train 588/1164] id=3459 P=3788 gen=10 full=100.0 2.33s
+[train 589/1164] id=3460 P=3782 gen=10 full=100.0 2.32s
+[train 590/1164] id=3461 P=3785 gen=10 full=100.0 2.39s
+[train 591/1164] id=3462 P=3788 gen=10 full=100.0 2.37s
+[train 592/1164] id=3463 P=3788 gen=10 full=100.0 2.39s
+[train 593/1164] id=3464 P=3785 gen=10 full=100.0 2.33s
+[train 594/1164] id=3465 P=3786 gen=10 full=100.0 2.38s
+[train 595/1164] id=3466 P=3785 gen=10 full=100.0 2.38s
+[train 596/1164] id=3467 P=3788 gen=10 full=100.0 2.35s
+[train 597/1164] id=3468 P=3782 gen=10 full=100.0 2.33s
+[train 598/1164] id=3469 P=3782 gen=10 full=100.0 2.33s
+[train 599/1164] id=3470 P=3785 gen=10 full=100.0 2.39s
+[train 600/1164] id=3471 P=3785 gen=10 full=100.0 2.33s
+[train 601/1164] id=3472 P=3785 gen=10 full=100.0 2.36s
+[train 602/1164] id=3473 P=3782 gen=10 full=100.0 2.33s
+[train 603/1164] id=3474 P=3788 gen=10 full=100.0 2.34s
+[train 604/1164] id=3475 P=3785 gen=10 full=100.0 2.34s
+[train 605/1164] id=3476 P=3785 gen=10 full=100.0 2.33s
+[train 606/1164] id=3477 P=3785 gen=10 full=100.0 2.33s
+[train 607/1164] id=3478 P=3782 gen=10 full=100.0 2.35s
+[train 608/1164] id=3479 P=3785 gen=10 full=100.0 2.36s
+[train 609/1164] id=3480 P=3785 gen=10 full=100.0 2.37s
+[train 610/1164] id=3481 P=3788 gen=10 full=100.0 2.32s
+[train 611/1164] id=3482 P=3782 gen=10 full=100.0 2.37s
+[train 612/1164] id=3483 P=3782 gen=10 full=100.0 2.35s
+[train 613/1164] id=3484 P=3782 gen=10 full=100.0 2.34s
+[train 614/1164] id=3485 P=3788 gen=10 full=100.0 2.35s
+[train 615/1164] id=3486 P=3782 gen=10 full=100.0 2.33s
+[train 616/1164] id=3487 P=3788 gen=10 full=100.0 2.35s
+[train 617/1164] id=3488 P=3791 gen=10 full=100.0 2.32s
+[train 618/1164] id=3489 P=3782 gen=10 full=100.0 2.36s
+[train 619/1164] id=3490 P=3782 gen=10 full=100.0 2.38s
+[train 620/1164] id=3491 P=3788 gen=10 full=100.0 2.32s
+[train 621/1164] id=3492 P=3785 gen=10 full=100.0 2.33s
+[train 622/1164] id=3493 P=3786 gen=10 full=100.0 2.33s
+[train 623/1164] id=3494 P=3788 gen=10 full=100.0 2.36s
+[train 624/1164] id=3495 P=3785 gen=10 full=100.0 2.34s
+[train 625/1164] id=3496 P=3782 gen=10 full=100.0 2.35s
+[train 626/1164] id=3497 P=3782 gen=10 full=100.0 2.38s
+[train 627/1164] id=3498 P=3782 gen=10 full=100.0 2.34s
+[train 628/1164] id=3499 P=3785 gen=10 full=100.0 2.33s
+[train 629/1164] id=3910 P=5304 gen=48 full=100.0 5.92s
+[train 630/1164] id=3911 P=5235 gen=45 full=100.0 5.74s
+[train 631/1164] id=3912 P=5268 gen=46 full=100.0 5.86s
+[train 632/1164] id=3913 P=5359 gen=50 full=100.0 6.03s
+[train 633/1164] id=3914 P=5157 gen=45 full=100.0 5.67s
+[train 634/1164] id=3915 P=5215 gen=45 full=100.0 5.72s
+[train 635/1164] id=3916 P=5252 gen=71 full=90.0 7.61s
+[train 636/1164] id=3917 P=5268 gen=47 full=100.0 5.91s
+[train 637/1164] id=3918 P=5070 gen=42 full=100.0 5.33s
+[train 638/1164] id=3919 P=5255 gen=47 full=100.0 5.92s
+[train 639/1164] id=3920 P=5234 gen=47 full=100.0 5.89s
+[train 640/1164] id=3921 P=5185 gen=45 full=100.0 5.69s
+[train 641/1164] id=3922 P=5100 gen=46 full=100.0 5.63s
+[train 642/1164] id=3923 P=5142 gen=45 full=100.0 5.68s
+[train 643/1164] id=3924 P=5238 gen=48 full=100.0 5.96s
+[train 644/1164] id=3925 P=5211 gen=75 full=90.0 7.86s
+[train 645/1164] id=3926 P=5223 gen=47 full=100.0 5.87s
+[train 646/1164] id=3927 P=5133 gen=44 full=100.0 5.61s
+[train 647/1164] id=3928 P=5175 gen=44 full=100.0 5.62s
+[train 648/1164] id=3929 P=5047 gen=43 full=100.0 5.33s
+[train 649/1164] id=3930 P=5352 gen=50 full=100.0 6.02s
+[train 650/1164] id=3931 P=5211 gen=46 full=100.0 5.78s
+[train 651/1164] id=3932 P=5282 gen=48 full=100.0 5.96s
+[train 652/1164] id=3933 P=5214 gen=46 full=100.0 5.78s
+[train 653/1164] id=3934 P=5166 gen=44 full=100.0 5.63s
+[train 654/1164] id=3935 P=5103 gen=44 full=100.0 5.49s
+[train 655/1164] id=3936 P=5261 gen=47 full=100.0 5.91s
+[train 656/1164] id=3937 P=5332 gen=48 full=100.0 5.97s
+[train 657/1164] id=3938 P=5133 gen=44 full=100.0 5.64s
+[train 658/1164] id=3939 P=5113 gen=43 full=100.0 5.48s
+[train 659/1164] id=3940 P=5192 gen=44 full=100.0 5.65s
+[train 660/1164] id=3941 P=5151 gen=44 full=100.0 5.62s
+[train 661/1164] id=3942 P=5280 gen=48 full=100.0 5.94s
+[train 662/1164] id=3943 P=5171 gen=44 full=100.0 5.63s
+[train 663/1164] id=3944 P=5152 gen=43 full=100.0 5.55s
+[train 664/1164] id=3945 P=5319 gen=49 full=100.0 5.97s
+[train 665/1164] id=3946 P=5323 gen=50 full=100.0 6.04s
+[train 666/1164] id=3947 P=5205 gen=46 full=100.0 5.78s
+[train 667/1164] id=3948 P=5178 gen=46 full=100.0 5.78s
+[train 668/1164] id=3949 P=5254 gen=45 full=100.0 5.77s
+[train 669/1164] id=3950 P=5204 gen=56 full=100.0 6.56s
+[train 670/1164] id=3951 P=5272 gen=48 full=100.0 5.99s
+[train 671/1164] id=3952 P=5289 gen=46 full=100.0 5.85s
+[train 672/1164] id=3953 P=5254 gen=47 full=100.0 5.88s
+[train 673/1164] id=3954 P=5210 gen=45 full=100.0 5.73s
+[train 674/1164] id=3955 P=5253 gen=48 full=100.0 6.01s
+[train 675/1164] id=3956 P=5130 gen=44 full=100.0 5.6s
+[train 676/1164] id=3957 P=5194 gen=46 full=100.0 5.74s
+[train 677/1164] id=3958 P=5214 gen=45 full=100.0 5.71s
+[train 678/1164] id=3959 P=5184 gen=77 full=90.0 7.95s
+[train 679/1164] id=3960 P=5199 gen=46 full=100.0 5.76s
+[train 680/1164] id=3961 P=5148 gen=46 full=100.0 5.74s
+[train 681/1164] id=3962 P=5183 gen=47 full=100.0 5.83s
+[train 682/1164] id=3963 P=5277 gen=46 full=100.0 5.79s
+[train 683/1164] id=3964 P=5276 gen=49 full=100.0 6.07s
+[train 684/1164] id=3965 P=5263 gen=48 full=100.0 5.99s
+[train 685/1164] id=3966 P=5302 gen=46 full=100.0 5.75s
+[train 686/1164] id=3967 P=5262 gen=47 full=100.0 5.93s
+[train 687/1164] id=3968 P=5188 gen=44 full=100.0 5.64s
+[train 688/1164] id=3969 P=5315 gen=48 full=100.0 5.92s
+[train 689/1164] id=3970 P=5094 gen=43 full=100.0 5.42s
+[train 690/1164] id=3971 P=5203 gen=45 full=100.0 5.73s
+[train 691/1164] id=3972 P=5194 gen=58 full=100.0 6.66s
+[train 692/1164] id=3973 P=5261 gen=48 full=100.0 5.98s
+[train 693/1164] id=3974 P=5191 gen=79 full=100.0 8.12s
+[train 694/1164] id=3975 P=5219 gen=47 full=100.0 5.93s
+[train 695/1164] id=3976 P=5249 gen=45 full=100.0 5.79s
+[train 696/1164] id=3977 P=5293 gen=81 full=100.0 8.23s
+[train 697/1164] id=3978 P=5209 gen=46 full=100.0 5.77s
+[train 698/1164] id=3979 P=5192 gen=45 full=100.0 5.72s
+[train 699/1164] id=3980 P=5172 gen=46 full=100.0 5.77s
+[train 700/1164] id=3981 P=5276 gen=45 full=100.0 5.74s
+[train 701/1164] id=3982 P=5186 gen=45 full=100.0 5.72s
+[train 702/1164] id=3983 P=5291 gen=48 full=100.0 6.0s
+[train 703/1164] id=3984 P=5241 gen=46 full=100.0 5.84s
+[train 704/1164] id=3985 P=5081 gen=43 full=70.0 5.41s
+[train 705/1164] id=3986 P=5400 gen=51 full=100.0 6.15s
+[train 706/1164] id=3987 P=5180 gen=44 full=100.0 5.64s
+[train 707/1164] id=3988 P=5203 gen=45 full=100.0 5.72s
+[train 708/1164] id=3989 P=5297 gen=47 full=100.0 5.82s
+[train 709/1164] id=3990 P=5340 gen=49 full=100.0 5.95s
+[train 710/1164] id=3991 P=5226 gen=46 full=100.0 5.82s
+[train 711/1164] id=3992 P=5169 gen=44 full=100.0 5.64s
+[train 712/1164] id=3993 P=5301 gen=49 full=100.0 5.98s
+[train 713/1164] id=3994 P=5248 gen=47 full=100.0 5.91s
+[train 714/1164] id=3995 P=5311 gen=50 full=100.0 6.13s
+[train 715/1164] id=3996 P=5189 gen=46 full=100.0 5.77s
+[train 716/1164] id=3997 P=5253 gen=47 full=90.0 5.9s
+[train 717/1164] id=3998 P=5183 gen=45 full=100.0 5.68s
+[train 718/1164] id=3999 P=5019 gen=49 full=100.0 5.73s
+[train 719/1164] id=4410 P=2976 gen=2 full=100.0 1.46s
+[train 720/1164] id=4411 P=3689 gen=4 full=100.0 1.9s
+[train 721/1164] id=4412 P=3685 gen=12 full=100.0 2.42s
+[train 722/1164] id=4413 P=3669 gen=28 full=100.0 3.46s
+[train 723/1164] id=4414 P=3480 gen=3 full=100.0 1.74s
+[train 724/1164] id=4415 P=4180 gen=4 full=100.0 2.16s
+[train 725/1164] id=4416 P=3301 gen=5 full=0.0 1.77s
+[train 726/1164] id=4417 P=3994 gen=5 full=100.0 2.15s
+[train 727/1164] id=4418 P=3340 gen=6 full=0.0 1.87s
+[train 728/1164] id=4419 P=4207 gen=8 full=100.0 2.43s
+[train 729/1164] id=4421 P=3807 gen=2 full=100.0 1.81s
+[train 730/1164] id=4422 P=4080 gen=4 full=0.0 2.1s
+[train 731/1164] id=4423 P=3180 gen=22 full=100.0 2.81s
+[train 732/1164] id=4424 P=3089 gen=7 full=100.0 1.83s
+[train 733/1164] id=4425 P=2464 gen=5 full=100.0 1.39s
+[train 734/1164] id=4426 P=3895 gen=8 full=100.0 2.28s
+[train 735/1164] id=4427 P=4040 gen=4 full=100.0 2.09s
+[train 736/1164] id=4428 P=3104 gen=3 full=0.0 1.58s
+[train 737/1164] id=4429 P=3307 gen=3 full=100.0 1.64s
+[train 738/1164] id=4430 P=2808 gen=5 full=100.0 1.55s
+[train 739/1164] id=4432 P=3540 gen=5 full=0.0 1.87s
+[train 740/1164] id=4433 P=3745 gen=4 full=100.0 1.93s
+[train 741/1164] id=4434 P=4019 gen=4 full=100.0 2.08s
+[train 742/1164] id=4435 P=2934 gen=32 full=0.0 3.29s
+[train 743/1164] id=4436 P=4061 gen=19 full=100.0 3.09s
+[train 744/1164] id=4437 P=3591 gen=7 full=0.0 2.06s
+[train 745/1164] id=4438 P=3878 gen=6 full=100.0 2.14s
+[train 746/1164] id=4439 P=3697 gen=5 full=100.0 1.96s
+[train 747/1164] id=4440 P=4244 gen=6 full=100.0 2.35s
+[train 748/1164] id=4441 P=4178 gen=5 full=100.0 2.22s
+[train 749/1164] id=4442 P=3834 gen=5 full=100.0 2.02s
+[train 750/1164] id=4443 P=4220 gen=3 full=0.0 2.1s
+[train 751/1164] id=4444 P=3194 gen=8 full=100.0 1.93s
+[train 752/1164] id=4445 P=3981 gen=16 full=100.0 2.86s
+[train 753/1164] id=4446 P=4243 gen=3 full=100.0 2.14s
+[train 754/1164] id=4447 P=3534 gen=3 full=100.0 1.73s
+[train 755/1164] id=4448 P=2991 gen=3 full=100.0 1.48s
+[train 756/1164] id=4449 P=3221 gen=5 full=0.0 1.74s
+[train 757/1164] id=4450 P=3503 gen=5 full=100.0 1.86s
+[train 758/1164] id=4451 P=4190 gen=4 full=0.0 2.15s
+[train 759/1164] id=4452 P=2821 gen=4 full=100.0 1.49s
+[train 760/1164] id=4453 P=3082 gen=5 full=100.0 1.71s
+[train 761/1164] id=4455 P=3596 gen=6 full=100.0 2.0s
+[train 762/1164] id=4456 P=3964 gen=4 full=0.0 2.05s
+[train 763/1164] id=4457 P=3009 gen=32 full=0.0 3.3s
+[train 764/1164] id=4458 P=4036 gen=4 full=0.0 2.08s
+[train 765/1164] id=4459 P=2912 gen=3 full=0.0 1.45s
+[train 766/1164] id=4460 P=4033 gen=14 full=100.0 2.74s
+[train 767/1164] id=4461 P=3905 gen=3 full=100.0 1.95s
+[train 768/1164] id=4462 P=4178 gen=6 full=0.0 2.29s
+[train 769/1164] id=4463 P=3809 gen=4 full=100.0 1.95s
+[train 770/1164] id=4464 P=4176 gen=11 full=100.0 2.62s
+[train 771/1164] id=4465 P=2549 gen=3 full=0.0 1.29s
+[train 772/1164] id=4466 P=4109 gen=32 full=100.0 4.01s
+[train 773/1164] id=4467 P=4202 gen=10 full=0.0 2.56s
+[train 774/1164] id=4468 P=4107 gen=4 full=100.0 2.16s
+[train 775/1164] id=4469 P=4254 gen=4 full=100.0 2.21s
+[train 776/1164] id=4470 P=3695 gen=2 full=0.0 1.76s
+[train 777/1164] id=4471 P=3138 gen=4 full=0.0 1.65s
+[train 778/1164] id=4472 P=3529 gen=2 full=0.0 1.68s
+[train 779/1164] id=4473 P=4242 gen=5 full=0.0 2.28s
+[train 780/1164] id=4474 P=3840 gen=4 full=100.0 1.97s
+[train 781/1164] id=4475 P=4245 gen=3 full=0.0 2.14s
+[train 782/1164] id=4476 P=3495 gen=3 full=0.0 1.73s
+[train 783/1164] id=4477 P=3853 gen=4 full=0.0 2.0s
+[train 784/1164] id=4478 P=3040 gen=3 full=0.0 1.49s
+[train 785/1164] id=4479 P=4250 gen=4 full=100.0 2.21s
+[train 786/1164] id=4480 P=3952 gen=5 full=100.0 2.1s
+[train 787/1164] id=4481 P=2642 gen=12 full=100.0 1.89s
+[train 788/1164] id=4482 P=3866 gen=32 full=0.0 3.84s
+[train 789/1164] id=4484 P=4137 gen=32 full=100.0 4.0s
+[train 790/1164] id=4485 P=4128 gen=6 full=100.0 2.28s
+[train 791/1164] id=4486 P=4223 gen=2 full=0.0 2.02s
+[train 792/1164] id=4487 P=3068 gen=3 full=100.0 1.5s
+[train 793/1164] id=4488 P=3030 gen=17 full=0.0 2.38s
+[train 794/1164] id=4489 P=3269 gen=4 full=100.0 1.69s
+[train 795/1164] id=4490 P=3099 gen=8 full=100.0 1.89s
+[train 796/1164] id=4491 P=3794 gen=4 full=100.0 1.94s
+[train 797/1164] id=4492 P=3522 gen=6 full=100.0 1.93s
+[train 798/1164] id=4493 P=3660 gen=4 full=0.0 1.88s
+[train 799/1164] id=4494 P=3187 gen=6 full=100.0 1.78s
+[train 800/1164] id=4495 P=3576 gen=7 full=100.0 2.01s
+[train 801/1164] id=4496 P=3166 gen=2 full=0.0 1.53s
+[train 802/1164] id=4497 P=3230 gen=32 full=100.0 3.46s
+[train 803/1164] id=4498 P=3334 gen=3 full=0.0 1.66s
+[train 804/1164] id=4499 P=3318 gen=2 full=100.0 1.58s
+[train 805/1164] id=4910 P=3864 gen=17 full=100.0 2.86s
+[train 806/1164] id=4911 P=3863 gen=16 full=100.0 2.78s
+[train 807/1164] id=4912 P=3861 gen=15 full=100.0 2.71s
+[train 808/1164] id=4913 P=3865 gen=17 full=100.0 2.85s
+[train 809/1164] id=4914 P=3863 gen=13 full=80.0 2.58s
+[train 810/1164] id=4915 P=3865 gen=17 full=100.0 2.85s
+[train 811/1164] id=4916 P=3867 gen=18 full=100.0 2.91s
+[train 812/1164] id=4917 P=3866 gen=18 full=100.0 2.91s
+[train 813/1164] id=4918 P=3863 gen=16 full=100.0 2.78s
+[train 814/1164] id=4919 P=3865 gen=17 full=100.0 2.84s
+[train 815/1164] id=4920 P=3863 gen=16 full=100.0 2.77s
+[train 816/1164] id=4921 P=3861 gen=15 full=100.0 2.71s
+[train 817/1164] id=4922 P=3865 gen=17 full=100.0 2.84s
+[train 818/1164] id=4923 P=3859 gen=14 full=100.0 2.64s
+[train 819/1164] id=4924 P=3871 gen=20 full=100.0 3.04s
+[train 820/1164] id=4925 P=3864 gen=17 full=100.0 2.84s
+[train 821/1164] id=4926 P=3865 gen=17 full=100.0 2.85s
+[train 822/1164] id=4927 P=3864 gen=17 full=100.0 2.84s
+[train 823/1164] id=4928 P=3863 gen=16 full=100.0 2.78s
+[train 824/1164] id=4929 P=3865 gen=17 full=100.0 2.84s
+[train 825/1164] id=4930 P=3865 gen=17 full=100.0 2.84s
+[train 826/1164] id=4931 P=3862 gen=15 full=100.0 2.71s
+[train 827/1164] id=4932 P=3863 gen=16 full=100.0 2.78s
+[train 828/1164] id=4933 P=3865 gen=17 full=100.0 2.84s
+[train 829/1164] id=4934 P=3867 gen=18 full=100.0 2.91s
+[train 830/1164] id=4935 P=3863 gen=16 full=100.0 2.77s
+[train 831/1164] id=4936 P=3867 gen=18 full=100.0 2.9s
+[train 832/1164] id=4937 P=3863 gen=16 full=100.0 2.78s
+[train 833/1164] id=4938 P=3865 gen=17 full=100.0 2.84s
+[train 834/1164] id=4939 P=3865 gen=17 full=100.0 2.84s
+[train 835/1164] id=4940 P=3863 gen=16 full=100.0 2.77s
+[train 836/1164] id=4941 P=3868 gen=19 full=100.0 2.97s
+[train 837/1164] id=4942 P=3867 gen=18 full=100.0 2.92s
+[train 838/1164] id=4943 P=3861 gen=15 full=100.0 2.71s
+[train 839/1164] id=4944 P=3861 gen=15 full=100.0 2.74s
+[train 840/1164] id=4945 P=3862 gen=15 full=100.0 2.71s
+[train 841/1164] id=4946 P=3867 gen=18 full=100.0 2.91s
+[train 842/1164] id=4947 P=3865 gen=17 full=100.0 2.84s
+[train 843/1164] id=4948 P=3863 gen=16 full=100.0 2.77s
+[train 844/1164] id=4949 P=3863 gen=16 full=100.0 2.79s
+[train 845/1164] id=4950 P=3870 gen=20 full=100.0 3.04s
+[train 846/1164] id=4951 P=3863 gen=16 full=100.0 2.77s
+[train 847/1164] id=4952 P=3863 gen=16 full=100.0 2.77s
+[train 848/1164] id=4953 P=3863 gen=16 full=100.0 2.78s
+[train 849/1164] id=4954 P=3863 gen=16 full=100.0 2.77s
+[train 850/1164] id=4955 P=3863 gen=16 full=100.0 2.77s
+[train 851/1164] id=4956 P=3863 gen=16 full=100.0 2.77s
+[train 852/1164] id=4957 P=3866 gen=18 full=100.0 2.9s
+[train 853/1164] id=4958 P=3863 gen=16 full=100.0 2.77s
+[train 854/1164] id=4959 P=3865 gen=17 full=100.0 2.84s
+[train 855/1164] id=4960 P=3863 gen=16 full=100.0 2.77s
+[train 856/1164] id=4961 P=3865 gen=17 full=100.0 2.84s
+[train 857/1164] id=4962 P=3863 gen=16 full=100.0 2.77s
+[train 858/1164] id=4963 P=3865 gen=17 full=100.0 2.84s
+[train 859/1164] id=4964 P=3864 gen=17 full=100.0 2.83s
+[train 860/1164] id=4965 P=3866 gen=18 full=100.0 2.9s
+[train 861/1164] id=4966 P=3863 gen=16 full=100.0 2.78s
+[train 862/1164] id=4967 P=3869 gen=19 full=100.0 2.97s
+[train 863/1164] id=4968 P=3859 gen=14 full=100.0 2.64s
+[train 864/1164] id=4969 P=3864 gen=17 full=100.0 2.83s
+[train 865/1164] id=4970 P=3865 gen=17 full=100.0 2.85s
+[train 866/1164] id=4971 P=3861 gen=15 full=100.0 2.71s
+[train 867/1164] id=4972 P=3865 gen=17 full=100.0 2.85s
+[train 868/1164] id=4973 P=3863 gen=16 full=100.0 2.77s
+[train 869/1164] id=4974 P=3865 gen=17 full=100.0 2.84s
+[train 870/1164] id=4975 P=3865 gen=17 full=100.0 2.84s
+[train 871/1164] id=4976 P=3862 gen=15 full=100.0 2.71s
+[train 872/1164] id=4977 P=3863 gen=16 full=100.0 2.77s
+[train 873/1164] id=4978 P=3863 gen=16 full=100.0 2.78s
+[train 874/1164] id=4979 P=3865 gen=17 full=100.0 2.84s
+[train 875/1164] id=4980 P=3862 gen=15 full=100.0 2.71s
+[train 876/1164] id=4981 P=3863 gen=16 full=100.0 2.78s
+[train 877/1164] id=4982 P=3866 gen=18 full=100.0 2.91s
+[train 878/1164] id=4983 P=3866 gen=17 full=100.0 2.84s
+[train 879/1164] id=4984 P=3863 gen=16 full=100.0 2.78s
+[train 880/1164] id=4985 P=3863 gen=16 full=100.0 2.77s
+[train 881/1164] id=4986 P=3867 gen=18 full=100.0 2.9s
+[train 882/1164] id=4987 P=3863 gen=16 full=100.0 2.78s
+[train 883/1164] id=4988 P=3866 gen=18 full=100.0 2.93s
+[train 884/1164] id=4989 P=3866 gen=18 full=100.0 2.9s
+[train 885/1164] id=4990 P=3869 gen=19 full=100.0 2.97s
+[train 886/1164] id=4991 P=3861 gen=15 full=100.0 2.71s
+[train 887/1164] id=4992 P=3860 gen=14 full=100.0 2.64s
+[train 888/1164] id=4993 P=3867 gen=18 full=100.0 2.91s
+[train 889/1164] id=4994 P=3863 gen=16 full=100.0 2.77s
+[train 890/1164] id=4995 P=3864 gen=17 full=100.0 2.84s
+[train 891/1164] id=4996 P=3863 gen=16 full=100.0 2.77s
+[train 892/1164] id=4997 P=3867 gen=18 full=100.0 2.91s
+[train 893/1164] id=4998 P=3865 gen=17 full=100.0 2.84s
+[train 894/1164] id=4999 P=3865 gen=17 full=100.0 2.84s
+[train 895/1164] id=5410 P=3859 gen=45 full=100.0 4.73s
+[train 896/1164] id=5411 P=3852 gen=45 full=100.0 4.68s
+[train 897/1164] id=5412 P=3852 gen=68 full=100.0 6.19s
+[train 898/1164] id=5413 P=3859 gen=45 full=100.0 4.69s
+[train 899/1164] id=5414 P=3858 gen=45 full=100.0 4.7s
+[train 900/1164] id=5415 P=3846 gen=45 full=100.0 4.67s
+[train 901/1164] id=5416 P=3858 gen=45 full=100.0 4.69s
+[train 902/1164] id=5417 P=3852 gen=45 full=100.0 4.68s
+[train 903/1164] id=5418 P=3840 gen=70 full=100.0 6.28s
+[train 904/1164] id=5419 P=3853 gen=45 full=100.0 4.68s
+[train 905/1164] id=5420 P=3846 gen=45 full=100.0 4.68s
+[train 906/1164] id=5421 P=3864 gen=45 full=100.0 4.69s
+[train 907/1164] id=5422 P=3846 gen=45 full=100.0 4.68s
+[train 908/1164] id=5423 P=3858 gen=45 full=100.0 4.69s
+[train 909/1164] id=5424 P=3852 gen=45 full=100.0 4.68s
+[train 910/1164] id=5425 P=3852 gen=71 full=100.0 6.39s
+[train 911/1164] id=5426 P=3853 gen=45 full=100.0 4.67s
+[train 912/1164] id=5427 P=3852 gen=67 full=100.0 6.15s
+[train 913/1164] id=5428 P=3852 gen=45 full=100.0 4.69s
+[train 914/1164] id=5429 P=3852 gen=34 full=75.0 3.98s
+[train 915/1164] id=5430 P=3840 gen=45 full=100.0 4.65s
+[train 916/1164] id=5431 P=3846 gen=61 full=100.0 5.74s
+[train 917/1164] id=5432 P=3858 gen=45 full=100.0 4.68s
+[train 918/1164] id=5433 P=3858 gen=45 full=100.0 4.69s
+[train 919/1164] id=5434 P=3846 gen=45 full=100.0 4.69s
+[train 920/1164] id=5435 P=3864 gen=45 full=100.0 4.69s
+[train 921/1164] id=5436 P=3846 gen=45 full=100.0 4.69s
+[train 922/1164] id=5437 P=3852 gen=45 full=100.0 4.7s
+[train 923/1164] id=5438 P=3858 gen=45 full=100.0 4.69s
+[train 924/1164] id=5439 P=3846 gen=45 full=100.0 4.69s
+[train 925/1164] id=5440 P=3846 gen=45 full=100.0 4.69s
+[train 926/1164] id=5441 P=3840 gen=81 full=100.0 7.03s
+[train 927/1164] id=5442 P=3852 gen=45 full=100.0 4.69s
+[train 928/1164] id=5443 P=3858 gen=45 full=100.0 4.69s
+[train 929/1164] id=5444 P=3846 gen=45 full=100.0 4.68s
+[train 930/1164] id=5445 P=3846 gen=45 full=100.0 4.69s
+[train 931/1164] id=5446 P=3846 gen=45 full=100.0 4.69s
+[train 932/1164] id=5447 P=3852 gen=45 full=100.0 4.69s
+[train 933/1164] id=5448 P=3846 gen=45 full=100.0 4.69s
+[train 934/1164] id=5449 P=3840 gen=45 full=100.0 4.65s
+[train 935/1164] id=5450 P=3858 gen=45 full=100.0 4.69s
+[train 936/1164] id=5451 P=3840 gen=34 full=75.0 3.93s
+[train 937/1164] id=5452 P=3846 gen=45 full=100.0 4.7s
+[train 938/1164] id=5453 P=3852 gen=45 full=100.0 4.69s
+[train 939/1164] id=5454 P=3847 gen=45 full=100.0 4.68s
+[train 940/1164] id=5455 P=3846 gen=45 full=100.0 4.68s
+[train 941/1164] id=5456 P=3852 gen=45 full=100.0 4.69s
+[train 942/1164] id=5457 P=3846 gen=45 full=100.0 4.7s
+[train 943/1164] id=5458 P=3852 gen=45 full=100.0 4.69s
+[train 944/1164] id=5459 P=3858 gen=45 full=100.0 4.69s
+[train 945/1164] id=5460 P=3858 gen=45 full=100.0 4.69s
+[train 946/1164] id=5461 P=3846 gen=45 full=100.0 4.68s
+[train 947/1164] id=5462 P=3858 gen=45 full=100.0 4.68s
+[train 948/1164] id=5463 P=3846 gen=45 full=100.0 4.69s
+[train 949/1164] id=5464 P=3852 gen=45 full=100.0 4.69s
+[train 950/1164] id=5465 P=3853 gen=45 full=100.0 4.71s
+[train 951/1164] id=5466 P=3859 gen=45 full=100.0 4.69s
+[train 952/1164] id=5467 P=3846 gen=57 full=75.0 5.48s
+[train 953/1164] id=5468 P=3852 gen=45 full=100.0 4.68s
+[train 954/1164] id=5469 P=3852 gen=45 full=100.0 4.69s
+[train 955/1164] id=5470 P=3847 gen=45 full=100.0 4.69s
+[train 956/1164] id=5471 P=3852 gen=45 full=100.0 4.69s
+[train 957/1164] id=5472 P=3852 gen=45 full=100.0 4.69s
+[train 958/1164] id=5473 P=3846 gen=45 full=100.0 4.7s
+[train 959/1164] id=5474 P=3852 gen=45 full=100.0 4.69s
+[train 960/1164] id=5475 P=3852 gen=45 full=100.0 4.69s
+[train 961/1164] id=5476 P=3852 gen=45 full=100.0 4.69s
+[train 962/1164] id=5477 P=3864 gen=67 full=100.0 6.14s
+[train 963/1164] id=5478 P=3846 gen=45 full=100.0 4.69s
+[train 964/1164] id=5479 P=3846 gen=45 full=100.0 4.69s
+[train 965/1164] id=5480 P=3858 gen=45 full=100.0 4.7s
+[train 966/1164] id=5481 P=3847 gen=45 full=100.0 4.69s
+[train 967/1164] id=5482 P=3852 gen=45 full=100.0 4.69s
+[train 968/1164] id=5483 P=3846 gen=45 full=100.0 4.69s
+[train 969/1164] id=5484 P=3846 gen=45 full=100.0 4.69s
+[train 970/1164] id=5485 P=3852 gen=45 full=100.0 4.69s
+[train 971/1164] id=5486 P=3846 gen=45 full=100.0 4.69s
+[train 972/1164] id=5487 P=3852 gen=45 full=100.0 4.7s
+[train 973/1164] id=5488 P=3846 gen=45 full=100.0 4.71s
+[train 974/1164] id=5489 P=3846 gen=45 full=100.0 4.69s
+[train 975/1164] id=5490 P=3853 gen=45 full=100.0 4.7s
+[train 976/1164] id=5491 P=3846 gen=45 full=100.0 4.69s
+[train 977/1164] id=5492 P=3852 gen=45 full=100.0 4.69s
+[train 978/1164] id=5493 P=3858 gen=45 full=100.0 4.69s
+[train 979/1164] id=5494 P=3846 gen=45 full=100.0 4.7s
+[train 980/1164] id=5495 P=3846 gen=45 full=100.0 4.69s
+[train 981/1164] id=5496 P=3858 gen=45 full=100.0 4.69s
+[train 982/1164] id=5497 P=3840 gen=45 full=100.0 4.66s
+[train 983/1164] id=5498 P=3852 gen=45 full=100.0 4.7s
+[train 984/1164] id=5499 P=3859 gen=45 full=100.0 4.7s
+[train 985/1164] id=5910 P=3967 gen=34 full=100.0 4.05s
+[train 986/1164] id=5911 P=3996 gen=35 full=100.0 4.12s
+[train 987/1164] id=5912 P=4013 gen=35 full=100.0 4.13s
+[train 988/1164] id=5913 P=3999 gen=33 full=100.0 3.99s
+[train 989/1164] id=5914 P=4024 gen=34 full=100.0 4.06s
+[train 990/1164] id=5915 P=4000 gen=35 full=100.0 4.13s
+[train 991/1164] id=5916 P=3979 gen=36 full=100.0 4.19s
+[train 992/1164] id=5917 P=3995 gen=34 full=100.0 4.05s
+[train 993/1164] id=5918 P=3995 gen=33 full=100.0 4.0s
+[train 994/1164] id=5919 P=3996 gen=35 full=100.0 4.11s
+[train 995/1164] id=5920 P=4006 gen=33 full=100.0 3.99s
+[train 996/1164] id=5921 P=4005 gen=37 full=100.0 4.26s
+[train 997/1164] id=5922 P=3968 gen=34 full=100.0 4.02s
+[train 998/1164] id=5923 P=4003 gen=36 full=100.0 4.19s
+[train 999/1164] id=5924 P=4010 gen=36 full=100.0 4.19s
+[train 1000/1164] id=5925 P=3986 gen=36 full=100.0 4.19s
+[train 1001/1164] id=5926 P=3996 gen=31 full=100.0 3.85s
+[train 1002/1164] id=5927 P=4012 gen=33 full=100.0 4.0s
+[train 1003/1164] id=5928 P=3963 gen=36 full=100.0 4.16s
+[train 1004/1164] id=5929 P=4001 gen=33 full=100.0 4.01s
+[train 1005/1164] id=5930 P=3999 gen=36 full=100.0 4.19s
+[train 1006/1164] id=5931 P=3995 gen=37 full=100.0 4.25s
+[train 1007/1164] id=5932 P=3970 gen=37 full=100.0 4.25s
+[train 1008/1164] id=5933 P=4021 gen=36 full=100.0 4.2s
+[train 1009/1164] id=5934 P=3993 gen=33 full=100.0 3.99s
+[train 1010/1164] id=5935 P=4000 gen=34 full=100.0 4.06s
+[train 1011/1164] id=5936 P=3979 gen=34 full=100.0 4.05s
+[train 1012/1164] id=5937 P=4001 gen=36 full=100.0 4.19s
+[train 1013/1164] id=5938 P=4016 gen=37 full=100.0 4.26s
+[train 1014/1164] id=5939 P=3977 gen=35 full=100.0 4.12s
+[train 1015/1164] id=5940 P=3966 gen=36 full=100.0 4.16s
+[train 1016/1164] id=5941 P=4024 gen=35 full=100.0 4.14s
+[train 1017/1164] id=5942 P=4012 gen=35 full=100.0 4.14s
+[train 1018/1164] id=5943 P=4030 gen=38 full=100.0 4.33s
+[train 1019/1164] id=5944 P=4005 gen=34 full=100.0 4.07s
+[train 1020/1164] id=5945 P=4003 gen=33 full=100.0 3.99s
+[train 1021/1164] id=5946 P=4014 gen=36 full=100.0 4.19s
+[train 1022/1164] id=5947 P=4011 gen=35 full=100.0 4.13s
+[train 1023/1164] id=5948 P=4009 gen=36 full=100.0 4.19s
+[train 1024/1164] id=5949 P=4010 gen=34 full=100.0 4.06s
+[train 1025/1164] id=5950 P=3981 gen=36 full=100.0 4.18s
+[train 1026/1164] id=5951 P=3952 gen=38 full=100.0 4.28s
+[train 1027/1164] id=5952 P=4005 gen=36 full=100.0 4.18s
+[train 1028/1164] id=5953 P=3991 gen=34 full=100.0 4.04s
+[train 1029/1164] id=5954 P=3971 gen=31 full=100.0 3.87s
+[train 1030/1164] id=5955 P=4000 gen=34 full=100.0 4.06s
+[train 1031/1164] id=5956 P=4013 gen=35 full=100.0 4.12s
+[train 1032/1164] id=5957 P=3956 gen=36 full=100.0 4.17s
+[train 1033/1164] id=5958 P=4027 gen=34 full=100.0 4.06s
+[train 1034/1164] id=5959 P=4009 gen=34 full=100.0 4.07s
+[train 1035/1164] id=5960 P=3983 gen=35 full=100.0 4.12s
+[train 1036/1164] id=5961 P=3987 gen=33 full=100.0 3.98s
+[train 1037/1164] id=5962 P=3985 gen=40 full=0.0 4.44s
+[train 1038/1164] id=5963 P=4018 gen=34 full=100.0 4.06s
+[train 1039/1164] id=5964 P=3984 gen=36 full=100.0 4.18s
+[train 1040/1164] id=5965 P=3992 gen=36 full=100.0 4.18s
+[train 1041/1164] id=5966 P=3965 gen=35 full=100.0 4.09s
+[train 1042/1164] id=5967 P=4011 gen=33 full=100.0 3.99s
+[train 1043/1164] id=5968 P=3999 gen=36 full=100.0 4.19s
+[train 1044/1164] id=5969 P=3975 gen=35 full=100.0 4.12s
+[train 1045/1164] id=5970 P=3987 gen=37 full=100.0 4.25s
+[train 1046/1164] id=5971 P=3992 gen=36 full=100.0 4.18s
+[train 1047/1164] id=5972 P=4025 gen=34 full=100.0 4.06s
+[train 1048/1164] id=5973 P=4005 gen=35 full=100.0 4.12s
+[train 1049/1164] id=5974 P=3975 gen=32 full=100.0 3.92s
+[train 1050/1164] id=5975 P=4033 gen=35 full=100.0 4.13s
+[train 1051/1164] id=5976 P=4028 gen=38 full=100.0 4.32s
+[train 1052/1164] id=5977 P=3964 gen=35 full=100.0 4.09s
+[train 1053/1164] id=5978 P=4019 gen=37 full=100.0 4.26s
+[train 1054/1164] id=5979 P=4029 gen=34 full=100.0 4.06s
+[train 1055/1164] id=5980 P=4008 gen=36 full=100.0 4.21s
+[train 1056/1164] id=5981 P=3958 gen=36 full=100.0 4.15s
+[train 1057/1164] id=5982 P=4001 gen=36 full=100.0 4.19s
+[train 1058/1164] id=5983 P=4025 gen=34 full=100.0 4.06s
+[train 1059/1164] id=5984 P=3991 gen=35 full=100.0 4.12s
+[train 1060/1164] id=5985 P=3974 gen=34 full=100.0 4.04s
+[train 1061/1164] id=5986 P=4041 gen=36 full=100.0 4.19s
+[train 1062/1164] id=5987 P=3988 gen=35 full=100.0 4.11s
+[train 1063/1164] id=5988 P=3992 gen=30 full=100.0 3.79s
+[train 1064/1164] id=5989 P=4011 gen=37 full=100.0 4.27s
+[train 1065/1164] id=5990 P=4009 gen=33 full=100.0 4.0s
+[train 1066/1164] id=5991 P=3980 gen=35 full=100.0 4.13s
+[train 1067/1164] id=5992 P=3975 gen=38 full=100.0 4.31s
+[train 1068/1164] id=5993 P=4013 gen=35 full=100.0 4.12s
+[train 1069/1164] id=5994 P=3951 gen=31 full=100.0 3.82s
+[train 1070/1164] id=5995 P=4026 gen=35 full=100.0 4.13s
+[train 1071/1164] id=5996 P=3973 gen=36 full=100.0 4.17s
+[train 1072/1164] id=5997 P=3995 gen=37 full=100.0 4.25s
+[train 1073/1164] id=5998 P=3978 gen=36 full=100.0 4.18s
+[train 1074/1164] id=5999 P=3984 gen=31 full=100.0 3.85s
+[train 1075/1164] id=6410 P=3875 gen=62 full=100.0 5.87s
+[train 1076/1164] id=6411 P=3878 gen=59 full=100.0 5.61s
+[train 1077/1164] id=6412 P=3872 gen=57 full=100.0 5.48s
+[train 1078/1164] id=6413 P=3884 gen=62 full=100.0 5.81s
+[train 1079/1164] id=6414 P=3887 gen=67 full=100.0 6.14s
+[train 1080/1164] id=6415 P=3878 gen=59 full=100.0 5.61s
+[train 1081/1164] id=6416 P=3875 gen=58 full=100.0 5.54s
+[train 1082/1164] id=6417 P=3878 gen=59 full=100.0 5.6s
+[train 1083/1164] id=6418 P=3896 gen=66 full=100.0 6.09s
+[train 1084/1164] id=6419 P=3879 gen=62 full=100.0 5.8s
+[train 1085/1164] id=6420 P=3884 gen=62 full=100.0 5.82s
+[train 1086/1164] id=6421 P=3890 gen=63 full=100.0 5.88s
+[train 1087/1164] id=6422 P=3893 gen=68 full=100.0 6.2s
+[train 1088/1164] id=6423 P=3875 gen=61 full=100.0 5.75s
+[train 1089/1164] id=6424 P=3875 gen=58 full=100.0 5.55s
+[train 1090/1164] id=6425 P=3878 gen=61 full=100.0 5.75s
+[train 1091/1164] id=6426 P=3884 gen=61 full=100.0 5.75s
+[train 1092/1164] id=6427 P=3878 gen=62 full=100.0 5.83s
+[train 1093/1164] id=6428 P=3890 gen=67 full=100.0 6.15s
+[train 1094/1164] id=6429 P=3884 gen=62 full=100.0 5.85s
+[train 1095/1164] id=6430 P=3878 gen=60 full=100.0 5.67s
+[train 1096/1164] id=6431 P=3884 gen=63 full=100.0 5.88s
+[train 1097/1164] id=6432 P=3884 gen=61 full=100.0 5.75s
+[train 1098/1164] id=6433 P=3884 gen=61 full=100.0 5.74s
+[train 1099/1164] id=6434 P=3884 gen=61 full=100.0 5.75s
+[train 1100/1164] id=6435 P=3875 gen=63 full=100.0 5.91s
+[train 1101/1164] id=6436 P=3881 gen=60 full=100.0 5.68s
+[train 1102/1164] id=6437 P=3878 gen=62 full=100.0 5.82s
+[train 1103/1164] id=6438 P=3881 gen=66 full=100.0 6.08s
+[train 1104/1164] id=6439 P=3884 gen=64 full=100.0 5.95s
+[train 1105/1164] id=6440 P=3881 gen=60 full=100.0 5.69s
+[train 1106/1164] id=6441 P=3887 gen=63 full=100.0 5.88s
+[train 1107/1164] id=6442 P=3878 gen=63 full=100.0 5.89s
+[train 1108/1164] id=6443 P=3875 gen=62 full=100.0 5.82s
+[train 1109/1164] id=6444 P=3884 gen=63 full=100.0 5.89s
+[train 1110/1164] id=6445 P=3887 gen=62 full=100.0 5.82s
+[train 1111/1164] id=6446 P=3884 gen=65 full=100.0 6.02s
+[train 1112/1164] id=6447 P=3878 gen=61 full=100.0 5.75s
+[train 1113/1164] id=6448 P=3878 gen=59 full=100.0 5.61s
+[train 1114/1164] id=6449 P=3887 gen=64 full=100.0 5.95s
+[train 1115/1164] id=6450 P=3875 gen=60 full=100.0 5.69s
+[train 1116/1164] id=6451 P=3881 gen=62 full=100.0 5.82s
+[train 1117/1164] id=6452 P=3881 gen=62 full=100.0 5.82s
+[train 1118/1164] id=6453 P=3869 gen=56 full=100.0 5.43s
+[train 1119/1164] id=6454 P=3884 gen=61 full=100.0 5.75s
+[train 1120/1164] id=6455 P=3887 gen=62 full=100.0 5.82s
+[train 1121/1164] id=6456 P=3887 gen=63 full=100.0 5.9s
+[train 1122/1164] id=6457 P=3875 gen=58 full=100.0 5.56s
+[train 1123/1164] id=6458 P=3875 gen=58 full=100.0 5.55s
+[train 1124/1164] id=6459 P=3875 gen=59 full=100.0 5.62s
+[train 1125/1164] id=6460 P=3884 gen=63 full=100.0 5.88s
+[train 1126/1164] id=6461 P=3878 gen=59 full=100.0 5.62s
+[train 1127/1164] id=6462 P=3887 gen=66 full=100.0 6.07s
+[train 1128/1164] id=6463 P=3890 gen=64 full=100.0 5.95s
+[train 1129/1164] id=6464 P=3899 gen=66 full=100.0 6.09s
+[train 1130/1164] id=6465 P=3884 gen=62 full=100.0 5.83s
+[train 1131/1164] id=6466 P=3884 gen=60 full=100.0 5.69s
+[train 1132/1164] id=6467 P=3881 gen=64 full=100.0 5.94s
+[train 1133/1164] id=6468 P=3887 gen=66 full=100.0 6.07s
+[train 1134/1164] id=6469 P=3887 gen=62 full=100.0 5.82s
+[train 1135/1164] id=6470 P=3872 gen=58 full=100.0 5.55s
+[train 1136/1164] id=6471 P=3884 gen=62 full=100.0 5.82s
+[train 1137/1164] id=6472 P=3879 gen=60 full=100.0 5.69s
+[train 1138/1164] id=6473 P=3881 gen=63 full=100.0 5.9s
+[train 1139/1164] id=6474 P=3881 gen=63 full=100.0 6.56s
+[train 1140/1164] id=6475 P=3891 gen=64 full=100.0 5.95s
+[train 1141/1164] id=6476 P=3893 gen=64 full=100.0 5.95s
+[train 1142/1164] id=6477 P=3897 gen=65 full=100.0 6.01s
+[train 1143/1164] id=6478 P=3884 gen=61 full=100.0 5.76s
+[train 1144/1164] id=6479 P=3879 gen=62 full=100.0 5.86s
+[train 1145/1164] id=6480 P=3884 gen=64 full=100.0 5.95s
+[train 1146/1164] id=6481 P=3869 gen=63 full=100.0 5.89s
+[train 1147/1164] id=6482 P=3884 gen=63 full=100.0 5.88s
+[train 1148/1164] id=6483 P=3881 gen=60 full=100.0 5.69s
+[train 1149/1164] id=6484 P=3890 gen=65 full=100.0 6.02s
+[train 1150/1164] id=6485 P=3881 gen=64 full=100.0 5.95s
+[train 1151/1164] id=6486 P=3884 gen=65 full=100.0 6.02s
+[train 1152/1164] id=6487 P=3879 gen=61 full=100.0 5.76s
+[train 1153/1164] id=6488 P=3896 gen=66 full=100.0 6.15s
+[train 1154/1164] id=6489 P=3893 gen=67 full=100.0 6.22s
+[train 1155/1164] id=6490 P=3878 gen=61 full=100.0 8.99s
+[train 1156/1164] id=6491 P=3879 gen=63 full=100.0 5.91s
+[train 1157/1164] id=6492 P=3881 gen=64 full=100.0 6.2s
+[train 1158/1164] id=6493 P=3875 gen=60 full=100.0 5.71s
+[train 1159/1164] id=6494 P=3887 gen=62 full=100.0 5.91s
+[train 1160/1164] id=6495 P=3887 gen=64 full=100.0 5.96s
+[train 1161/1164] id=6496 P=3878 gen=59 full=100.0 5.62s
+[train 1162/1164] id=6497 P=3891 gen=67 full=100.0 6.73s
+[train 1163/1164] id=6498 P=3881 gen=62 full=100.0 5.81s
+[train 1164/1164] id=6499 P=3881 gen=63 full=100.0 5.88s
+[val 1/65] id=405 P=3693 gen=10 full=100.0 2.29s
+[val 2/65] id=406 P=3690 gen=10 full=100.0 2.28s
+[val 3/65] id=407 P=3687 gen=10 full=100.0 2.28s
+[val 4/65] id=408 P=3690 gen=10 full=100.0 2.27s
+[val 5/65] id=409 P=3684 gen=10 full=100.0 2.31s
+[val 6/65] id=905 P=4473 gen=10 full=0.0 2.81s
+[val 7/65] id=906 P=4464 gen=10 full=100.0 2.78s
+[val 8/65] id=907 P=4431 gen=10 full=100.0 2.76s
+[val 9/65] id=908 P=4474 gen=10 full=100.0 2.78s
+[val 10/65] id=909 P=4459 gen=10 full=100.0 2.78s
+[val 11/65] id=1405 P=3865 gen=14 full=100.0 2.85s
+[val 12/65] id=1406 P=3930 gen=16 full=100.0 2.96s
+[val 13/65] id=1407 P=3958 gen=16 full=66.66666666666667 2.83s
+[val 14/65] id=1408 P=3963 gen=19 full=100.0 3.03s
+[val 15/65] id=1409 P=3904 gen=14 full=100.0 2.67s
+[val 16/65] id=1905 P=2096 gen=6 full=100.0 1.27s
+[val 17/65] id=1906 P=2231 gen=4 full=0.0 1.2s
+[val 18/65] id=1907 P=2235 gen=9 full=100.0 1.5s
+[val 19/65] id=1908 P=2095 gen=2 full=100.0 1.03s
+[val 20/65] id=1909 P=2083 gen=2 full=100.0 1.03s
+[val 21/65] id=2405 P=3811 gen=36 full=100.0 4.06s
+[val 22/65] id=2406 P=3807 gen=32 full=100.0 3.76s
+[val 23/65] id=2407 P=3808 gen=36 full=100.0 4.05s
+[val 24/65] id=2408 P=3811 gen=36 full=100.0 4.05s
+[val 25/65] id=2409 P=3808 gen=36 full=100.0 4.04s
+[val 26/65] id=2905 P=3854 gen=10 full=100.0 2.4s
+[val 27/65] id=2906 P=3846 gen=10 full=100.0 2.4s
+[val 28/65] id=2907 P=3845 gen=10 full=100.0 2.39s
+[val 29/65] id=2908 P=3852 gen=10 full=100.0 2.4s
+[val 30/65] id=2909 P=3847 gen=10 full=100.0 2.39s
+[val 31/65] id=3405 P=3788 gen=10 full=100.0 2.33s
+[val 32/65] id=3406 P=3785 gen=10 full=100.0 2.32s
+[val 33/65] id=3407 P=3782 gen=10 full=100.0 2.33s
+[val 34/65] id=3408 P=3788 gen=10 full=100.0 2.33s
+[val 35/65] id=3409 P=3791 gen=10 full=100.0 2.32s
+[val 36/65] id=3905 P=5107 gen=44 full=100.0 5.67s
+[val 37/65] id=3906 P=5174 gen=45 full=100.0 5.69s
+[val 38/65] id=3907 P=5271 gen=45 full=100.0 5.76s
+[val 39/65] id=3908 P=5126 gen=44 full=100.0 5.6s
+[val 40/65] id=3909 P=5189 gen=76 full=100.0 7.85s
+[val 41/65] id=4405 P=2900 gen=5 full=0.0 1.57s
+[val 42/65] id=4406 P=3295 gen=4 full=0.0 1.7s
+[val 43/65] id=4407 P=4125 gen=4 full=100.0 2.14s
+[val 44/65] id=4408 P=3175 gen=5 full=0.0 1.72s
+[val 45/65] id=4409 P=4210 gen=4 full=0.0 2.15s
+[val 46/65] id=4905 P=3863 gen=16 full=100.0 2.78s
+[val 47/65] id=4906 P=3863 gen=16 full=100.0 2.78s
+[val 48/65] id=4907 P=3863 gen=16 full=100.0 2.78s
+[val 49/65] id=4908 P=3865 gen=17 full=100.0 2.85s
+[val 50/65] id=4909 P=3864 gen=17 full=100.0 2.84s
+[val 51/65] id=5405 P=3847 gen=45 full=100.0 4.68s
+[val 52/65] id=5406 P=3852 gen=45 full=100.0 4.68s
+[val 53/65] id=5407 P=3840 gen=45 full=100.0 4.65s
+[val 54/65] id=5408 P=3858 gen=45 full=100.0 4.68s
+[val 55/65] id=5409 P=3846 gen=45 full=100.0 4.68s
+[val 56/65] id=5905 P=3987 gen=37 full=100.0 4.24s
+[val 57/65] id=5906 P=3970 gen=34 full=100.0 4.03s
+[val 58/65] id=5907 P=3990 gen=36 full=100.0 4.18s
+[val 59/65] id=5908 P=3993 gen=34 full=100.0 4.04s
+[val 60/65] id=5909 P=4000 gen=35 full=100.0 4.1s
+[val 61/65] id=6405 P=3896 gen=69 full=100.0 6.27s
+[val 62/65] id=6406 P=3884 gen=63 full=100.0 5.86s
+[val 63/65] id=6407 P=3878 gen=61 full=100.0 5.74s
+[val 64/65] id=6408 P=3876 gen=62 full=100.0 5.8s
+[val 65/65] id=6409 P=3882 gen=62 full=100.0 5.81s
+{
+  "complete": true,
+  "completed": {
+    "train": 1164,
+    "val": 65
+  },
+  "missing": {
+    "train": [],
+    "val": []
+  }
+}
+SUCCESS: allocator labels generated and validated.

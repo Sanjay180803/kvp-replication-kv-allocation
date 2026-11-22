@@ -1,0 +1,11 @@
+{
+  "id": 4011,
+  "task": "qa_2",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 4103,
+  "kept_frac": 0.09992688276870583,
+  "score": 100.0,
+  "pred": " David Weissman",
+  "sec": 1.19
+}

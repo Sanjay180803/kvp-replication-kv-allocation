@@ -1,0 +1,11 @@
+{
+  "id": 4503,
+  "task": "vt",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3866,
+  "kept_frac": 0.04992240041386446,
+  "score": 80.0,
+  "pred": " GKOGM SLAHK GRJOI FSITY",
+  "sec": 1.55
+}

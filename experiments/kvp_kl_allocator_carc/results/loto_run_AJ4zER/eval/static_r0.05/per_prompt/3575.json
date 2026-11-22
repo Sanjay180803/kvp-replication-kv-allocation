@@ -1,0 +1,11 @@
+{
+  "id": 3575,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5191,
+  "kept_frac": 0.04989404738971297,
+  "score": 0.0,
+  "pred": "  \n1. **ch** (appears as \"ch\" in \"ch**\"** and \"ch**\"**)\n2. **ch** (appears as \"ch\" in \"ch**\"** and \"ch**\"**)\n3. **ch** (appears as \"ch\" in \"ch**\"** and \"ch**\"**)\n4. **ch** (appears as \"ch\" in \"ch**\"** and \"ch**\"**)\n5. **ch** (appears as \"ch\" in \"ch**\"** and",
+  "sec": 8.22
+}

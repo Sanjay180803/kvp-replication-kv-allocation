@@ -1,0 +1,11 @@
+{
+  "id": 3509,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5313,
+  "kept_frac": 0.049877658573310744,
+  "score": 0.0,
+  "pred": "  \n1. **tun** (appears 12 times)  \n2. **tun** (appears 12 times, note: this is likely a typo and should be \"tun\" or another word)  \n3. **tun** (appears 12 times, again likely a typo)  \n4. **tun** (appears 12 times, repeated typo)  \n5. **tun** (appears 12 times, repeated typo)  \n6. **tun** (appears 12 times, repeated",
+  "sec": 8.31
+}

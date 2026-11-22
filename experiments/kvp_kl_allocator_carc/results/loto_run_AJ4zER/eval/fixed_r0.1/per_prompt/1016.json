@@ -1,0 +1,11 @@
+{
+  "id": 1016,
+  "task": "fwe",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 4000,
+  "kept_frac": 0.1,
+  "score": 66.66666666666667,
+  "pred": " fmxcey, snzjnf, and fmxcey (note that \"fmxcey\" appears the most frequently).",
+  "sec": 2.64
+}

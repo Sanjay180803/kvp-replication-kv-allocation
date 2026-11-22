@@ -1,0 +1,11 @@
+{
+  "id": 3577,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5181,
+  "kept_frac": 0.09998069870681335,
+  "score": 20.0,
+  "pred": "  \n1. **digestion**  \n2. **digestive** (appears as \"digestion\" and \"digestive\" in the list)  \n3. **digest**  \n4. **hook**  \n5. **digestive**  \n6. **digestive**  \n7. **digestive**  \n8. **digestive**  \n9. **digestive**  \n10. **digestive**  \n\nNote: The word \"digestive\" appears multiple times in the list, and \"digestion\" also appears. If we consider only unique words, \"digestion",
+  "sec": 8.23
+}

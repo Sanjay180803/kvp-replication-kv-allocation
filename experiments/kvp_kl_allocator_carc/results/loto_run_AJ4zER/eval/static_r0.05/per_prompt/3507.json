@@ -1,0 +1,11 @@
+{
+  "id": 3507,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5182,
+  "kept_frac": 0.049980702431493634,
+  "score": 0.0,
+  "pred": "  \n1. **j** (appears 13 times)  \n2. **j** (appears 12 times)  \n3. **j** (appears 11 times)  \n4. **j** (appears 10 times)  \n5. **j** (appears 9 times)  \n6. **j** (appears 8 times)  \n7. **j** (appears 7 times)  \n8. **j** (appears 6 times)  \n9. **j** (appears 5 times",
+  "sec": 8.24
+}

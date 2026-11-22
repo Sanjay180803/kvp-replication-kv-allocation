@@ -1,0 +1,11 @@
+{
+  "id": 6015,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3881,
+  "kept_frac": 0.0499871167224942,
+  "score": 100.0,
+  "pred": ":\n\n- 5394880 (for curved-quiver)\n- 8412769 (for dirty-resemblance)\n- 1162230 (for sharp-furnace)\n- 8175395 (for scientific-walrus)",
+  "sec": 4.53
+}

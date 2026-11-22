@@ -1,0 +1,11 @@
+{
+  "id": 3501,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5258,
+  "kept_frac": 0.0498288322556105,
+  "score": 10.0,
+  "pred": "  \n1. **oatmeal**  \n2. **remains** (appears as \"remained\" and \"remains\")  \n3. **remained**  \n4. **removing**  \n5. **removal**  \n6. **removals**  \n7. **removals'** (an apostrophe added, which might be a typo or special case)  \n8. **removals.'** (another special case, possibly due to formatting)  \n9. **removals.'s** (yet another special case)  \n10.",
+  "sec": 8.33
+}

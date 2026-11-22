@@ -1,0 +1,11 @@
+{
+  "id": 1012,
+  "task": "fwe",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3998,
+  "kept_frac": 0.04977488744372186,
+  "score": 66.66666666666667,
+  "pred": " hdacaz, rzwyjs, and rzwyjs.",
+  "sec": 1.69
+}

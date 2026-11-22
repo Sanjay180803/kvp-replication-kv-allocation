@@ -1,0 +1,11 @@
+{
+  "id": 3501,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5258,
+  "kept_frac": 0.099847850893876,
+  "score": 20.0,
+  "pred": "  \n1. reminiscent  \n2. ovenamel (which appears to be a typo or variant of \"oatmeal\")  \n3. reminiscent  \n4. reminiscent  \n5. ovenamel (oatmeal)  \n6. ovenamel (oatmeal)  \n7. ovenamel (oatmeal)  \n8. ovenamel (oatmeal)  \n9. ovenamel (oatmeal)  \n10. ovenamel (oatmeal)  \n\nIt appears that \"oatmeal\" (likely a typo for \"ovenamel\") is the most frequently occurring word in the list",
+  "sec": 8.5
+}

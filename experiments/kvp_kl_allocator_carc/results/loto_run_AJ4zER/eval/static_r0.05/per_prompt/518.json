@@ -1,0 +1,11 @@
+{
+  "id": 518,
+  "task": "niah_multikey_2",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 4436,
+  "kept_frac": 0.04981965734896303,
+  "score": 100.0,
+  "pred": " 8897507. However, upon rechecking the provided text, it seems there was a typo and the correct number for dazzling-gauge is actually 8897507 should be 8897507 -> 8898507. But based on the exact text provided, the number is 8897507.",
+  "sec": 5.83
+}

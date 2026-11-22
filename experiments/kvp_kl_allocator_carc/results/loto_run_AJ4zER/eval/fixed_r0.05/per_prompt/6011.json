@@ -1,0 +1,11 @@
+{
+  "id": 6011,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3887,
+  "kept_frac": 0.04990995626447131,
+  "score": 100.0,
+  "pred": ":\n\n- 2375453 (for \"sweltering-piccolo\")\n- 1666754 (for \"sweltering-pasture\")\n- 5130808 (for \"cowardly-constitution\")\n- 9770838 (for \"mute-cupboard\")",
+  "sec": 5.04
+}

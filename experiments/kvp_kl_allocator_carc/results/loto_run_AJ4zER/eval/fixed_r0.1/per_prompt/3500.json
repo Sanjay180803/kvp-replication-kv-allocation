@@ -1,0 +1,11 @@
+{
+  "id": 3500,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5166,
+  "kept_frac": 0.09988385598141696,
+  "score": 50.0,
+  "pred": "  \n1. **kilt**  \n2. **activity**  \n3. **appliance**  \n4. **meter**  \n5. **arthur**  \n6. **fence** (Note: \"fence\" is not in the original list, but it's a common typo for \"kilt\" based on the context)  \n7. **despite** (Note: \"despite\" is not in the original list, but it's a common typo for \"despite\" based on the context)  \n8. **advice** (Note: \"advice",
+  "sec": 8.41
+}

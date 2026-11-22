@@ -1,0 +1,11 @@
+{
+  "id": 3577,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5181,
+  "kept_frac": 0.049990349353406675,
+  "score": 10.0,
+  "pred": "  \n1. **hook**  \n2. **nose**  \n3. **hook**  \n4. **hook**  \n5. **hook**  \n6. **hook**  \n7. **hook**  \n8. **hook**  \n9. **hook**  \n10. **hook**  \n\nIt appears that \"hook\" is the most frequently occurring word in the list, appearing multiple times.",
+  "sec": 6.14
+}

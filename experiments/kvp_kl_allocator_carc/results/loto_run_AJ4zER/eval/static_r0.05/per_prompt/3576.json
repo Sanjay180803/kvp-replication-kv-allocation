@@ -1,0 +1,11 @@
+{
+  "id": 3576,
+  "task": "cwe",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5358,
+  "kept_frac": 0.04983202687569989,
+  "score": 10.0,
+  "pred": "  \n1. **tummy**  \n2. **reality**  \n3. **reality** (appears twice)  \n4. **reality**  \n5. **reality**  \n6. **reality**  \n7. **reality**  \n8. **reality**  \n9. **reality**  \n10. **reality**  \n\nIt appears that \"reality\" is the most frequent word, appearing multiple times in the list.",
+  "sec": 6.95
+}

@@ -1,0 +1,11 @@
+{
+  "id": 1500,
+  "task": "qa_1",
+  "method": "loto_kvpkl_static_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 2633,
+  "kept_frac": 0.049753133308013675,
+  "score": 100.0,
+  "pred": " France",
+  "sec": 0.7
+}

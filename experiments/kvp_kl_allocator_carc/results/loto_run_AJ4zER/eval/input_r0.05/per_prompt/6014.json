@@ -1,0 +1,11 @@
+{
+  "id": 6014,
+  "task": "niah_multiquery",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 3872,
+  "kept_frac": 0.04984504132231405,
+  "score": 0.0,
+  "pred": ":\n\n- 1,428,914 (for evil-porch)\n- 675,2576 (for witty-blackfish)\n- 9,196,204 (for quaint-sandal)\n- 4,533,779 (for habitual-edible)",
+  "sec": 4.78
+}

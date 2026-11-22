@@ -1,0 +1,11 @@
+{
+  "id": 3504,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 5174,
+  "kept_frac": 0.09992269037495168,
+  "score": 10.0,
+  "pred": "  \n1. **bunghole**  \n2. **m**  \n3. **m**  \n4. **m**  \n5. **m**  \n6. **m**  \n7. **m**  \n8. **m**  \n9. **m**  \n10. **m**  \n\nIt appears that the word \"m\" is repeated multiple times, and \"bunghole\" is the only other word that stands out significantly. The repetition of \"m\" suggests there might be an issue with the data or a formatting error, as \"m\" by",
+  "sec": 8.43
+}

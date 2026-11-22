@@ -1,0 +1,8 @@
+# Uses the parent experiment's config.sh for existing CARC assets/labels.
+LOTO_SEED=0
+LOTO_MAX_PARALLEL=2
+LOTO_SMOKE_TIME="00:25:00"
+LOTO_FEATURE_TIME="01:00:00"
+LOTO_TRAIN_TIME="00:45:00"
+LOTO_EVAL_TIME="01:00:00"
+LOTO_CPU_PARTITION="main"

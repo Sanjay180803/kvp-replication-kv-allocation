@@ -1,0 +1,11 @@
+{
+  "id": 5515,
+  "task": "niah_multikey_3",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 4005,
+  "kept_frac": 0.049937578027465665,
+  "score": 0.0,
+  "pred": " 3ec07a6-4c27-4079-9c5d-3f8e22649ee. However, there seems to be a typo in the provided uuid as the correct format should be 3ec07a6-4c27-4079-9c5d-3f8e22649ee but the text shows 3ec07a6-4c27-4079-9c5d-3f8e22649ee. The correct uuid is ",
+  "sec": 8.13
+}

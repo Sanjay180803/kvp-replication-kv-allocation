@@ -1,0 +1,11 @@
+{
+  "id": 4500,
+  "task": "vt",
+  "method": "loto_kvpkl_input_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 3863,
+  "kept_frac": 0.09992234015014238,
+  "score": 100.0,
+  "pred": " FITJT VGCAO ZJQUQ TYFAD DROFS",
+  "sec": 1.81
+}

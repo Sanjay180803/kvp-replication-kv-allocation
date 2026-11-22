@@ -1,0 +1,11 @@
+{
+  "id": 3501,
+  "task": "cwe",
+  "method": "loto_kvpkl_input_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5258,
+  "kept_frac": 0.0498288322556105,
+  "score": 10.0,
+  "pred": "  \n1. **oatmeal**  \n2. **oatmeal** (appears multiple times, so it's listed again)  \n3. **oatmeal**  \n4. **oatmeal**  \n5. **oatmeal**  \n6. **oatmeal**  \n7. **oatmeal**  \n8. **oatmeal**  \n9. **oatmeal**  \n10. **oatmeal**  \n\nIt appears that \"oatmeal\" is the most frequently occurring word in the provided list, appearing 10 times.",
+  "sec": 8.21
+}

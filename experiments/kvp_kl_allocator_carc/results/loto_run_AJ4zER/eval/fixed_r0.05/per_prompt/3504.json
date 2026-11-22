@@ -1,0 +1,11 @@
+{
+  "id": 3504,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5174,
+  "kept_frac": 0.04986470815616544,
+  "score": 10.0,
+  "pred": "  \n1. **bunghole** - appearing 14 times  \n2. **bunghole** - (repeated due to frequency)  \n3. **bunghole** - (repeated due to frequency)  \n4. **bunghole** - (repeated due to frequency)  \n5. **bunghole** - (repeated due to frequency)  \n6. **bunghole** - (repeated due to frequency)  \n7. **bunghole** - (repeated due to frequency)  \n8.",
+  "sec": 8.17
+}

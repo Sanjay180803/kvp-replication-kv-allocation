@@ -1,0 +1,11 @@
+{
+  "id": 3502,
+  "task": "cwe",
+  "method": "loto_kvpkl_fixed_s0_r0.05",
+  "ratio": 0.05,
+  "prompt_len": 5230,
+  "kept_frac": 0.04990439770554493,
+  "score": 0.0,
+  "pred": "  \n1. **copper**  \n2. **copper** (appears twice, so it's listed twice)  \n3. **copper**  \n4. **copper**  \n5. **copper**  \n6. **copper**  \n7. **copper**  \n8. **copper**  \n9. **copper**  \n10. **copper**  \n\nIt appears that \"copper\" is the most frequently occurring word in the list, appearing multiple times.",
+  "sec": 7.34
+}

@@ -1,0 +1,11 @@
+{
+  "id": 4010,
+  "task": "qa_2",
+  "method": "loto_kvpkl_static_s0_r0.1",
+  "ratio": 0.1,
+  "prompt_len": 4015,
+  "kept_frac": 0.09987546699875467,
+  "score": 100.0,
+  "pred": " Kansas Song",
+  "sec": 1.09
+}
