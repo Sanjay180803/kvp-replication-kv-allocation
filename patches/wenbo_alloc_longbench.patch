@@ -1,0 +1,40 @@
+--- /home1/sanjayba/ml-learning-to-evict/alloc/label.py.prelb	2026-11-21 11:50:38.366032330 -0800
++++ /home1/sanjayba/ml-learning-to-evict/alloc/label.py	2026-11-21 11:50:38.367032330 -0800
+@@ -161,7 +161,7 @@
+     meta_f = out / f"meta_shard{args.shard}.jsonl"
+     done = {json.loads(l)["id"] for l in open(meta_f)} if meta_f.exists() else set()
+ 
+-    ds = load_dataset("simonjegou/ruler", data_dir=__import__("os").environ.get("RULER_LEN", "4096"), split="test")
++    ds = __import__("lb_data").load_ds(load_dataset)
+     tok = qwen2_5_tokenizer(path=str(MODEL_DIR / "vocab.json"), merges_file=str(MODEL_DIR / "merges.txt"))
+     model = load_model()
+     presses = load_presses(args.composite)
+@@ -197,7 +197,7 @@
+                        out / f"{i}.pt")
+             rec = {"id": i, "task": row["task"], "prompt_len": P, "n_gen": m, "n_fut": n_fut,
+                    "pred": pred, "answer": list(row["answer"]) if not isinstance(row["answer"], str) else [row["answer"]],
+-                   "full_score": ruler_score(pred, row["answer"], row["task"]),
++                   "full_score": __import__("lb_data").score(pred, row, ruler_score),
+                    "fut_total_mean": float(col.fut.sum(1).mean()), "sec": round(time.time() - t0, 2)}
+             fmeta.write(json.dumps(rec) + "\n"); fmeta.flush()
+             print(f"[{n+1}/{len(ids)}] id={i} {row['task']:<16} P={P} gen={m} full={rec['full_score']:.0f} "
+--- /home1/sanjayba/ml-learning-to-evict/alloc/eval_alloc.py.prelb	2026-11-21 11:50:38.368032330 -0800
++++ /home1/sanjayba/ml-learning-to-evict/alloc/eval_alloc.py	2026-11-21 11:50:38.369032329 -0800
+@@ -77,7 +77,7 @@
+     out_file = out / f"ruler_{name}.jsonl"
+     done = {json.loads(l)["id"] for l in open(out_file)} if out_file.exists() else set()
+ 
+-    ds = load_dataset("simonjegou/ruler", data_dir=__import__("os").environ.get("RULER_LEN", "4096"), split="test")
++    ds = __import__("lb_data").load_ds(load_dataset)
+     tok = qwen2_5_tokenizer(path=str(MODEL_DIR / "vocab.json"), merges_file=str(MODEL_DIR / "merges.txt"))
+     model = load_model()
+     data = OmegaConf.load(args.composite)
+@@ -111,7 +111,7 @@
+                     model.setup_caches(batch_size=1, dtype=DTYPE, decoder_max_seq_len=P + max_new)
+                 gen = generate_with_compression(model, prompt, comp, P, max_new, stop_tokens=tok.stop_tokens)
+             pred = tok.decode(gen[0, P:].tolist(), skip_special_tokens=True)
+-            s = ruler_score(pred, row["answer"], row["task"])
++            s = __import__("lb_data").score(pred, row, ruler_score)
+             kept = sum(min(c, P) for c in counts)
+             rec = {"id": i, "task": row["task"], "method": name, "ratio": ratio, "prompt_len": P,
+                    "kept_frac": kept / (112 * P), "score": s, "pred": pred, "sec": round(time.time() - t0, 2)}

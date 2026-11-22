@@ -10,7 +10,7 @@
 source $HOME/ml-learning-to-evict/slurm/env.sh
 cd $HOME/ml-learning-to-evict
 export RULER_LEN=$L PYTORCH_ALLOC_CONF=expandable_segments:True
-ARGS=$(sed -n "$((SLURM_ARRAY_TASK_ID + 1))p" alloc_tasks_L$L.txt)
+ARGS=$(sed -n "$((SLURM_ARRAY_TASK_ID + 1))p" ${TASKS:-alloc_tasks_L$L.txt})
 [ -z "$ARGS" ] && { echo "no task $SLURM_ARRAY_TASK_ID"; exit 0; }
 echo "=== L$L task $SLURM_ARRAY_TASK_ID: $ARGS ==="
 uv run python alloc/eval_alloc.py --splits alloc_ids_L$L.json --split test $ARGS \
