@@ -56,3 +56,34 @@ Conclusion unchanged: no offline-RL policy beats the static split; MBPO exploits
 - `scripts/kv_loto.py` + `slurm/kv_loto.sh`: leave-one-task-out
 - `scripts/eval_ruler_alloc.py`: `--scorer kvp --composite`, `--length {4096,8192,16384}`
 - `patches/wenbo_alloc_carc.patch`: `RULER_LEN` env var and `--shuffle_same` for Wenbo's allocator
+
+## Ablation: is the RL calibration needed? (RULER, 260 prompts)
+"raw" = global top-B over each head's softmaxed KVP scores, with no learned per-head calibration.
+
+| | 4K 5% | 4K 10% | 8K 5% | 8K 10% | 16K 5% | 16K 10% |
+|---|---|---|---|---|---|---|
+| raw (no calibration) | 20.1 | 37.9 | 20.5 | 39.1 | 23.1 | 42.4 |
+| uniform | 28.3 | 43.9 | 32.1 | 45.0 | 35.9 | 50.0 |
+| wfixed (RL-calibrated) | 70.5 | 82.1 | 67.9 | 78.2 | 71.0 | 81.2 |
+
+wfixed − raw: +39 to +50 points, significant everywhere. Without calibration, a few heads with sharp scores take the
+budget and global top-B is worse than uniform. wfixed − shareplan at 10%: 4K **+4.3 [+1.1, +7.9]**, 8K +2.1 [−1.0, +5.6],
+16K **+4.0 [+0.7, +7.5]**; at 5%: +2.0 / −0.1 / +0.8 (n.s.).
+
+## Downstream: LongBench (4K, 6 English tasks × 40 = 240 prompts, all unseen by the allocators)
+Qasper, MultiFieldQA-en, HotpotQA, 2WikiMQA, PassageRetrieval-en, TREC; official prompts and metrics, middle-truncated to
+3,900 tokens (`scripts/lb_data.py`, `slurm/walloc_lb.sh`). Full cache = **46.2**.
+
+| | 5% | 10% |
+|---|---|---|
+| uniform | 29.7 | 32.4 |
+| raw | 29.2 | 32.4 |
+| profile-share | 33.5 | 41.0 |
+| shareplan | 34.6 | 40.3 |
+| **wfixed** | **36.5** | 40.6 |
+| winput | 31.6 | 39.1 |
+
+Paired (95% CI): wfixed − profile-share 5% **+3.1 [+0.2, +6.1]**, 10% −0.4 [−3.3, +2.3]; wfixed − shareplan 5% +2.0 [−1.3, +5.2],
+10% +0.3; wfixed − winput 5% **+4.9 [+1.7, +8.4]**, 10% +1.5 [−1.8, +4.9]. The input-aware allocator loses on unseen tasks
+(collapses on PassageRetrieval and TREC at 5%), consistent with the same-task shuffle: its features encode training task type.
+Full numbers: `results/walloc/summary_and_ci.txt`.

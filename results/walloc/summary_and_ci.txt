@@ -1,0 +1,106 @@
+
+=== RULER 4096 ===
+raw_r0.05                                     n=260  mean= 20.1
+raw_r0.1                                      n=260  mean= 37.9
+team_profile-share_snapkv_t0.05__kvp          n=260  mean= 66.1
+team_profile-share_snapkv_t0.1__kvp           n=260  mean= 78.2
+team_shareplan_snapkv_t0.05__kvp              n=260  mean= 68.5
+team_shareplan_snapkv_t0.1__kvp               n=260  mean= 77.8
+uniform_kvp_r0.05                             n=260  mean= 28.3
+uniform_kvp_r0.1                              n=260  mean= 43.9
+wfixed_r0.05                                  n=260  mean= 70.5
+wfixed_r0.1                                   n=260  mean= 82.1
+winput_r0.05                                  n=260  mean= 71.2
+winput_r0.1                                   n=260  mean= 83.9
+winput_shufcross_r0.05                        n=260  mean= 70.1
+winput_shufcross_r0.1                         n=260  mean= 81.6
+winput_shufsame_r0.05                         n=260  mean= 71.1
+winput_shufsame_r0.1                          n=260  mean= 84.2
+
+=== RULER 8192 ===
+raw_r0.05                                     n=260  mean= 20.5
+raw_r0.1                                      n=260  mean= 39.1
+team_profile-share_snapkv_t0.05__kvp          n=260  mean= 65.1
+team_profile-share_snapkv_t0.1__kvp           n=260  mean= 75.9
+team_shareplan_snapkv_t0.05__kvp              n=260  mean= 68.0
+team_shareplan_snapkv_t0.1__kvp               n=260  mean= 76.1
+uniform_kvp_r0.05                             n=260  mean= 32.1
+uniform_kvp_r0.1                              n=260  mean= 45.0
+wfixed_r0.05                                  n=260  mean= 67.9
+wfixed_r0.1                                   n=260  mean= 78.2
+winput_r0.05                                  n=260  mean= 68.1
+winput_r0.1                                   n=260  mean= 79.0
+
+=== RULER 16384 ===
+raw_r0.05                                     n=260  mean= 23.1
+raw_r0.1                                      n=260  mean= 42.4
+team_profile-share_snapkv_t0.05__kvp          n=260  mean= 68.9
+team_profile-share_snapkv_t0.1__kvp           n=260  mean= 76.3
+team_shareplan_snapkv_t0.05__kvp              n=260  mean= 70.2
+team_shareplan_snapkv_t0.1__kvp               n=260  mean= 77.2
+uniform_kvp_r0.05                             n=260  mean= 35.9
+uniform_kvp_r0.1                              n=260  mean= 50.0
+wfixed_r0.05                                  n=260  mean= 71.0
+wfixed_r0.1                                   n=260  mean= 81.2
+winput_r0.05                                  n=260  mean= 72.1
+winput_r0.1                                   n=260  mean= 81.4
+
+=== LongBench 4K ===
+raw_r0.05                                     n=240  mean= 29.2
+raw_r0.1                                      n=240  mean= 32.4
+team_profile-share_snapkv_t0.05__kvp          n=240  mean= 33.5
+team_profile-share_snapkv_t0.1__kvp           n=240  mean= 41.0
+team_shareplan_snapkv_t0.05__kvp              n=240  mean= 34.6
+team_shareplan_snapkv_t0.1__kvp               n=240  mean= 40.3
+uniform_kvp_r0.05                             n=240  mean= 29.7
+uniform_kvp_r0.1                              n=240  mean= 32.4
+wfixed_r0.05                                  n=240  mean= 36.5
+wfixed_r0.1                                   n=240  mean= 40.6
+winput_r0.05                                  n=240  mean= 31.6
+winput_r0.1                                   n=240  mean= 39.1
+full cache (from labels)                      n=240  mean= 46.2
+
+LongBench per task: 2wikimqa | hotpotqa | multifieldqa_en | passage_retrieval_en | qasper | trec
+FULL_CACHE                                     44.1   39.4   48.4   45.0   35.1   65.0
+raw_r0.05                                      31.9   29.4   28.6   45.0   17.7   22.5
+raw_r0.1                                       40.2   30.5   30.3   42.5   23.1   27.5
+team_profile-share_snapkv_t0.05__kvp           36.9   31.6   35.3   40.0   21.8   35.0
+team_profile-share_snapkv_t0.1__kvp            37.5   34.6   43.1   45.0   28.5   57.5
+team_shareplan_snapkv_t0.05__kvp               35.9   32.8   39.0   42.5   22.2   35.0
+team_shareplan_snapkv_t0.1__kvp                37.8   37.2   42.8   45.0   29.1   50.0
+uniform_kvp_r0.05                              31.2   30.9   28.5   42.5   17.8   27.5
+uniform_kvp_r0.1                               38.4   28.7   31.4   45.0   23.5   27.5
+wfixed_r0.05                                   38.9   35.9   38.1   45.0   23.7   37.5
+wfixed_r0.1                                    43.8   34.4   44.0   45.0   29.1   47.5
+winput_r0.05                                   38.3   33.8   38.5   32.5   24.0   22.5
+winput_r0.1                                    41.9   36.2   44.3   45.0   27.3   40.0
+4096   wfixed_r0.05                             - raw_r0.05                                +50.4 [+44.9, +55.9] * n=260
+4096   wfixed_r0.05                             - uniform_kvp_r0.05                        +42.1 [+36.8, +47.7] * n=260
+4096   wfixed_r0.05                             - team_shareplan_snapkv_t0.05__kvp          +2.0 [ -1.1,  +5.2]   n=260
+8192   wfixed_r0.05                             - raw_r0.05                                +47.4 [+41.7, +53.1] * n=260
+8192   wfixed_r0.05                             - uniform_kvp_r0.05                        +35.8 [+30.2, +41.5] * n=260
+8192   wfixed_r0.05                             - team_shareplan_snapkv_t0.05__kvp          -0.1 [ -2.6,  +2.3]   n=260
+16384  wfixed_r0.05                             - raw_r0.05                                +47.9 [+42.6, +53.5] * n=260
+16384  wfixed_r0.05                             - uniform_kvp_r0.05                        +35.1 [+29.6, +40.8] * n=260
+16384  wfixed_r0.05                             - team_shareplan_snapkv_t0.05__kvp          +0.8 [ -2.2,  +4.0]   n=260
+LB     wfixed_r0.05                             - winput_r0.05                              +4.9 [ +1.7,  +8.4] * n=240
+LB     wfixed_r0.05                             - team_shareplan_snapkv_t0.05__kvp          +2.0 [ -1.3,  +5.2]   n=240
+LB     wfixed_r0.05                             - team_profile-share_snapkv_t0.05__kvp      +3.1 [ +0.2,  +6.1] * n=240
+LB     wfixed_r0.05                             - uniform_kvp_r0.05                         +6.8 [ +3.5, +10.2] * n=240
+LB     wfixed_r0.05                             - raw_r0.05                                 +7.3 [ +4.3, +10.6] * n=240
+LB     winput_r0.05                             - team_shareplan_snapkv_t0.05__kvp          -3.0 [ -6.3,  +0.1]   n=240
+4096   wfixed_r0.1                              - raw_r0.1                                 +44.1 [+38.9, +49.6] * n=260
+4096   wfixed_r0.1                              - uniform_kvp_r0.1                         +38.2 [+33.0, +43.7] * n=260
+4096   wfixed_r0.1                              - team_shareplan_snapkv_t0.1__kvp           +4.3 [ +1.1,  +7.9] * n=260
+8192   wfixed_r0.1                              - raw_r0.1                                 +39.2 [+33.7, +45.0] * n=260
+8192   wfixed_r0.1                              - uniform_kvp_r0.1                         +33.2 [+27.8, +38.8] * n=260
+8192   wfixed_r0.1                              - team_shareplan_snapkv_t0.1__kvp           +2.1 [ -1.0,  +5.6]   n=260
+16384  wfixed_r0.1                              - raw_r0.1                                 +38.8 [+33.1, +44.5] * n=260
+16384  wfixed_r0.1                              - uniform_kvp_r0.1                         +31.2 [+25.7, +36.8] * n=260
+16384  wfixed_r0.1                              - team_shareplan_snapkv_t0.1__kvp           +4.0 [ +0.7,  +7.5] * n=260
+LB     wfixed_r0.1                              - winput_r0.1                               +1.5 [ -1.8,  +4.9]   n=240
+LB     wfixed_r0.1                              - team_shareplan_snapkv_t0.1__kvp           +0.3 [ -2.9,  +3.5]   n=240
+LB     wfixed_r0.1                              - team_profile-share_snapkv_t0.1__kvp       -0.4 [ -3.3,  +2.3]   n=240
+LB     wfixed_r0.1                              - uniform_kvp_r0.1                          +8.2 [ +4.4, +12.2] * n=240
+LB     wfixed_r0.1                              - raw_r0.1                                  +8.3 [ +4.6, +12.0] * n=240
+LB     winput_r0.1                              - team_shareplan_snapkv_t0.1__kvp           -1.2 [ -4.3,  +1.9]   n=240
