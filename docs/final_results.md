@@ -1,5 +1,8 @@
 # Final results (Nov 2026): RL allocation of the KV budget across 112 heads
 
+> **See "FINAL RESULTS (Nov 24, 2026)" at the bottom; it supersedes the earlier sections.**
+
+
 Qwen2.5-7B-Instruct, RULER, KVP ranking inside each head, 260 test prompts per length
 (4K: the usual 260 held-out rows; 8K/16K: first 20 rows per task). Allocators trained at 4K only.
 All rows run through Wenbo's evaluation pipeline on CARC (`slurm/walloc_prep.sh`, `slurm/walloc_eval.sh`).
@@ -87,3 +90,28 @@ Paired (95% CI): wfixed − profile-share 5% **+3.1 [+0.2, +6.1]**, 10% −0.4 [
 10% +0.3; wfixed − winput 5% **+4.9 [+1.7, +8.4]**, 10% +1.5 [−1.8, +4.9]. The input-aware allocator loses on unseen tasks
 (collapses on PassageRetrieval and TREC at 5%), consistent with the same-task shuffle: its features encode training task type.
 Full numbers: `results/walloc/summary_and_ci.txt`.
+
+---
+# FINAL RESULTS (Nov 24, 2026) — supersede all sections above
+KVP ranking inside heads; RULER 260 prompts per length, LongBench 240 (6 tasks, unseen); fixed/input = 3-seed means;
+paired bootstrap 95% CI, * = significant. Full output: `results/walloc/final_ci.txt`.
+
+| 5% / 10% | 4K | 8K | 16K | LongBench |
+|---|---|---|---|---|
+| uniform | 28.3 / 43.9 | 32.1 / 45.0 | 35.9 / 50.0 | 29.7 / 32.4 |
+| raw global top-B (no head weights) | 20.1 / 37.9 | 20.5 / 39.1 | 23.1 / 42.4 | 29.2 / 32.4 |
+| profile-share (static) | 66.1 / 78.2 | 65.1 / 75.9 | 68.9 / 76.3 | 33.5 / 41.0 |
+| shareplan (static) | 68.5 / 77.8 | 68.0 / 76.1 | 70.2 / 77.2 | 34.6 / 40.3 |
+| wstatic (static, SnapKV-KL weights) | 69.5 / 80.9 | 67.5 / 78.5 | 72.4 / 81.1 | 37.1 / 40.5 |
+| kstatic (static, KVP-KL weights) | 69.3 / 84.3 | 69.7 / 80.0 | 72.9 / 81.9 | 38.4 / 43.2 |
+| RL fixed, SnapKV-KL (wfixed) | 69.7 / 81.3 | 67.2 / 78.2 | 71.4 / 80.9 | 35.9 / 40.5 |
+| RL input, SnapKV-KL (winput) | 70.7 / 84.2 | 68.3 / 78.6 | 73.0 / 80.2 | 31.2 / 38.1 |
+| RL fixed, KVP-KL (kfixed) | 72.0 / 84.2 | 70.3 / 79.9 | 73.7 / 83.2 | 38.3 / 43.9 |
+| RL input, KVP-KL (kinput) | 73.9 / 86.5 | 71.0 / 80.0 | 72.8 / 80.4 | 36.9 / 42.1 |
+
+Full cache: RULER-4K 92.8, LongBench 46.2.
+
+1. **The head split dominates.** Without head weighting, global top-B is below uniform (wfixed − raw +39 to +50*).
+2. **The importance weights matter.** KVP-KL (same ranker as inference) beats SnapKV-KL: kstatic − wstatic 4K 10% +3.4*, 8K 5% +2.2*, LB 10% +2.7*; kfixed − wfixed significant in 5 of 8.
+3. **With matched weights, RL-fixed equals the static fit:** kfixed − kstatic ties in 7 of 8 (4K 5% +2.7*), consistent with LOTO (−0.06 / +0.60).
+4. **Input-aware RL beats the best static split only at the training length:** kinput − kstatic 4K +4.6* / +2.2*; 8K/16K n.s.; LongBench −1.6 / −1.0; winput − wfixed LongBench 5% −4.7*. Same-task shuffle and LOTO are null → it learns training-distribution cues.

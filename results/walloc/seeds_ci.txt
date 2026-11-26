@@ -1,0 +1,132 @@
+
+######## budget 0.05 ########
+
+[4K] wstatic  69.5 | shareplan  68.5 | profile-share  66.1
+  wfixed s0 s1 s2:  69.1  69.5  70.5  -> mean  69.7
+  winput s0 s1 s2:  69.9  71.0  71.2  -> mean  70.7
+  kfixed s0 s1 s2:  72.2  72.7  71.1  -> mean  72.0
+  kinput s0 s1 s2:  72.9  72.8  75.9  -> mean  73.9
+  winput-wfixed s0:         +0.8 [ -1.8, +3.3] 
+  winput-wfixed s1:         +1.5 [ -0.4, +3.6] 
+  winput-wfixed s2:         +0.7 [ -1.7, +3.2] 
+  winput-wfixed 3-seed avg:  +1.0 [ -0.7, +2.9] 
+  wfixed(avg) - wstatic:     +0.2 [ -1.9, +2.3] 
+  wfixed(avg) - shareplan:   +1.2 [ -1.6, +4.0] 
+  winput(avg) - wstatic:     +1.2 [ -0.6, +3.2] 
+  kinput-kfixed 3-seed avg:  +1.9 [ -0.1, +3.9] 
+  kfixed(avg) - wstatic:     +2.5 [ -0.0, +5.1] 
+  kfixed(avg) - wfixed(avg): +2.3 [ -0.1, +4.8] 
+
+[8K] wstatic  67.5 | shareplan  68.0 | profile-share  65.1
+  wfixed s0 s1 s2:  67.7  66.1  67.9  -> mean  67.2
+  winput s0 s1 s2:  68.9  68.0  68.1  -> mean  68.3
+  kfixed s0 s1 s2:  70.5  69.7  70.9  -> mean  70.3
+  kinput s0 s1 s2:  72.1  72.0  68.9  -> mean  71.0
+  winput-wfixed s0:         +1.3 [ -1.1, +3.8] 
+  winput-wfixed s1:         +1.9 [ +0.2, +3.7]*
+  winput-wfixed s2:         +0.2 [ -2.0, +2.5] 
+  winput-wfixed 3-seed avg:  +1.1 [ -0.3, +2.6] 
+  wfixed(avg) - wstatic:     -0.3 [ -1.9, +1.2] 
+  wfixed(avg) - shareplan:   -0.8 [ -3.2, +1.7] 
+  winput(avg) - wstatic:     +0.8 [ -1.2, +2.9] 
+  kinput-kfixed 3-seed avg:  +0.6 [ -1.0, +2.4] 
+  kfixed(avg) - wstatic:     +2.8 [ +0.9, +4.9]*
+  kfixed(avg) - wfixed(avg): +3.1 [ +1.3, +5.1]*
+
+[16K] wstatic  72.4 | shareplan  70.2 | profile-share  68.9
+  wfixed s0 s1 s2:  70.9  72.2  71.0  -> mean  71.4
+  winput s0 s1 s2:  75.1  71.9  72.1  -> mean  73.0
+  kfixed s0 s1 s2:  73.4  74.0  73.8  -> mean  73.7
+  kinput s0 s1 s2:  72.7  74.2  71.4  -> mean  72.8
+  winput-wfixed s0:         +4.1 [ +1.4, +7.0]*
+  winput-wfixed s1:         -0.3 [ -3.2, +2.5] 
+  winput-wfixed s2:         +1.1 [ -1.7, +3.8] 
+  winput-wfixed 3-seed avg:  +1.6 [ -0.4, +3.7] 
+  wfixed(avg) - wstatic:     -1.0 [ -3.3, +1.2] 
+  wfixed(avg) - shareplan:   +1.2 [ -1.6, +4.1] 
+  winput(avg) - wstatic:     +0.7 [ -1.3, +2.6] 
+  kinput-kfixed 3-seed avg:  -1.0 [ -3.4, +1.3] 
+  kfixed(avg) - wstatic:     +1.4 [ -1.2, +4.0] 
+  kfixed(avg) - wfixed(avg): +2.4 [ +0.2, +4.5]*
+
+[LB] wstatic  37.1 | shareplan  34.6 | profile-share  33.5
+  wfixed s0 s1 s2:  35.8  35.4  36.5  -> mean  35.9
+  winput s0 s1 s2:  30.4  31.5  31.6  -> mean  31.2
+  kfixed s0 s1 s2:  37.6  37.7  39.6  -> mean  38.3
+  kinput s0 s1 s2:  37.8  36.6  36.2  -> mean  36.9
+  winput-wfixed s0:         -5.4 [ -8.9, -2.1]*
+  winput-wfixed s1:         -3.9 [ -7.1, -0.7]*
+  winput-wfixed s2:         -4.9 [ -8.4, -1.7]*
+  winput-wfixed 3-seed avg:  -4.7 [ -7.4, -2.1]*
+  wfixed(avg) - wstatic:     -1.2 [ -3.1, +0.8] 
+  wfixed(avg) - shareplan:   +1.3 [ -1.5, +4.1] 
+  winput(avg) - wstatic:     -5.9 [ -9.3, -2.8]*
+  kinput-kfixed 3-seed avg:  -1.4 [ -4.3, +1.5] 
+  kfixed(avg) - wstatic:     +1.2 [ -1.7, +4.3] 
+  kfixed(avg) - wfixed(avg): +2.4 [ -0.1, +5.0] 
+
+######## budget 0.1 ########
+
+[4K] wstatic  80.9 | shareplan  77.8 | profile-share  78.2
+  wfixed s0 s1 s2:  79.6  82.3  82.1  -> mean  81.3
+  winput s0 s1 s2:  84.6  84.1  83.9  -> mean  84.2
+  kfixed s0 s1 s2:  84.9  84.5  83.3  -> mean  84.2
+  kinput s0 s1 s2:  86.7  86.4  86.5  -> mean  86.5
+  winput-wfixed s0:         +5.0 [ +2.6, +7.7]*
+  winput-wfixed s1:         +1.8 [ -0.8, +4.5] 
+  winput-wfixed s2:         +1.9 [ -0.4, +4.3] 
+  winput-wfixed 3-seed avg:  +2.9 [ +0.9, +5.1]*
+  wfixed(avg) - wstatic:     +0.4 [ -1.6, +2.6] 
+  wfixed(avg) - shareplan:   +3.6 [ +0.7, +6.7]*
+  winput(avg) - wstatic:     +3.3 [ +0.7, +6.1]*
+  kinput-kfixed 3-seed avg:  +2.3 [ +0.9, +3.9]*
+  kfixed(avg) - wstatic:     +3.3 [ +0.8, +6.0]*
+  kfixed(avg) - wfixed(avg): +2.9 [ +1.0, +5.0]*
+
+[8K] wstatic  78.5 | shareplan  76.1 | profile-share  75.9
+  wfixed s0 s1 s2:  78.0  78.3  78.2  -> mean  78.2
+  winput s0 s1 s2:  78.3  78.5  79.0  -> mean  78.6
+  kfixed s0 s1 s2:  80.1  80.6  79.0  -> mean  79.9
+  kinput s0 s1 s2:  80.2  82.1  77.7  -> mean  80.0
+  winput-wfixed s0:         +0.2 [ -2.4, +2.8] 
+  winput-wfixed s1:         +0.2 [ -1.6, +1.9] 
+  winput-wfixed s2:         +0.8 [ -1.6, +3.1] 
+  winput-wfixed 3-seed avg:  +0.4 [ -1.3, +2.0] 
+  wfixed(avg) - wstatic:     -0.3 [ -1.9, +1.5] 
+  wfixed(avg) - shareplan:   +2.1 [ -0.9, +5.4] 
+  winput(avg) - wstatic:     +0.2 [ -1.9, +2.2] 
+  kinput-kfixed 3-seed avg:  +0.1 [ -1.6, +1.8] 
+  kfixed(avg) - wstatic:     +1.4 [ -0.8, +3.8] 
+  kfixed(avg) - wfixed(avg): +1.7 [ -0.1, +3.4] 
+
+[16K] wstatic  81.1 | shareplan  77.2 | profile-share  76.3
+  wfixed s0 s1 s2:  80.9  80.7  81.2  -> mean  80.9
+  winput s0 s1 s2:  80.2  78.9  81.4  -> mean  80.2
+  kfixed s0 s1 s2:  83.3  84.5  81.8  -> mean  83.2
+  kinput s0 s1 s2:  81.4  81.8  78.1  -> mean  80.4
+  winput-wfixed s0:         -0.7 [ -3.7, +2.0] 
+  winput-wfixed s1:         -1.7 [ -4.4, +0.7] 
+  winput-wfixed s2:         +0.2 [ -1.7, +2.1] 
+  winput-wfixed 3-seed avg:  -0.8 [ -2.6, +0.9] 
+  wfixed(avg) - wstatic:     -0.1 [ -1.4, +1.1] 
+  wfixed(avg) - shareplan:   +3.8 [ +0.8, +7.0]*
+  winput(avg) - wstatic:     -0.9 [ -3.0, +1.1] 
+  kinput-kfixed 3-seed avg:  -2.8 [ -5.3, -0.5]*
+  kfixed(avg) - wstatic:     +2.2 [ +0.5, +4.0]*
+  kfixed(avg) - wfixed(avg): +2.3 [ +0.6, +4.1]*
+
+[LB] wstatic  40.5 | shareplan  40.3 | profile-share  41.0
+  wfixed s0 s1 s2:  41.9  39.0  40.6  -> mean  40.5
+  winput s0 s1 s2:  37.6  37.5  39.1  -> mean  38.1
+  kfixed s0 s1 s2:  44.0  43.6  44.1  -> mean  43.9
+  kinput s0 s1 s2:  43.4  40.7  42.3  -> mean  42.1
+  winput-wfixed s0:         -4.3 [ -7.8, -1.0]*
+  winput-wfixed s1:         -1.5 [ -4.7, +1.6] 
+  winput-wfixed s2:         -1.5 [ -4.9, +1.8] 
+  winput-wfixed 3-seed avg:  -2.4 [ -5.3, +0.2] 
+  wfixed(avg) - wstatic:     +0.0 [ -1.7, +1.8] 
+  wfixed(avg) - shareplan:   +0.2 [ -2.4, +2.9] 
+  winput(avg) - wstatic:     -2.4 [ -5.2, +0.3] 
+  kinput-kfixed 3-seed avg:  -1.8 [ -3.8, +0.2] 
+  kfixed(avg) - wstatic:     +3.4 [ +0.9, +6.1]*
+  kfixed(avg) - wfixed(avg): +3.4 [ +1.0, +5.8]*
