@@ -115,3 +115,7 @@ Full cache: RULER-4K 92.8, LongBench 46.2.
 2. **The importance weights matter.** KVP-KL (same ranker as inference) beats SnapKV-KL: kstatic − wstatic 4K 10% +3.4*, 8K 5% +2.2*, LB 10% +2.7*; kfixed − wfixed significant in 5 of 8.
 3. **With matched weights, RL-fixed equals the static fit:** kfixed − kstatic ties in 7 of 8 (4K 5% +2.7*), consistent with LOTO (−0.06 / +0.60).
 4. **Input-aware RL beats the best static split only at the training length:** kinput − kstatic 4K +4.6* / +2.2*; 8K/16K n.s.; LongBench −1.6 / −1.0; winput − wfixed LongBench 5% −4.7*. Same-task shuffle and LOTO are null → it learns training-distribution cues.
+
+**Overhead.** The allocator's decision step (per-head calibration + one global top-B over 112 × P KVP scores) takes
+0.36 ms at 4K, 0.39 ms at 8K and 0.42 ms at 16K on an A40 (20 prompts per length; `results/walloc/time_alloc.txt`),
+about 0.06% of the 616 ms 4K prefill. KVP scores are computed for eviction regardless.

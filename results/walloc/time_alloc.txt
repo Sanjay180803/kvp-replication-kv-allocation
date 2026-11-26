@@ -1,0 +1,9 @@
+name, memory.used [MiB], memory.total [MiB]
+NVIDIA A40, 0 MiB, 46068 MiB
+GPU NVIDIA A40
+L=4096   budget 0.05  mean prompt   3977 tok  allocator step   0.36 ms (max 0.40)  [20 prompts]
+L=4096   budget 0.1   mean prompt   3977 tok  allocator step   0.36 ms (max 0.36)  [20 prompts]
+L=8192   budget 0.05  mean prompt   7841 tok  allocator step   0.39 ms (max 0.82)  [20 prompts]
+L=8192   budget 0.1   mean prompt   7841 tok  allocator step   0.38 ms (max 0.38)  [20 prompts]
+L=16384  budget 0.05  mean prompt  15251 tok  allocator step   0.42 ms (max 0.44)  [20 prompts]
+L=16384  budget 0.1   mean prompt  15251 tok  allocator step   0.42 ms (max 0.44)  [20 prompts]
